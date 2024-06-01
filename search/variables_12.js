@@ -6,7 +6,7 @@ var searchData=
   ['size_3',['size',['../structippl_1_1Tuple.html#ab8020ee76bb71a8d601b7ed0f0b4d480',1,'ippl::Tuple']]],
   ['size_5fm_4',['size_m',['../classippl_1_1mpi_1_1Communicator.html#afdc1625fcbb326f8a5433abc290268af',1,'ippl::mpi::Communicator']]],
   ['slope_5fm_5',['slope_m',['../classippl_1_1ExtrapolateFace.html#afeb5f624730bd06325008f96780a1060',1,'ippl::ExtrapolateFace']]],
-  ['solver_5fm_6',['solver_m',['../classAlpineManager.html#adae6d7b77bfeabc00bdd76459ad13226',1,'AlpineManager::solver_m()'],['../classP3M3DHeatingManager.html#a14133604cbf314f9484384ea88341019',1,'P3M3DHeatingManager::solver_m()']]],
+  ['solver_5fm_6',['solver_m',['../classAlpineManager.html#adae6d7b77bfeabc00bdd76459ad13226',1,'AlpineManager::solver_m()'],['../classP3M3DBenchManager.html#a29429d76057d9bf99579e2261a565fc6',1,'P3M3DBenchManager::solver_m()'],['../classP3M3DHeatingManager.html#a14133604cbf314f9484384ea88341019',1,'P3M3DHeatingManager::solver_m()']]],
   ['start_7',['start',['../structgenerate__random.html#ab60429adf6bc2299415e9b2b22eeccbc',1,'generate_random']]],
   ['stepmethod_5fm_8',['stepMethod_m',['../classAlpineManager.html#abdfb42457ab9ffe89accd98bf5d8c0c8',1,'AlpineManager']]],
   ['stype_5fm_9',['stype_m',['../classChargedParticles.html#ab3f8e16ba91744460586ed470fcad9e5',1,'ChargedParticles']]]

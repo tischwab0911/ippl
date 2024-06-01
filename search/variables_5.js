@@ -4,6 +4,6 @@ var searchData=
   ['face_5fm_1',['face_m',['../classippl_1_1detail_1_1BCondBase.html#a537b70a0b912950e86c1592ef9488859',1,'ippl::detail::BCondBase']]],
   ['fcontainer_5fm_2',['fcontainer_m',['../classippl_1_1P3M3DManager.html#af52d1b79ff0a7486daf01c96fc5cef0c',1,'ippl::P3M3DManager::fcontainer_m()'],['../classippl_1_1PicManager.html#aa45e309161b4a22d2eb3ea4daa974e2f',1,'ippl::PicManager::fcontainer_m()']]],
   ['flayout_5fm_3',['flayout_m',['../classippl_1_1ParticleSpatialLayout.html#a92469a49d0bcf474adbc0894d8dfeef9',1,'ippl::ParticleSpatialLayout']]],
-  ['focusingf_5fm_4',['focusingF_m',['../classP3M3DHeatingManager.html#af5a5c5f869c6419c2d9e0f0d96f78e32',1,'P3M3DHeatingManager']]],
+  ['focusingf_5fm_4',['focusingF_m',['../classP3M3DBenchManager.html#a432dfdd0ee698e147e1750b0e2c47936',1,'P3M3DBenchManager::focusingF_m()'],['../classP3M3DHeatingManager.html#af5a5c5f869c6419c2d9e0f0d96f78e32',1,'P3M3DHeatingManager::focusingF_m()']]],
   ['fsolver_5fm_5',['fsolver_m',['../classippl_1_1P3M3DManager.html#a33eca21d8034ecf327b4c08c1780c98f',1,'ippl::P3M3DManager::fsolver_m()'],['../classippl_1_1PicManager.html#a3e35a3507cf0e1d3db1409088d82e6ec',1,'ippl::PicManager::fsolver_m()']]]
 ];

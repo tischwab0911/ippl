@@ -8,7 +8,7 @@ var searchData=
   ['enablephasedump_5',['EnablePhaseDump',['../BumponTailInstabilityManager_8h.html#a1a8c92c7f4f6c14186353b7b50cc6dc4',1,'BumponTailInstabilityManager.h']]],
   ['end_6',['end',['../structgenerate__random.html#ab19b76342fb0253fa5fc0bff81baa807',1,'generate_random']]],
   ['env_7',['Env',['../namespaceippl.html#ae401093efbd143647c8ff4f23283ac42',1,'ippl']]],
-  ['epsilon_5fm_8',['epsilon_m',['../classP3M3DHeatingManager.html#ac8691e88bb73b6df8fb3b12c44d1ca02',1,'P3M3DHeatingManager']]],
+  ['epsilon_5fm_8',['epsilon_m',['../classP3M3DHeatingManager.html#ac8691e88bb73b6df8fb3b12c44d1ca02',1,'P3M3DHeatingManager::epsilon_m()'],['../classP3M3DBenchManager.html#ac185157a3a7fe4804f662ee3a8aec8c8',1,'P3M3DBenchManager::epsilon_m()']]],
   ['error_9',['Error',['../namespaceippl.html#a1c23081ab92decaede63ec51e273ff96',1,'ippl']]],
   ['estimate_5fm_10',['estimate_m',['../classippl_1_1random_1_1Distribution.html#a28210290d84f3a37c72179abbd996bad',1,'ippl::random::Distribution']]],
   ['eta_5fm_11',['eta_m',['../structippl_1_1polynomial__newton__preconditioner.html#a8289c494e0be3fa2acccf59b694b40f0',1,'ippl::polynomial_newton_preconditioner']]],

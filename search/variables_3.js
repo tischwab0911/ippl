@@ -1,7 +1,7 @@
 var searchData=
 [
   ['data_5fm_0',['data_m',['../classippl_1_1Vector.html#a93c4fcb663d588863a4b614ae3579dd8',1,'ippl::Vector']]],
-  ['decomp_5fm_1',['decomp_m',['../classAlpineManager.html#ad69fe63f383f6a0399dcde900e51fe24',1,'AlpineManager::decomp_m()'],['../classP3M3DHeatingManager.html#a7092ce2209b65f8582e8fe697832b4fd',1,'P3M3DHeatingManager::decomp_m()']]],
+  ['decomp_5fm_1',['decomp_m',['../classAlpineManager.html#ad69fe63f383f6a0399dcde900e51fe24',1,'AlpineManager::decomp_m()'],['../classP3M3DBenchManager.html#a40831a5abab954eb4992b91c2b11069c',1,'P3M3DBenchManager::decomp_m()'],['../classP3M3DHeatingManager.html#a7e026eacd877170bed194147e27afeee',1,'P3M3DHeatingManager::decomp_m()']]],
   ['degree_5fm_2',['degree_m',['../structippl_1_1polynomial__chebyshev__preconditioner.html#aa62e65afd2cfec96020683a689baf26a',1,'ippl::polynomial_chebyshev_preconditioner']]],
   ['delta_5fm_3',['delta_m',['../structippl_1_1polynomial__chebyshev__preconditioner.html#a96fb607944289d9aff039d29ff293da9',1,'ippl::polynomial_chebyshev_preconditioner']]],
   ['dim_4',['dim',['../structippl_1_1detail_1_1meta__curl.html#aa2a21325af0feec5653d3fe3df4267a9',1,'ippl::detail::meta_curl']]],
@@ -15,6 +15,6 @@ var searchData=
   ['dim_5fm_12',['dim_m',['../structippl_1_1random_1_1InverseTransformSampling_1_1fill__random.html#a8cd9052ced259be16419dffe83e94bbc',1,'ippl::random::InverseTransformSampling::fill_random::dim_m()'],['../structippl_1_1detail_1_1ParticleBC.html#a125097ebede48dc73d7b323726d1d7aa',1,'ippl::detail::ParticleBC::dim_m()']]],
   ['dist_13',['dist',['../structippl_1_1random_1_1detail_1_1NewtonRaphson.html#a00d2162f74da4eaae262ea5eca2b6ab0',1,'ippl::random::detail::NewtonRaphson']]],
   ['dist_5fm_14',['dist_m',['../classippl_1_1random_1_1InverseTransformSampling.html#ac463fef683830b5074cb5b8ffec17ec5',1,'ippl::random::InverseTransformSampling']]],
-  ['domain_5fm_15',['domain_m',['../classP3M3DHeatingManager.html#a6223dafd677894600eff866843c793d8',1,'P3M3DHeatingManager::domain_m()'],['../classAlpineManager.html#a3bb02e681bc0ba66044c6b93329e92ad',1,'AlpineManager::domain_m()']]],
-  ['dt_5fm_16',['dt_m',['../classAlpineManager.html#af74a008f3da2d363937e91f728a660af',1,'AlpineManager::dt_m()'],['../classP3M3DHeatingManager.html#a862cab7e0a0217b641fb411a2af22b79',1,'P3M3DHeatingManager::dt_m()']]]
+  ['domain_5fm_15',['domain_m',['../classP3M3DHeatingManager.html#a53c8f40ef6c83191f8fc393cd555fe51',1,'P3M3DHeatingManager::domain_m()'],['../classP3M3DBenchManager.html#add37b00a737bf75a6b5f239607c8ee1c',1,'P3M3DBenchManager::domain_m()'],['../classAlpineManager.html#a3bb02e681bc0ba66044c6b93329e92ad',1,'AlpineManager::domain_m()']]],
+  ['dt_5fm_16',['dt_m',['../classAlpineManager.html#af74a008f3da2d363937e91f728a660af',1,'AlpineManager::dt_m()'],['../classP3M3DBenchManager.html#ad81aa7b3ffe39ac615a98ad0ce912da9',1,'P3M3DBenchManager::dt_m()'],['../classP3M3DHeatingManager.html#a862cab7e0a0217b641fb411a2af22b79',1,'P3M3DHeatingManager::dt_m()']]]
 ];
