@@ -1,0 +1,9 @@
+<map id="P3M3DHeatingManager&lt; T, Dim &gt;" name="P3M3DHeatingManager&lt; T, Dim &gt;">
+<area shape="rect" id="node1" title="A class that runs P3M simulation for Disorder induced Heating processes." alt="" coords="74,593,261,971"/>
+<area shape="rect" id="node2" href="$classippl_1_1P3M3DManager.html" title=" " alt="" coords="5,197,167,487"/>
+<area shape="rect" id="node3" href="$classippl_1_1BaseManager.html" title="A base class for managing simulations using IPPL." alt="" coords="17,5,149,148"/>
+<area shape="rect" id="node4" href="$classippl_1_1Vector.html" title=" " alt="" coords="191,219,309,465"/>
+<area shape="rect" id="node5" href="$structippl_1_1detail_1_1Expression.html" title=" " alt="" coords="174,35,326,119"/>
+<area shape="rect" id="node6" href="$classippl_1_1Vector.html" title=" " alt="" coords="344,219,487,465"/>
+<area shape="rect" id="node7" href="$structippl_1_1detail_1_1Expression.html" title=" " alt="" coords="350,35,502,119"/>
+</map>
