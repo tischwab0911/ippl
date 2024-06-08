@@ -9,7 +9,9 @@ var searchData=
   ['phi_5fm_6',['phi_m',['../classChargedParticles.html#a3b5db5a63a8fc61daf1b5fbef69ee5bb',1,'ChargedParticles']]],
   ['pi_7',['pi',['../structNewton1D.html#a864f14c686710274cb204576b6776dce',1,'Newton1D::pi()'],['../structNewton1D.html#a7f450be3f2f7a16b87337a7e9b7fb64a',1,'Newton1D::pi()'],['../datatypes_8h.html#a43016d873124d39034edb8cd164794db',1,'pi():&#160;datatypes.h'],['../ChargedParticles_8hpp.html#a43016d873124d39034edb8cd164794db',1,'pi():&#160;ChargedParticles.hpp']]],
   ['pool_5fm_8',['pool_m',['../structippl_1_1random_1_1InverseTransformSampling_1_1fill__random.html#ab279e507ff4961cbf4ddb82c7305a004',1,'ippl::random::InverseTransformSampling::fill_random']]],
-  ['preconditioner_5fm_9',['preconditioner_m',['../classippl_1_1PCG.html#a4c4f64a255e77c9d5ea8dded61fce53e',1,'ippl::PCG']]],
-  ['prod_10',['prod',['../namespaceippl.html#a4a18c8ae92048307dad2530aa3c2cb31',1,'ippl']]],
-  ['ptype_5fm_11',['ptype_m',['../classChargedParticles.html#ad31559e5b77befafd532f076ea6bcf1f',1,'ChargedParticles']]]
+  ['preallocatedrecvbuffer_5fm_9',['preallocatedRecvBuffer_m',['../classP3M3DBenchManager.html#a0ccf3f456b898dfde7010cf522706b97',1,'P3M3DBenchManager']]],
+  ['preallocatedsendbuffer_5fm_10',['preallocatedSendBuffer_m',['../classP3M3DBenchManager.html#aadf0614a669bc2e785609f86c0d7279c',1,'P3M3DBenchManager']]],
+  ['preconditioner_5fm_11',['preconditioner_m',['../classippl_1_1PCG.html#a4c4f64a255e77c9d5ea8dded61fce53e',1,'ippl::PCG']]],
+  ['prod_12',['prod',['../namespaceippl.html#a4a18c8ae92048307dad2530aa3c2cb31',1,'ippl']]],
+  ['ptype_5fm_13',['ptype_m',['../classChargedParticles.html#ad31559e5b77befafd532f076ea6bcf1f',1,'ChargedParticles']]]
 ];

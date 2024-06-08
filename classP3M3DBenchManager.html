@@ -146,6 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7c26d9913b0190b71e67847a6e05b01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd7ba5362df4d9376b8bb6ed8abd22e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#acd7ba5362df4d9376b8bb6ed8abd22e8">setTime</a> (double time_)</td></tr>
 <tr class="separator:acd7ba5362df4d9376b8bb6ed8abd22e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48f03722e08759e326cefd0094cf225"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#af48f03722e08759e326cefd0094cf225">setupMPI</a> ()</td></tr>
+<tr class="separator:af48f03722e08759e326cefd0094cf225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96b58655f683e71e20425fbb02181d38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#a96b58655f683e71e20425fbb02181d38">particleExchange</a> ()</td></tr>
+<tr class="separator:a96b58655f683e71e20425fbb02181d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c5914cb1a75d2bf8287b75490a5da5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#af4c5914cb1a75d2bf8287b75490a5da5">pre_run</a> () override</td></tr>
 <tr class="memdesc:af4c5914cb1a75d2bf8287b75490a5da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">A method that should be used for setting up the simulation.  <a href="classP3M3DBenchManager.html#af4c5914cb1a75d2bf8287b75490a5da5">More...</a><br /></td></tr>
 <tr class="separator:af4c5914cb1a75d2bf8287b75490a5da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,6 +285,16 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a40831a5abab954eb4992b91c2b11069c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a605cd20f7f71c14652cf27f275f0411d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#a605cd20f7f71c14652cf27f275f0411d">rhoNorm_m</a></td></tr>
 <tr class="separator:a605cd20f7f71c14652cf27f275f0411d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad25e18116b0f80ef358b86853b9a720e"><td class="memItemLeft" align="right" valign="top">MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#ad25e18116b0f80ef358b86853b9a720e">graph_comm_m</a></td></tr>
+<tr class="separator:ad25e18116b0f80ef358b86853b9a720e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf0614a669bc2e785609f86c0d7279c"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#aadf0614a669bc2e785609f86c0d7279c">preallocatedSendBuffer_m</a></td></tr>
+<tr class="separator:aadf0614a669bc2e785609f86c0d7279c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff8cdcf55f775a9137d4f11e96ced621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#aff8cdcf55f775a9137d4f11e96ced621">sendBuffer_m</a></td></tr>
+<tr class="separator:aff8cdcf55f775a9137d4f11e96ced621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ccf3f456b898dfde7010cf522706b97"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#a0ccf3f456b898dfde7010cf522706b97">preallocatedRecvBuffer_m</a></td></tr>
+<tr class="separator:a0ccf3f456b898dfde7010cf522706b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a191fd416ced8bea4a00f8f160a2884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classP3M3DBenchManager.html#a9a191fd416ced8bea4a00f8f160a2884">recvBuffer_m</a></td></tr>
+<tr class="separator:a9a191fd416ced8bea4a00f8f160a2884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classippl_1_1P3M3DManager"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classippl_1_1P3M3DManager')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classippl_1_1P3M3DManager.html">ippl::P3M3DManager&lt; T, Dim, FieldContainer&lt; T, Dim &gt; &gt;</a></td></tr>
 <tr class="memitem:af52d1b79ff0a7486daf01c96fc5cef0c inherit pro_attribs_classippl_1_1P3M3DManager"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classFieldContainer.html">FieldContainer</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1P3M3DManager.html#af52d1b79ff0a7486daf01c96fc5cef0c">fcontainer_m</a></td></tr>
 <tr class="separator:af52d1b79ff0a7486daf01c96fc5cef0c inherit pro_attribs_classippl_1_1P3M3DManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -883,6 +897,33 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 
 </div>
 </div>
+<a id="a96b58655f683e71e20425fbb02181d38" name="a96b58655f683e71e20425fbb02181d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96b58655f683e71e20425fbb02181d38">&#9670;&#160;</a></span>particleExchange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::particleExchange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a58cf54eb34db43244b7235056972987e" name="a58cf54eb34db43244b7235056972987e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58cf54eb34db43244b7235056972987e">&#9670;&#160;</a></span>post_step()</h2>
 
@@ -1118,6 +1159,33 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 
 </div>
 </div>
+<a id="af48f03722e08759e326cefd0094cf225" name="af48f03722e08759e326cefd0094cf225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af48f03722e08759e326cefd0094cf225">&#9670;&#160;</a></span>setupMPI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::setupMPI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a12fd5e5cdda9fdcf8caeb980628f5249" name="a12fd5e5cdda9fdcf8caeb980628f5249"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12fd5e5cdda9fdcf8caeb980628f5249">&#9670;&#160;</a></span>alpha_m</h2>
@@ -1276,6 +1344,30 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
       <table class="memname">
         <tr>
           <td class="memname">double <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::focusingF_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad25e18116b0f80ef358b86853b9a720e" name="ad25e18116b0f80ef358b86853b9a720e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad25e18116b0f80ef358b86853b9a720e">&#9670;&#160;</a></span>graph_comm_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MPI_Comm <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::graph_comm_m</td>
         </tr>
       </table>
   </td>
@@ -1455,6 +1547,54 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 
 </div>
 </div>
+<a id="a0ccf3f456b898dfde7010cf522706b97" name="a0ccf3f456b898dfde7010cf522706b97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ccf3f456b898dfde7010cf522706b97">&#9670;&#160;</a></span>preallocatedRecvBuffer_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::preallocatedRecvBuffer_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadf0614a669bc2e785609f86c0d7279c" name="aadf0614a669bc2e785609f86c0d7279c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf0614a669bc2e785609f86c0d7279c">&#9670;&#160;</a></span>preallocatedSendBuffer_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::preallocatedSendBuffer_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad571a787184392544378892930f432bf" name="ad571a787184392544378892930f432bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad571a787184392544378892930f432bf">&#9670;&#160;</a></span>Q_m</h2>
 
@@ -1492,6 +1632,30 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
       <table class="memname">
         <tr>
           <td class="memname">double <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::rcut_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a191fd416ced8bea4a00f8f160a2884" name="a9a191fd416ced8bea4a00f8f160a2884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a191fd416ced8bea4a00f8f160a2884">&#9670;&#160;</a></span>recvBuffer_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>* <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::recvBuffer_m</td>
         </tr>
       </table>
   </td>
@@ -1564,6 +1728,30 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="P3MBenchManager_8hpp.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt;double, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>&gt; <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::rmin_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff8cdcf55f775a9137d4f11e96ced621" name="aff8cdcf55f775a9137d4f11e96ced621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff8cdcf55f775a9137d4f11e96ced621">&#9670;&#160;</a></span>sendBuffer_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>* <a class="el" href="classP3M3DBenchManager.html">P3M3DBenchManager</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;::sendBuffer_m</td>
         </tr>
       </table>
   </td>
