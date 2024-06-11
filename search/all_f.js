@@ -3,7 +3,7 @@ var searchData=
   ['p_0',['P',['../classP3MParticleContainer.html#ad0eb60f0cc44593a8ea6b2c8bf2193b5',1,'P3MParticleContainer::P()'],['../classChargedParticles.html#a9f4b411f5704a55de4b8e297f22ce27b',1,'ChargedParticles::P()'],['../classParticleContainer.html#ab4b642e9e73955f89fa8bdd33d2467b4',1,'ParticleContainer::P()']]],
   ['p2p_1',['p2p',['../namespaceippl.html#a235aa4bee4fa4bbd4b67985b87347f5bab79c9c6432e3cd8548b3dafc6a7a1701',1,'ippl']]],
   ['p2p_5fpl_2',['p2p_pl',['../namespaceippl.html#a235aa4bee4fa4bbd4b67985b87347f5ba66ad0e607d1643061d2c55d95e0a216b',1,'ippl']]],
-  ['p3m3dbenchmanager_3',['P3M3DBenchManager',['../classP3M3DBenchManager.html',1,'P3M3DBenchManager&lt; T, Dim &gt;'],['../classP3M3DBenchManager.html#a7e5c66b01af14f24071d5d09b3c3d13f',1,'P3M3DBenchManager::P3M3DBenchManager()']]],
+  ['p3m3dbenchmanager_3',['P3M3DBenchManager',['../classP3M3DBenchManager.html',1,'P3M3DBenchManager&lt; T, Dim &gt;'],['../classP3M3DBenchManager.html#a8bbf011135d854e204cd75ff9e9ef7ea',1,'P3M3DBenchManager::P3M3DBenchManager()']]],
   ['p3m3dheatingmanager_4',['P3M3DHeatingManager',['../classP3M3DHeatingManager.html',1,'P3M3DHeatingManager&lt; T, Dim &gt;'],['../classP3M3DHeatingManager.html#a785f7d3d68ef822e0dced702dc5729a6',1,'P3M3DHeatingManager::P3M3DHeatingManager()']]],
   ['p3m3dmanager_5',['P3M3DManager',['../classippl_1_1P3M3DManager.html',1,'ippl::P3M3DManager&lt; T, Dim, fc &gt;'],['../classippl_1_1P3M3DManager.html#a9b9d31f51ddf528d928efd60bf7a2ba9',1,'ippl::P3M3DManager::P3M3DManager()']]],
   ['p3m3dmanager_2eh_6',['P3M3DManager.h',['../P3M3DManager_8h.html',1,'']]],

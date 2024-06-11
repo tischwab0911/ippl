@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['p3m3dbenchmanager_0',['P3M3DBenchManager',['../classP3M3DBenchManager.html#a7e5c66b01af14f24071d5d09b3c3d13f',1,'P3M3DBenchManager']]],
+  ['p3m3dbenchmanager_0',['P3M3DBenchManager',['../classP3M3DBenchManager.html#a8bbf011135d854e204cd75ff9e9ef7ea',1,'P3M3DBenchManager']]],
   ['p3m3dheatingmanager_1',['P3M3DHeatingManager',['../classP3M3DHeatingManager.html#a785f7d3d68ef822e0dced702dc5729a6',1,'P3M3DHeatingManager']]],
   ['p3m3dmanager_2',['P3M3DManager',['../classippl_1_1P3M3DManager.html#a9b9d31f51ddf528d928efd60bf7a2ba9',1,'ippl::P3M3DManager']]],
   ['p3mparticlecontainer_3',['P3MParticleContainer',['../classP3MParticleContainer.html#a9ff73e9c0accb311e8f0825db190eda4',1,'P3MParticleContainer']]],
