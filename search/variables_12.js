@@ -2,7 +2,7 @@ var searchData=
 [
   ['sample_5fm_0',['sample_m',['../structippl_1_1random_1_1InverseTransformSampling_1_1fill__random.html#a9dfa770f1265cd21398b702e30095651',1,'ippl::random::InverseTransformSampling::fill_random']]],
   ['sd_1',['sd',['../structippl_1_1random_1_1randn.html#ad1f6962bdbc13cf4efe879d9d6ec6d33',1,'ippl::random::randn']]],
-  ['sendbuffer_5fm_2',['sendBuffer_m',['../classP3M3DBenchManager.html#aff8cdcf55f775a9137d4f11e96ced621',1,'P3M3DBenchManager']]],
+  ['sendbuffer_5fm_2',['sendBuffer_m',['../classP3M3DBenchManager.html#a18e82c5deb4734166b2c0efd7ad8b672',1,'P3M3DBenchManager']]],
   ['sigma_5fm_3',['sigma_m',['../structippl_1_1polynomial__chebyshev__preconditioner.html#a2966568b6405bd20a62e866f7f8b6db6',1,'ippl::polynomial_chebyshev_preconditioner']]],
   ['size_4',['size',['../structippl_1_1Tuple.html#ab8020ee76bb71a8d601b7ed0f0b4d480',1,'ippl::Tuple']]],
   ['size_5fm_5',['size_m',['../classippl_1_1mpi_1_1Communicator.html#afdc1625fcbb326f8a5433abc290268af',1,'ippl::mpi::Communicator']]],

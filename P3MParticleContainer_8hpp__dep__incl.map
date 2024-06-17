@@ -1,6 +1,7 @@
 <map id="P3MParticleContainer.hpp" name="P3MParticleContainer.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="97,5,269,31"/>
-<area shape="rect" id="node2" href="$P3M3DManager_8h.html" title=" " alt="" coords="120,79,245,104"/>
-<area shape="rect" id="node3" href="$P3MBenchManager_8hpp.html" title=" " alt="" coords="5,152,165,177"/>
-<area shape="rect" id="node4" href="$P3MHeatingManager_8hpp.html" title=" " alt="" coords="195,152,363,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="181,5,353,31"/>
+<area shape="rect" id="node2" href="$DistP3MHeating_8hpp.html" title=" " alt="" coords="5,152,147,177"/>
+<area shape="rect" id="node3" href="$P3M3DManager_8h.html" title=" " alt="" coords="155,79,280,104"/>
+<area shape="rect" id="node4" href="$P3MBenchManager_8hpp.html" title=" " alt="" coords="171,152,331,177"/>
+<area shape="rect" id="node5" href="$P3MHeatingManager_8hpp.html" title=" " alt="" coords="355,152,523,177"/>
 </map>

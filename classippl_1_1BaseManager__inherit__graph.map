@@ -1,9 +1,9 @@
 <map id="ippl::BaseManager" name="ippl::BaseManager">
-<area shape="rect" id="node1" title="A base class for managing simulations using IPPL." alt="" coords="534,5,666,148"/>
-<area shape="rect" id="node2" href="$classippl_1_1P3M3DManager.html" title=" " alt="" coords="221,218,382,507"/>
-<area shape="rect" id="node5" href="$classippl_1_1PicManager.html" title=" " alt="" coords="415,196,593,529"/>
-<area shape="rect" id="node10" href="$classippl_1_1P3M3DManager.html" title="A template class for managing Particle&#45;Particle Particle&#45;Mesh (P3M/PPPM) simulations." alt="" coords="617,225,775,500"/>
-<area shape="rect" id="node11" href="$classippl_1_1PicManager.html" title="A template class for managing Particle&#45;in&#45;Cell (PIC) simulations." alt="" coords="799,218,958,507"/>
+<area shape="rect" id="node1" title="A base class for managing simulations using IPPL." alt="" coords="482,5,614,148"/>
+<area shape="rect" id="node2" href="$classippl_1_1P3M3DManager.html" title=" " alt="" coords="117,218,278,507"/>
+<area shape="rect" id="node5" href="$classippl_1_1PicManager.html" title=" " alt="" coords="363,196,541,529"/>
+<area shape="rect" id="node10" href="$classippl_1_1P3M3DManager.html" title="A template class for managing Particle&#45;Particle Particle&#45;Mesh (P3M/PPPM) simulations." alt="" coords="565,225,723,500"/>
+<area shape="rect" id="node11" href="$classippl_1_1PicManager.html" title="A template class for managing Particle&#45;in&#45;Cell (PIC) simulations." alt="" coords="747,218,906,507"/>
 <area shape="rect" id="node3" href="$classP3M3DBenchManager.html" title="A class that benchmarks the P3M Method." alt="" coords="5,577,184,955"/>
 <area shape="rect" id="node4" href="$classP3M3DHeatingManager.html" title="A class that runs P3M simulation for Disorder induced Heating processes." alt="" coords="208,577,395,955"/>
 <area shape="rect" id="node6" href="$classAlpineManager.html" title=" " alt="" coords="419,585,611,947"/>

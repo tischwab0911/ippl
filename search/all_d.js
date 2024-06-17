@@ -1,7 +1,7 @@
 var searchData=
 [
   ['name_0',['name',['../classippl_1_1Communicate.html#a1f662b6eef58bda6817549a7191c2ed4',1,'ippl::Communicate::name()'],['../classIpplTimerInfo.html#a701f790d76e60744d6527f8bdfabf68f',1,'IpplTimerInfo::name()']]],
-  ['ncells_5fm_1',['nCells_m',['../classP3M3DHeatingManager.html#a9c715f85c3610d411298a85c5f6b4dbd',1,'P3M3DHeatingManager::nCells_m()'],['../classP3M3DBenchManager.html#a8fa1e25f831967a78a7c433d7a00bca2',1,'P3M3DBenchManager::nCells_m()']]],
+  ['ncells_5fm_1',['nCells_m',['../classP3M3DHeatingManager.html#a9c715f85c3610d411298a85c5f6b4dbd',1,'P3M3DHeatingManager::nCells_m()'],['../classP3M3DBenchManager.html#ae5de0c7c17139b122cf029a95affc1f7',1,'P3M3DBenchManager::nCells_m()']]],
   ['ndindex_2',['NDIndex',['../classippl_1_1NDIndex.html',1,'ippl::NDIndex&lt; Dim &gt;'],['../classippl_1_1NDIndex.html#a1a7b0eeac23ce62f8a38d30d9ee36e69',1,'ippl::NDIndex::NDIndex(const Args &amp;... args)'],['../classippl_1_1NDIndex.html#a8ca5ffdd9829db26ba48f499fcac4877',1,'ippl::NDIndex::NDIndex()']]],
   ['ndindex_2eh_3',['NDIndex.h',['../NDIndex_8h.html',1,'']]],
   ['ndindex_2ehpp_4',['NDIndex.hpp',['../NDIndex_8hpp.html',1,'']]],
@@ -36,7 +36,7 @@ var searchData=
   ['normaldistributionfunctions_33',['NormalDistributionFunctions',['../structippl_1_1random_1_1NormalDistributionFunctions.html',1,'ippl::random']]],
   ['nptr_34',['NPtr',['../structippl_1_1detail_1_1NPtr.html',1,'ippl::detail']]],
   ['nptr_3c_20t_2c_201_20_3e_35',['NPtr&lt; T, 1 &gt;',['../structippl_1_1detail_1_1NPtr_3_01T_00_011_01_4.html',1,'ippl::detail']]],
-  ['nr_5fm_36',['nr_m',['../classP3M3DHeatingManager.html#a738930fbd3127d3e66190889d8d3d156',1,'P3M3DHeatingManager::nr_m()'],['../classP3M3DBenchManager.html#aff91dd767a0178a1fa9bc74ec9747f17',1,'P3M3DBenchManager::nr_m()'],['../classChargedParticles.html#a2bad8aff03e78dca6bcd2e285d00c51e',1,'ChargedParticles::nr_m()'],['../classAlpineManager.html#a3f3c9399c4ea9cd717c573668b4b1209',1,'AlpineManager::nr_m()']]],
+  ['nr_5fm_36',['nr_m',['../classP3M3DHeatingManager.html#a738930fbd3127d3e66190889d8d3d156',1,'P3M3DHeatingManager::nr_m()'],['../classChargedParticles.html#a2bad8aff03e78dca6bcd2e285d00c51e',1,'ChargedParticles::nr_m()'],['../classP3M3DBenchManager.html#a8c4d4070c9621ddcedeb659608e0b717',1,'P3M3DBenchManager::nr_m()'],['../classAlpineManager.html#a3f3c9399c4ea9cd717c573668b4b1209',1,'AlpineManager::nr_m()']]],
   ['nt_5fm_37',['nt_m',['../classP3M3DHeatingManager.html#a11eda8463f94561c13a5f2f6e31d4c23',1,'P3M3DHeatingManager::nt_m()'],['../classP3M3DBenchManager.html#a557e92b0795e67942c2f81eab09b2738',1,'P3M3DBenchManager::nt_m()'],['../classAlpineManager.html#af6251805dae7f2b620ca3d116e90f2eb',1,'AlpineManager::nt_m()']]],
   ['ntotal_5fm_38',['ntotal_m',['../classippl_1_1random_1_1InverseTransformSampling.html#ab7d79552108f7371162d915958c5e250',1,'ippl::random::InverseTransformSampling']]],
   ['nullsolver_39',['NullSolver',['../classippl_1_1NullSolver.html',1,'ippl::NullSolver&lt; FieldLHS, FieldRHS &gt;'],['../classippl_1_1NullSolver.html#ad04075854a572c9c551a7e1e0468f499',1,'ippl::NullSolver::NullSolver(rhs_type &amp;rhs)'],['../classippl_1_1NullSolver.html#ad28cc10fe5af463f484f3592876062e4',1,'ippl::NullSolver::NullSolver(lhs_type &amp;lhs, rhs_type &amp;rhs)'],['../classippl_1_1NullSolver.html#a4330311bbf9e8bb31e471440af6e3e2e',1,'ippl::NullSolver::NullSolver()']]],

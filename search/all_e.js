@@ -40,7 +40,7 @@ var searchData=
   ['operatorret_37',['OperatorRet',['../classippl_1_1PoissonCG.html#aa2dd19d040a5fbbd2614be3e6a1bd4c5',1,'ippl::PoissonCG']]],
   ['orb_38',['ORB',['../datatypes_8h.html#a9675e144be6d4d20c5b740fd8b7d0c83',1,'ORB():&#160;datatypes.h'],['../ChargedParticles_8hpp.html#a9675e144be6d4d20c5b740fd8b7d0c83',1,'ORB():&#160;ChargedParticles.hpp']]],
   ['orb_39',['orb',['../classChargedParticles.html#a27f9d29cffe58543534e53ced3fbc849',1,'ChargedParticles']]],
-  ['origin_5fm_40',['origin_m',['../classP3M3DHeatingManager.html#aafbced890762e8db6ecf4d4bd968f22c',1,'P3M3DHeatingManager::origin_m()'],['../classP3M3DBenchManager.html#ab653bbd29fe85011ae027550f12f7571',1,'P3M3DBenchManager::origin_m()'],['../classAlpineManager.html#a343748f8dca55db4aea16dd40db04f80',1,'AlpineManager::origin_m()'],['../classippl_1_1Mesh.html#af43eb74d2ad61197d3b87aea4e1a64f4',1,'ippl::Mesh::origin_m()']]],
+  ['origin_5fm_40',['origin_m',['../classP3M3DHeatingManager.html#aafbced890762e8db6ecf4d4bd968f22c',1,'P3M3DHeatingManager::origin_m()'],['../classP3M3DBenchManager.html#ab385ff51ac5b2d683b9480bf6cca7358',1,'P3M3DBenchManager::origin_m()'],['../classAlpineManager.html#a343748f8dca55db4aea16dd40db04f80',1,'AlpineManager::origin_m()'],['../classippl_1_1Mesh.html#af43eb74d2ad61197d3b87aea4e1a64f4',1,'ippl::Mesh::origin_m()']]],
   ['orthogonalrecursivebisection_41',['OrthogonalRecursiveBisection',['../classippl_1_1OrthogonalRecursiveBisection.html',1,'ippl']]],
   ['orthogonalrecursivebisection_2eh_42',['OrthogonalRecursiveBisection.h',['../OrthogonalRecursiveBisection_8h.html',1,'']]],
   ['orthogonalrecursivebisection_2ehpp_43',['OrthogonalRecursiveBisection.hpp',['../OrthogonalRecursiveBisection_8hpp.html',1,'']]],
