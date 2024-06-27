@@ -78,6 +78,6 @@ var searchData=
   ['stop_75',['stop',['../classTimer.html#a63f0eb44b27402196590a03781515dba',1,'Timer::stop()'],['../classIpplTimerInfo.html#ae493d3332ef544d755edcfe6b40ddc86',1,'IpplTimerInfo::stop()']]],
   ['stoptimer_76',['stopTimer',['../classIpplTimings.html#a8b229ce711198a6e0e190e7d9098c3eb',1,'IpplTimings::stopTimer()'],['../structTiming.html#a9b5f2cf6b4aa922ada3d453b0d656e34',1,'Timing::stopTimer()']]],
   ['stride_77',['stride',['../classippl_1_1Index.html#a818a0d656f24e9ae966c34f289796905',1,'ippl::Index']]],
-  ['sum_78',['sum',['../classippl_1_1ParticleAttrib.html#a1bfa23788a10d5a310bb76622a381119',1,'ippl::ParticleAttrib::sum()'],['../structKokkos_1_1reduction__identity_3_01ippl_1_1Vector_3_01T_00_01Dim_01_4_01_4.html#ae4f9cd6aba494cce6962ac97d1f91cc1',1,'Kokkos::reduction_identity&lt; ippl::Vector&lt; T, Dim &gt; &gt;::sum()'],['../classippl_1_1BareField.html#a0e2efcc2e51f03203635cfc402a69145',1,'ippl::BareField::sum()']]],
-  ['sum_79',['Sum',['../structKokkosCorrection_1_1Sum.html#afeeebbd244735f1079110707a893ba6f',1,'KokkosCorrection::Sum']]]
+  ['sum_78',['Sum',['../structKokkosCorrection_1_1Sum.html#afeeebbd244735f1079110707a893ba6f',1,'KokkosCorrection::Sum']]],
+  ['sum_79',['sum',['../classippl_1_1ParticleAttrib.html#a1bfa23788a10d5a310bb76622a381119',1,'ippl::ParticleAttrib::sum()'],['../structKokkos_1_1reduction__identity_3_01ippl_1_1Vector_3_01T_00_01Dim_01_4_01_4.html#ae4f9cd6aba494cce6962ac97d1f91cc1',1,'Kokkos::reduction_identity&lt; ippl::Vector&lt; T, Dim &gt; &gt;::sum()'],['../classippl_1_1BareField.html#a0e2efcc2e51f03203635cfc402a69145',1,'ippl::BareField::sum()']]]
 ];

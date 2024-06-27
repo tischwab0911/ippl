@@ -105,9 +105,8 @@ var searchData=
   ['stoptimer_102',['stopTimer',['../classIpplTimings.html#a8b229ce711198a6e0e190e7d9098c3eb',1,'IpplTimings::stopTimer()'],['../structTiming.html#a9b5f2cf6b4aa922ada3d453b0d656e34',1,'Timing::stopTimer()']]],
   ['stride_103',['stride',['../classippl_1_1Index.html#a818a0d656f24e9ae966c34f289796905',1,'ippl::Index']]],
   ['stype_5fm_104',['stype_m',['../classChargedParticles.html#ab3f8e16ba91744460586ed470fcad9e5',1,'ChargedParticles']]],
-  ['sum_105',['Sum',['../structKokkosCorrection_1_1Sum.html',1,'KokkosCorrection']]],
+  ['sum_105',['Sum',['../structKokkosCorrection_1_1Sum.html',1,'KokkosCorrection::Sum&lt; Scalar, Space &gt;'],['../structKokkosCorrection_1_1Sum.html#afeeebbd244735f1079110707a893ba6f',1,'KokkosCorrection::Sum::Sum()']]],
   ['sum_106',['sum',['../classippl_1_1ParticleAttrib.html#a1bfa23788a10d5a310bb76622a381119',1,'ippl::ParticleAttrib::sum()'],['../structKokkos_1_1reduction__identity_3_01ippl_1_1Vector_3_01T_00_01Dim_01_4_01_4.html#ae4f9cd6aba494cce6962ac97d1f91cc1',1,'Kokkos::reduction_identity&lt; ippl::Vector&lt; T, Dim &gt; &gt;::sum()'],['../classippl_1_1BareField.html#a0e2efcc2e51f03203635cfc402a69145',1,'ippl::BareField::sum()']]],
-  ['sum_107',['Sum',['../structKokkosCorrection_1_1Sum.html#afeeebbd244735f1079110707a893ba6f',1,'KokkosCorrection::Sum']]],
-  ['sum_108',['SUM',['../namespaceippl_1_1mpi.html#af4f4f1044f97b9c23c582bf914d74a0fa6970bdc2201030b9c03fbdcf3973858a',1,'ippl::mpi']]],
-  ['super_109',['Super',['../structKokkosCorrection_1_1Prod.html#afb2b66df3dcedee0ab18ec7732a3860c',1,'KokkosCorrection::Prod::Super()'],['../structKokkosCorrection_1_1Sum.html#a208d6530594760af43584e94fc253267',1,'KokkosCorrection::Sum::Super()'],['../structKokkosCorrection_1_1Min.html#a582236d149222c3199956552bbdb0062',1,'KokkosCorrection::Min::Super()'],['../structKokkosCorrection_1_1Max.html#af3a9c0fcaa65cef7f2a0e21e286d0395',1,'KokkosCorrection::Max::Super()']]]
+  ['sum_107',['SUM',['../namespaceippl_1_1mpi.html#af4f4f1044f97b9c23c582bf914d74a0fa6970bdc2201030b9c03fbdcf3973858a',1,'ippl::mpi']]],
+  ['super_108',['Super',['../structKokkosCorrection_1_1Prod.html#afb2b66df3dcedee0ab18ec7732a3860c',1,'KokkosCorrection::Prod::Super()'],['../structKokkosCorrection_1_1Sum.html#a208d6530594760af43584e94fc253267',1,'KokkosCorrection::Sum::Super()'],['../structKokkosCorrection_1_1Min.html#a582236d149222c3199956552bbdb0062',1,'KokkosCorrection::Min::Super()'],['../structKokkosCorrection_1_1Max.html#af3a9c0fcaa65cef7f2a0e21e286d0395',1,'KokkosCorrection::Max::Super()']]]
 ];

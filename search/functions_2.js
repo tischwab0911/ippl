@@ -19,7 +19,7 @@ var searchData=
   ['compileoptions_16',['compileOptions',['../classIpplInfo.html#af95fa553702e1cb951e7d538ed034701',1,'IpplInfo']]],
   ['compileuser_17',['compileUser',['../classIpplInfo.html#ae5c65c19f89d46e97ffed4d6291418d5',1,'IpplInfo']]],
   ['completed_18',['completed',['../classippl_1_1mpi_1_1Request.html#aa6ed3b9c341e7d61794ddf033ef3acec',1,'ippl::mpi::Request']]],
-  ['compute_5ftemperature_19',['compute_temperature',['../classP3M3DHeatingManager.html#a44921f75ea793c6d91b49906cacef534',1,'P3M3DHeatingManager']]],
+  ['compute_5ftemperature_19',['compute_temperature',['../classP3M3DHeatingManager.html#a44921f75ea793c6d91b49906cacef534',1,'P3M3DHeatingManager::compute_temperature()'],['../classP3M3DBenchManager.html#a2cf025e1f96adbcbe2fc01b34af76e2f',1,'P3M3DBenchManager::compute_temperature()']]],
   ['computeavgspacechargeforces_20',['computeAvgSpaceChargeForces',['../classP3M3DHeatingManager.html#ab07df57a75f0074d8f81721522704179',1,'P3M3DHeatingManager::computeAvgSpaceChargeForces()'],['../classP3M3DBenchManager.html#a4abfa9898218ca682c4a6a40c596c80f',1,'P3M3DBenchManager::computeAvgSpaceChargeForces()'],['../classP3M3DBenchManager.html#a4abfa9898218ca682c4a6a40c596c80f',1,'P3M3DBenchManager::computeAvgSpaceChargeForces()']]],
   ['computebeamstatistics_21',['computeBeamStatistics',['../classP3M3DBenchManager.html#aa057de48904c0065ca1dd16e69e740f7',1,'P3M3DBenchManager::computeBeamStatistics()'],['../classP3M3DHeatingManager.html#ad5c4d680a0f3db133f391e058c7cc127',1,'P3M3DHeatingManager::computeBeamStatistics()']]],
   ['computermsbeamsize_22',['computeRMSBeamSize',['../classP3M3DHeatingManager.html#a1c36479b00061dd34cd487ebe27026a4',1,'P3M3DHeatingManager']]],
