@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['e_0',['E',['../classChargedParticles.html#a72f562d2d6e54967294141f04c1564db',1,'ChargedParticles::E()'],['../classParticleContainer.html#ab35b83d928442fab3494f7d0716d5d80',1,'ParticleContainer::E()'],['../classP3MParticleContainer.html#ac0c02a764f17a8e39fcf4b4144884530',1,'P3MParticleContainer::E()']]],
+  ['e_0',['E',['../classParticleContainer.html#ab35b83d928442fab3494f7d0716d5d80',1,'ParticleContainer::E()'],['../classChargedParticles.html#a72f562d2d6e54967294141f04c1564db',1,'ChargedParticles::E()']]],
   ['e_5fm_1',['E_m',['../classChargedParticles.html#a67f6117938cf1f4bd0206f1a4eadb05f',1,'ChargedParticles']]],
   ['en_5fmp_2',['En_mp',['../classippl_1_1Maxwell.html#ac7914e58653042029e79182a4ea80db0',1,'ippl::Maxwell']]],
   ['enable_3',['enable',['../structippl_1_1detail_1_1IsUnique.html#a97a7f83822095bbb0eaf7326e1b5edac',1,'ippl::detail::IsUnique::enable()'],['../structippl_1_1detail_1_1WrapUnique_1_1Verifier.html#ad5b1eca52c053bb71a97eaa5a7978878',1,'ippl::detail::WrapUnique::Verifier::enable()'],['../structippl_1_1detail_1_1IsEnabled.html#a316e19a8a4a67a78ac0180658309851c',1,'ippl::detail::IsEnabled::enable()']]],
