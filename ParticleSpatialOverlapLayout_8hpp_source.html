@@ -1000,7 +1000,7 @@ $(function() {
 <div class="line"><a id="l00914" name="l00914"></a><span class="lineno">  914</span> </div>
 <div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span>                Kokkos::parallel_for(</div>
 <div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span>                    Kokkos::TeamThreadRange(team, numCellNeighbors),</div>
-<div class="line"><a id="l00917" name="l00917"></a><span class="lineno">  917</span>                    KOKKOS_LAMBDA(<span class="keyword">const</span> <span class="keywordtype">size_t</span> &amp;n) {</div>
+<div class="line"><a id="l00917" name="l00917"></a><span class="lineno">  917</span>                    [&amp;](<span class="keyword">const</span> <span class="keywordtype">size_t</span> &amp;n) {</div>
 <div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span>                        <span class="keyword">const</span> <span class="keyword">auto</span> neighborCellIdx = cellNeighbors[n];</div>
 <div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span>                        <span class="keyword">const</span> <span class="keyword">auto</span> neighborCellParticleOffset = cellStartingIdx(neighborCellIdx);</div>
 <div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>                        <span class="keyword">const</span> <span class="keyword">auto</span> numNeigborCellParticles = cellParticleCount(neighborCellIdx);</div>
@@ -1008,7 +1008,7 @@ $(function() {
 <div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span>                        Kokkos::parallel_for(</div>
 <div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span>                            Kokkos::ThreadVectorMDRange&lt;Kokkos::Rank&lt;2&gt;, team_t&gt;(</div>
 <div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span>                                team, numCellParticles, numNeigborCellParticles),</div>
-<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>                            KOKKOS_LAMBDA(<span class="keyword">const</span> <span class="keywordtype">size_t</span> &amp;i, <span class="keyword">const</span> <span class="keywordtype">size_t</span> &amp;j) {</div>
+<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>                            [&amp;](<span class="keyword">const</span> <span class="keywordtype">size_t</span> &amp;i, <span class="keyword">const</span> <span class="keywordtype">size_t</span> &amp;j) {</div>
 <div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>                                <span class="keyword">const</span> <span class="keyword">auto</span> particleIdx = cellParticleOffset + i;</div>
 <div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>                                <span class="keyword">const</span> <span class="keyword">auto</span> neighborIdx = neighborCellParticleOffset + j;</div>
 <div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span> </div>
