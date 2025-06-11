@@ -97,8 +97,8 @@ Inheritance diagram for ippl::ParticleSpatialOverlapLayout&lt; T, Dim, Mesh, Pos
 <div class="dyncontent">
 <div class="center"><img src="classippl_1_1ParticleSpatialOverlapLayout__inherit__graph.png" border="0" usemap="#aippl_1_1ParticleSpatialOverlapLayout_3_01T_00_01Dim_00_01Mesh_00_01PositionProperties_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="aippl_1_1ParticleSpatialOverlapLayout_3_01T_00_01Dim_00_01Mesh_00_01PositionProperties_01_4_inherit__map" id="aippl_1_1ParticleSpatialOverlapLayout_3_01T_00_01Dim_00_01Mesh_00_01PositionProperties_01_4_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,519,279,808"/>
-<area shape="rect" href="classippl_1_1ParticleSpatialLayout.html" title=" " alt="" coords="25,211,259,471"/>
+<area shape="rect" title=" " alt="" coords="5,533,279,867"/>
+<area shape="rect" href="classippl_1_1ParticleSpatialLayout.html" title=" " alt="" coords="25,211,259,485"/>
 <area shape="rect" href="classippl_1_1detail_1_1ParticleLayout.html" title=" " alt="" coords="40,5,244,163"/>
 </map>
 </div>
@@ -107,8 +107,8 @@ Collaboration diagram for ippl::ParticleSpatialOverlapLayout&lt; T, Dim, Mesh, P
 <div class="dyncontent">
 <div class="center"><img src="classippl_1_1ParticleSpatialOverlapLayout__coll__graph.png" border="0" usemap="#aippl_1_1ParticleSpatialOverlapLayout_3_01T_00_01Dim_00_01Mesh_00_01PositionProperties_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="aippl_1_1ParticleSpatialOverlapLayout_3_01T_00_01Dim_00_01Mesh_00_01PositionProperties_01_4_coll__map" id="aippl_1_1ParticleSpatialOverlapLayout_3_01T_00_01Dim_00_01Mesh_00_01PositionProperties_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="93,549,367,839"/>
-<area shape="rect" href="classippl_1_1ParticleSpatialLayout.html" title=" " alt="" coords="113,255,347,500"/>
+<area shape="rect" title=" " alt="" coords="93,564,367,897"/>
+<area shape="rect" href="classippl_1_1ParticleSpatialLayout.html" title=" " alt="" coords="113,255,347,515"/>
 <area shape="rect" href="classippl_1_1detail_1_1ParticleLayout.html" title=" " alt="" coords="5,20,209,177"/>
 <area shape="rect" href="classippl_1_1detail_1_1RegionLayout.html" title=" " alt="" coords="234,5,474,192"/>
 </map>
@@ -133,6 +133,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a824da64fc93aa9d6415ad6e83f5b2c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe937aeeb02788a9d602367c73c3c5a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#abbe937aeeb02788a9d602367c73c3c5a">particle_neighbor_list_type</a> = <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a></td></tr>
 <tr class="separator:abbe937aeeb02788a9d602367c73c3c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe91c0d8b6cecc6b2aa87090242945ce"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#afe91c0d8b6cecc6b2aa87090242945ce">cell_particle_neighbor_list_type</a> = Kokkos::Array&lt; <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="namespaceippl_1_1detail.html#a14d88ba251231705c149f273e636d06c">detail::countHypercubes</a>(<a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>)&gt;</td></tr>
+<tr class="separator:afe91c0d8b6cecc6b2aa87090242945ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb5f0eb581ecb03492e482a69c6a03f9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> = <a class="el" href="namespaceippl_1_1detail.html#a964f3ca3105d73edc2897efef3060fcb">detail::hash_type</a>&lt; <a class="el" href="classippl_1_1detail_1_1ParticleLayout.html#a4a5694686ce8572352d14e7e50ab6c69">position_memory_space</a> &gt;</td></tr>
 <tr class="separator:abb5f0eb581ecb03492e482a69c6a03f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac022c197cd0f6ca8887d5b1cb072385"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> = typename <a class="el" href="structippl_1_1detail_1_1ViewType.html">detail::ViewType</a>&lt; int, 1, <a class="el" href="classippl_1_1detail_1_1ParticleLayout.html#a4a5694686ce8572352d14e7e50ab6c69">position_memory_space</a> &gt;<a class="el" href="AlpineManager_8h.html#abac6b71b6ea68a6c8bb864e8ebd5fe62">::view_type</a></td></tr>
@@ -145,6 +147,12 @@ Public Types</h2></td></tr>
 <tr class="separator:afb7767c944e1049cd2bda41b55b7de70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78fab0f03a1ebbcf8e22fe0e18d0cd33"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a78fab0f03a1ebbcf8e22fe0e18d0cd33">FieldLayout_t</a> = typename <a class="el" href="classippl_1_1FieldLayout.html">ippl::FieldLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;</td></tr>
 <tr class="separator:a78fab0f03a1ebbcf8e22fe0e18d0cd33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc27c7c1057e8f26549dd4d2cf1fea59"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#acc27c7c1057e8f26549dd4d2cf1fea59">region_view_type</a> = typename RegionLayout_t::view_type</td></tr>
+<tr class="memdesc:acc27c7c1057e8f26549dd4d2cf1fea59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the <a class="el" href="namespaceKokkos.html">Kokkos</a> view containing the local regions.  <a href="classippl_1_1ParticleSpatialOverlapLayout.html#acc27c7c1057e8f26549dd4d2cf1fea59">More...</a><br /></td></tr>
+<tr class="separator:acc27c7c1057e8f26549dd4d2cf1fea59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a3e0428b2ea35fce5cf9b0135103aa7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a7a3e0428b2ea35fce5cf9b0135103aa7">region_type</a> = typename region_view_type::value_type</td></tr>
+<tr class="memdesc:a7a3e0428b2ea35fce5cf9b0135103aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of a single Region object.  <a href="classippl_1_1ParticleSpatialOverlapLayout.html#a7a3e0428b2ea35fce5cf9b0135103aa7">More...</a><br /></td></tr>
+<tr class="separator:a7a3e0428b2ea35fce5cf9b0135103aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classippl_1_1ParticleSpatialLayout"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classippl_1_1ParticleSpatialLayout')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classippl_1_1ParticleSpatialLayout.html">ippl::ParticleSpatialLayout&lt; T, Dim, Mesh, PositionProperties &gt;</a></td></tr>
 <tr class="memitem:aef6716dcb27b7564e82f9a7a7522bad9 inherit pub_types_classippl_1_1ParticleSpatialLayout"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aef6716dcb27b7564e82f9a7a7522bad9">Base</a> = <a class="el" href="classippl_1_1detail_1_1ParticleLayout.html">detail::ParticleLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, PositionProperties... &gt;</td></tr>
 <tr class="separator:aef6716dcb27b7564e82f9a7a7522bad9 inherit pub_types_classippl_1_1ParticleSpatialLayout"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,6 +188,15 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a1446a3ce053acafd6a1c2fa7094b2b5f"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
+<tr class="memitem:a1446a3ce053acafd6a1c2fa7094b2b5f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a1446a3ce053acafd6a1c2fa7094b2b5f">particleExchange1</a> (<a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc)</td></tr>
+<tr class="separator:a1446a3ce053acafd6a1c2fa7094b2b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcd57c13af0b84571ac289cefed418b7"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
+<tr class="memitem:afcd57c13af0b84571ac289cefed418b7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#afcd57c13af0b84571ac289cefed418b7">particleExchange2</a> (<a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc)</td></tr>
+<tr class="separator:afcd57c13af0b84571ac289cefed418b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae103def48782551ea15b0c0f5d196ebb"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
+<tr class="memitem:ae103def48782551ea15b0c0f5d196ebb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#ae103def48782551ea15b0c0f5d196ebb">buildCells</a> (<a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc)</td></tr>
+<tr class="separator:ae103def48782551ea15b0c0f5d196ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1f1ca50fc317fa450812c150cb0495e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#ac1f1ca50fc317fa450812c150cb0495e">ParticleSpatialOverlapLayout</a> (<a class="el" href="classippl_1_1FieldLayout.html">FieldLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;fl, <a class="el" href="classippl_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &amp;rcutoff)</td></tr>
 <tr class="separator:ac1f1ca50fc317fa450812c150cb0495e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abab0ec05bf516d83f69aadce8eff06a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#abab0ec05bf516d83f69aadce8eff06a3">ParticleSpatialOverlapLayout</a> ()</td></tr>
@@ -228,6 +245,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3d5369b9c7167489e2081980a4ac1e2e inherit pub_methods_classippl_1_1ParticleSpatialLayout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af23b47004bf9d036843a01a92d6f334e inherit pub_methods_classippl_1_1ParticleSpatialLayout"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#afb7767c944e1049cd2bda41b55b7de70">RegionLayout_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#af23b47004bf9d036843a01a92d6f334e">getRegionLayout</a> () const</td></tr>
 <tr class="separator:af23b47004bf9d036843a01a92d6f334e inherit pub_methods_classippl_1_1ParticleSpatialLayout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a3c0e9ff1a2c0fa43f2f3b25890bee7 inherit pub_methods_classippl_1_1ParticleSpatialLayout"><td class="memTemplParams" colspan="2">template&lt;typename ExecutionSpace , typename Functor &gt; </td></tr>
+<tr class="memitem:a0a3c0e9ff1a2c0fa43f2f3b25890bee7 inherit pub_methods_classippl_1_1ParticleSpatialLayout"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#a0a3c0e9ff1a2c0fa43f2f3b25890bee7">forEachPair</a> (Functor &amp;&amp;f) const</td></tr>
+<tr class="separator:a0a3c0e9ff1a2c0fa43f2f3b25890bee7 inherit pub_methods_classippl_1_1ParticleSpatialLayout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3837ba3191927c7a79c0a1800ed52ad inherit pub_methods_classippl_1_1ParticleSpatialLayout"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
 <tr class="memitem:ae3837ba3191927c7a79c0a1800ed52ad inherit pub_methods_classippl_1_1ParticleSpatialLayout"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#a70e36e5624b3174677176f6eb8179e53">size_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#ae3837ba3191927c7a79c0a1800ed52ad">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid) const</td></tr>
 <tr class="separator:ae3837ba3191927c7a79c0a1800ed52ad inherit pub_methods_classippl_1_1ParticleSpatialLayout"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,6 +277,18 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0abc7180d342924d84450876714ecc41"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr FlatCellIndex_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a0abc7180d342924d84450876714ecc41">toFlatCellIndex</a> (const <a class="el" href="classippl_1_1Vector.html">CellIndex_t</a> &amp;cellIndex, const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;cellStrides, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> cellPermutationForward)</td></tr>
+<tr class="separator:a0abc7180d342924d84450876714ecc41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a048ccb1df0fd0aae36e16f48ebdefffb"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr <a class="el" href="classippl_1_1Vector.html">CellIndex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a048ccb1df0fd0aae36e16f48ebdefffb">toCellIndex</a> (FlatCellIndex_t nonPermutedIndex, const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;numCells)</td></tr>
+<tr class="separator:a048ccb1df0fd0aae36e16f48ebdefffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0801ed56582e24dc12a17e1956787f74"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a0801ed56582e24dc12a17e1956787f74">isLocalCellIndex</a> (const <a class="el" href="classippl_1_1Vector.html">CellIndex_t</a> &amp;index, const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;numCells)</td></tr>
+<tr class="separator:a0801ed56582e24dc12a17e1956787f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a275569878dac774c61978b77fb783524"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a275569878dac774c61978b77fb783524">positionInRegion</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;pos, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a7a3e0428b2ea35fce5cf9b0135103aa7">region_type</a> &amp;region, <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> overlap)</td></tr>
+<tr class="separator:a275569878dac774c61978b77fb783524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bee8b5a3f0886f40089d2f786f8b0b0"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr <a class="el" href="classippl_1_1Vector.html">CellIndex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a1bee8b5a3f0886f40089d2f786f8b0b0">getCellIndex</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;pos, const <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a80939bb3db56508d121680b1863c5402">NDRegion_t</a> &amp;region, const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;cellWidth)</td></tr>
+<tr class="separator:a1bee8b5a3f0886f40089d2f786f8b0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1c8ea4cd17dfd2e15411876f9403085"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#afe91c0d8b6cecc6b2aa87090242945ce">cell_particle_neighbor_list_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#af1c8ea4cd17dfd2e15411876f9403085">getCellNeighbors</a> (const <a class="el" href="classippl_1_1Vector.html">CellIndex_t</a> &amp;cellIndex, const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;cellStrides, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> &amp;cellPermutationForward)</td></tr>
+<tr class="separator:af1c8ea4cd17dfd2e15411876f9403085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b186424773a9bb4ff4a7cb5615b09e2"><td class="memItemLeft" align="right" valign="top">static KOKKOS_FUNCTION <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#abbe937aeeb02788a9d602367c73c3c5a">particle_neighbor_list_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a1b186424773a9bb4ff4a7cb5615b09e2">getParticleNeighbors</a> (<a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a9c97ae91870e258a4cc78c1a58a29ba2">index_t</a> particleIndex, const <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout_1_1NeighborData.html">NeighborData</a> &amp;neighborData)</td></tr>
 <tr class="separator:a1b186424773a9bb4ff4a7cb5615b09e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93e1418464e72de501a6550bc4b0ce38"><td class="memItemLeft" align="right" valign="top">static KOKKOS_FUNCTION <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#abbe937aeeb02788a9d602367c73c3c5a">particle_neighbor_list_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a93e1418464e72de501a6550bc4b0ce38">getParticleNeighbors</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;pos, const <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout_1_1NeighborData.html">NeighborData</a> &amp;neighborData)</td></tr>
@@ -326,6 +358,22 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classippl_1_1ParticleSpatialLayout.html">ippl::ParticleSpatialLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, PositionProperties &gt;::bool_type =  typename <a class="el" href="structippl_1_1detail_1_1ViewType.html">detail::ViewType</a>&lt;bool, 1, <a class="el" href="classippl_1_1detail_1_1ParticleLayout.html#a4a5694686ce8572352d14e7e50ab6c69">position_memory_space</a>&gt;<a class="el" href="AlpineManager_8h.html#abac6b71b6ea68a6c8bb864e8ebd5fe62">::view_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe91c0d8b6cecc6b2aa87090242945ce" name="afe91c0d8b6cecc6b2aa87090242945ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe91c0d8b6cecc6b2aa87090242945ce">&#9670;&#160;</a></span>cell_particle_neighbor_list_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a>  = UniformCartesian&lt;T, Dim&gt;, typename... PositionProperties&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, PositionProperties &gt;::cell_particle_neighbor_list_type =  Kokkos::Array&lt;<a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="namespaceippl_1_1detail.html#a14d88ba251231705c149f273e636d06c">detail::countHypercubes</a>(<a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -441,6 +489,42 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a3e0428b2ea35fce5cf9b0135103aa7" name="a7a3e0428b2ea35fce5cf9b0135103aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a3e0428b2ea35fce5cf9b0135103aa7">&#9670;&#160;</a></span>region_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a>  = UniformCartesian&lt;T, Dim&gt;, typename... PositionProperties&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classippl_1_1ParticleSpatialLayout.html">ippl::ParticleSpatialLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, PositionProperties &gt;::region_type =  typename region_view_type::value_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of a single Region object. </p>
+
+</div>
+</div>
+<a id="acc27c7c1057e8f26549dd4d2cf1fea59" name="acc27c7c1057e8f26549dd4d2cf1fea59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc27c7c1057e8f26549dd4d2cf1fea59">&#9670;&#160;</a></span>region_view_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a>  = UniformCartesian&lt;T, Dim&gt;, typename... PositionProperties&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classippl_1_1ParticleSpatialLayout.html">ippl::ParticleSpatialLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, PositionProperties &gt;::region_view_type =  typename RegionLayout_t::view_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of the <a class="el" href="namespaceKokkos.html">Kokkos</a> view containing the local regions. </p>
 
 </div>
 </div>
@@ -584,6 +668,28 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae103def48782551ea15b0c0f5d196ebb" name="ae103def48782551ea15b0c0f5d196ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae103def48782551ea15b0c0f5d196ebb">&#9670;&#160;</a></span>buildCells()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... Properties&gt; </div>
+<div class="memtemplate">
+template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties &gt;::buildCells </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>pc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0fe185d545c0cdf3872497d0cb3d5169" name="a0fe185d545c0cdf3872497d0cb3d5169"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0fe185d545c0cdf3872497d0cb3d5169">&#9670;&#160;</a></span>fillHash() <span class="overload">[1/2]</span></h2>
 
@@ -684,6 +790,94 @@ template&lt;typename ExecutionSpace , typename Functor &gt; </div>
 
 </div>
 </div>
+<a id="a1bee8b5a3f0886f40089d2f786f8b0b0" name="a1bee8b5a3f0886f40089d2f786f8b0b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bee8b5a3f0886f40089d2f786f8b0b0">&#9670;&#160;</a></span>getCellIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KOKKOS_INLINE_FUNCTION constexpr <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties... &gt;::CellIndex_t <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties &gt;::getCellIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a80939bb3db56508d121680b1863c5402">NDRegion_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cellWidth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1c8ea4cd17dfd2e15411876f9403085" name="af1c8ea4cd17dfd2e15411876f9403085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1c8ea4cd17dfd2e15411876f9403085">&#9670;&#160;</a></span>getCellNeighbors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KOKKOS_INLINE_FUNCTION constexpr <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties... &gt;<a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#afe91c0d8b6cecc6b2aa87090242945ce">::cell_particle_neighbor_list_type</a> <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties &gt;::getCellNeighbors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classippl_1_1Vector.html">CellIndex_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>cellIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cellStrides</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>cellPermutationForward</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae0ecf8a015add60be09d61a051346bf9" name="ae0ecf8a015add60be09d61a051346bf9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0ecf8a015add60be09d61a051346bf9">&#9670;&#160;</a></span>getNeighborData()</h2>
 
@@ -770,6 +964,44 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0801ed56582e24dc12a17e1956787f74" name="a0801ed56582e24dc12a17e1956787f74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0801ed56582e24dc12a17e1956787f74">&#9670;&#160;</a></span>isLocalCellIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties &gt;::isLocalCellIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classippl_1_1Vector.html">CellIndex_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>numCells</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -996,6 +1228,176 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1446a3ce053acafd6a1c2fa7094b2b5f" name="a1446a3ce053acafd6a1c2fa7094b2b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1446a3ce053acafd6a1c2fa7094b2b5f">&#9670;&#160;</a></span>particleExchange1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... Properties&gt; </div>
+<div class="memtemplate">
+template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties &gt;::particleExchange1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>pc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afcd57c13af0b84571ac289cefed418b7" name="afcd57c13af0b84571ac289cefed418b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcd57c13af0b84571ac289cefed418b7">&#9670;&#160;</a></span>particleExchange2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... Properties&gt; </div>
+<div class="memtemplate">
+template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties &gt;::particleExchange2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>pc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a275569878dac774c61978b77fb783524" name="a275569878dac774c61978b77fb783524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a275569878dac774c61978b77fb783524">&#9670;&#160;</a></span>positionInRegion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KOKKOS_INLINE_FUNCTION constexpr bool <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties &gt;::positionInRegion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a7a3e0428b2ea35fce5cf9b0135103aa7">region_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>&#160;</td>
+          <td class="paramname"><em>overlap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a048ccb1df0fd0aae36e16f48ebdefffb" name="a048ccb1df0fd0aae36e16f48ebdefffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a048ccb1df0fd0aae36e16f48ebdefffb">&#9670;&#160;</a></span>toCellIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KOKKOS_INLINE_FUNCTION constexpr <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties... &gt;::CellIndex_t <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties &gt;::toCellIndex </td>
+          <td>(</td>
+          <td class="paramtype">FlatCellIndex_t&#160;</td>
+          <td class="paramname"><em>nonPermutedIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>numCells</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0abc7180d342924d84450876714ecc41" name="a0abc7180d342924d84450876714ecc41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0abc7180d342924d84450876714ecc41">&#9670;&#160;</a></span>toFlatCellIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KOKKOS_INLINE_FUNCTION constexpr <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties... &gt;::FlatCellIndex_t <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ippl::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, Properties &gt;::toFlatCellIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classippl_1_1Vector.html">CellIndex_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>cellIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="FieldSolverBase_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html#a824da64fc93aa9d6415ad6e83f5b2c80">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cellStrides</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a>&#160;</td>
+          <td class="paramname"><em>cellPermutationForward</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
