@@ -1,18 +1,18 @@
 <map id="LandauDamping.cpp" name="LandauDamping.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="2601,5,2741,31"/>
+<area shape="rect" id="node1" title=" " alt="" coords="2618,5,2758,31"/>
 <area shape="rect" id="node2" href="$Ippl_8h.html" title=" " alt="" coords="441,460,495,485"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,614,77,639"/>
-<area shape="rect" id="node17" title=" " alt="" coords="1935,460,2169,485"/>
-<area shape="rect" id="node18" title=" " alt="" coords="2193,460,2425,485"/>
-<area shape="rect" id="node19" title=" " alt="" coords="2886,79,3031,104"/>
-<area shape="rect" id="node20" title=" " alt="" coords="2596,614,2657,639"/>
-<area shape="rect" id="node21" title=" " alt="" coords="3055,79,3121,104"/>
-<area shape="rect" id="node22" title=" " alt="" coords="3145,79,3185,104"/>
-<area shape="rect" id="node23" title=" " alt="" coords="2413,614,2467,639"/>
-<area shape="rect" id="node24" title=" " alt="" coords="2701,533,2760,559"/>
-<area shape="rect" id="node25" href="$datatypes_8h.html" title=" " alt="" coords="2175,299,2263,324"/>
-<area shape="rect" id="node27" href="$IpplTimings_8h.html" title=" " alt="" coords="2449,460,2585,485"/>
-<area shape="rect" id="node38" href="$LandauDampingManager_8h.html" title=" " alt="" coords="996,79,1172,104"/>
+<area shape="rect" id="node17" title=" " alt="" coords="1952,460,2187,485"/>
+<area shape="rect" id="node18" title=" " alt="" coords="2211,460,2443,485"/>
+<area shape="rect" id="node19" title=" " alt="" coords="2903,79,3049,104"/>
+<area shape="rect" id="node20" title=" " alt="" coords="2613,614,2675,639"/>
+<area shape="rect" id="node21" title=" " alt="" coords="3073,79,3138,104"/>
+<area shape="rect" id="node22" title=" " alt="" coords="3163,79,3203,104"/>
+<area shape="rect" id="node23" title=" " alt="" coords="2430,614,2485,639"/>
+<area shape="rect" id="node24" title=" " alt="" coords="2719,533,2777,559"/>
+<area shape="rect" id="node25" href="$datatypes_8h.html" title=" " alt="" coords="2188,299,2276,324"/>
+<area shape="rect" id="node27" href="$IpplTimings_8h.html" title=" " alt="" coords="2467,460,2603,485"/>
+<area shape="rect" id="node38" href="$LandauDampingManager_8h.html" title=" " alt="" coords="957,79,1133,104"/>
 <area shape="rect" id="node46" href="$PicManager_8h.html" title=" " alt="" coords="1760,225,1915,251"/>
 <area shape="rect" id="node4" href="$IpplTypes_8h.html" title=" " alt="" coords="235,533,362,559"/>
 <area shape="rect" id="node6" href="$Inform_8h.html" title=" " alt="" coords="104,533,211,559"/>
@@ -25,28 +25,28 @@
 <area shape="rect" id="node8" title=" " alt="" coords="101,614,171,639"/>
 <area shape="rect" id="node10" title=" " alt="" coords="475,614,599,639"/>
 <area shape="rect" id="node11" title=" " alt="" coords="400,614,451,639"/>
-<area shape="rect" id="node13" title=" " alt="" coords="1401,614,1469,639"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1418,614,1486,639"/>
 <area shape="rect" id="node16" href="$OrthogonalRecursiveBisection_8h.html" title=" " alt="" coords="833,607,1007,647"/>
-<area shape="rect" id="node26" href="$FFTOpenPoissonSolver_8h.html" title=" " alt="" coords="2389,372,2608,412"/>
-<area shape="rect" id="node35" href="$FFTPeriodicPoissonSolver_8h.html" title=" " alt="" coords="1911,372,2099,412"/>
-<area shape="rect" id="node36" href="$P3MSolver_8h.html" title=" " alt="" coords="2123,379,2314,405"/>
-<area shape="rect" id="node37" href="$PoissonCG_8h.html" title=" " alt="" coords="1694,379,1887,405"/>
-<area shape="rect" id="node28" title=" " alt="" coords="2495,614,2572,639"/>
-<area shape="rect" id="node29" title=" " alt="" coords="1939,533,1992,559"/>
-<area shape="rect" id="node30" title=" " alt="" coords="2017,533,2063,559"/>
-<area shape="rect" id="node31" title=" " alt="" coords="2087,533,2142,559"/>
-<area shape="rect" id="node32" href="$PAssert_8h.html" title=" " alt="" coords="2382,533,2498,559"/>
-<area shape="rect" id="node33" href="$Timer_8h.html" title=" " alt="" coords="2574,533,2677,559"/>
-<area shape="rect" id="node34" href="$my__auto__ptr_8h.html" title=" " alt="" coords="2166,533,2306,559"/>
-<area shape="rect" id="node39" href="$FieldContainer_8hpp.html" title=" " alt="" coords="1166,299,1295,324"/>
-<area shape="rect" id="node40" href="$BaseManager_8h.html" title=" " alt="" coords="1129,379,1295,405"/>
+<area shape="rect" id="node26" href="$FFTOpenPoissonSolver_8h.html" title=" " alt="" coords="2407,372,2625,412"/>
+<area shape="rect" id="node35" href="$FFTPeriodicPoissonSolver_8h.html" title=" " alt="" coords="1921,372,2109,412"/>
+<area shape="rect" id="node36" href="$FFTTruncatedGreenPeriodicPoissonSolver_8h.html" title=" " alt="" coords="2133,372,2331,412"/>
+<area shape="rect" id="node37" href="$PoissonCG_8h.html" title=" " alt="" coords="1703,379,1897,405"/>
+<area shape="rect" id="node28" title=" " alt="" coords="2512,614,2589,639"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1956,533,2009,559"/>
+<area shape="rect" id="node30" title=" " alt="" coords="2034,533,2081,559"/>
+<area shape="rect" id="node31" title=" " alt="" coords="2105,533,2159,559"/>
+<area shape="rect" id="node32" href="$PAssert_8h.html" title=" " alt="" coords="2399,533,2515,559"/>
+<area shape="rect" id="node33" href="$Timer_8h.html" title=" " alt="" coords="2591,533,2694,559"/>
+<area shape="rect" id="node34" href="$my__auto__ptr_8h.html" title=" " alt="" coords="2183,533,2323,559"/>
+<area shape="rect" id="node39" href="$FieldContainer_8hpp.html" title=" " alt="" coords="1183,299,1313,324"/>
+<area shape="rect" id="node40" href="$BaseManager_8h.html" title=" " alt="" coords="1146,379,1313,405"/>
 <area shape="rect" id="node41" href="$FieldSolver_8hpp.html" title=" " alt="" coords="1625,225,1735,251"/>
 <area shape="rect" id="node43" href="$LoadBalancer_8hpp.html" title=" " alt="" coords="493,225,619,251"/>
-<area shape="rect" id="node44" href="$ParticleContainer_8hpp.html" title=" " alt="" coords="771,299,917,324"/>
+<area shape="rect" id="node44" href="$ParticleContainer_8hpp.html" title=" " alt="" coords="789,299,934,324"/>
 <area shape="rect" id="node45" href="$AlpineManager_8h.html" title=" " alt="" coords="1086,152,1205,177"/>
-<area shape="rect" id="node47" href="$Distribution_8h.html" title=" " alt="" coords="941,299,1091,324"/>
+<area shape="rect" id="node47" href="$Distribution_8h.html" title=" " alt="" coords="959,299,1108,324"/>
 <area shape="rect" id="node48" href="$InverseTransformSampling_8h.html" title=" " alt="" coords="1309,225,1549,251"/>
 <area shape="rect" id="node49" href="$NormalDistribution_8h.html" title=" " alt="" coords="695,225,886,251"/>
 <area shape="rect" id="node50" href="$Randn_8h.html" title=" " alt="" coords="910,225,1031,251"/>
-<area shape="rect" id="node42" href="$FieldSolverBase_8h.html" title=" " alt="" coords="1737,299,1919,324"/>
+<area shape="rect" id="node42" href="$FieldSolverBase_8h.html" title=" " alt="" coords="1715,299,1896,324"/>
 </map>

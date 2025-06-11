@@ -8,7 +8,7 @@
 <area shape="rect" id="node43" href="$ParticleContainer_8hpp.html" title=" " alt="" coords="94,152,239,177"/>
 <area shape="rect" id="node44" href="$PicManager_8h.html" title=" " alt="" coords="468,79,623,104"/>
 <area shape="rect" id="node45" href="$Distribution_8h.html" title=" " alt="" coords="3323,372,3472,397"/>
-<area shape="rect" id="node48" href="$InverseTransformSampling_8h.html" title=" " alt="" coords="2740,225,2980,251"/>
+<area shape="rect" id="node48" href="$InverseTransformSampling_8h.html" title=" " alt="" coords="2743,225,2983,251"/>
 <area shape="rect" id="node49" href="$NormalDistribution_8h.html" title=" " alt="" coords="3013,299,3203,324"/>
 <area shape="rect" id="node50" href="$Randn_8h.html" title=" " alt="" coords="3227,299,3349,324"/>
 <area shape="rect" id="node5" href="$Ippl_8h.html" title=" " alt="" coords="563,299,616,324"/>
@@ -38,8 +38,8 @@
 <area shape="rect" id="node30" href="$FieldSolverBase_8h.html" title=" " alt="" coords="1421,152,1603,177"/>
 <area shape="rect" id="node31" href="$FFTOpenPoissonSolver_8h.html" title=" " alt="" coords="2569,445,2788,485"/>
 <area shape="rect" id="node38" href="$FFTPeriodicPoissonSolver_8h.html" title=" " alt="" coords="1834,445,2022,485"/>
-<area shape="rect" id="node40" href="$P3MSolver_8h.html" title=" " alt="" coords="2199,453,2390,478"/>
-<area shape="rect" id="node41" href="$PoissonCG_8h.html" title=" " alt="" coords="2323,225,2517,251"/>
+<area shape="rect" id="node40" href="$FFTTruncatedGreenPeriodicPoissonSolver_8h.html" title=" " alt="" coords="2199,445,2398,485"/>
+<area shape="rect" id="node41" href="$PoissonCG_8h.html" title=" " alt="" coords="2329,225,2522,251"/>
 <area shape="rect" id="node32" title=" " alt="" coords="3280,541,3515,566"/>
 <area shape="rect" id="node33" title=" " alt="" coords="3539,541,3771,566"/>
 <area shape="rect" id="node34" href="$FFT_8h.html" title=" " alt="" coords="1886,541,1970,566"/>

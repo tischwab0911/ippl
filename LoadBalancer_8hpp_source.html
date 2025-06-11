@@ -174,8 +174,8 @@ $(function() {
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>                    std::get&lt;FFTSolver_t&lt;T, Dim&gt;&gt;(fs_m-&gt;getSolver()).setRhs(*rho_m);</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>                }</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (<a class="code hl_variable" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> == 3) {</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                    <span class="keywordflow">if</span> (fs_m-&gt;getStype() == <span class="stringliteral">&quot;P3M&quot;</span>) {</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                        std::get&lt;P3MSolver_t&lt;T, Dim&gt;&gt;(fs_m-&gt;getSolver()).setRhs(*rho_m);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                    <span class="keywordflow">if</span> (fs_m-&gt;getStype() == <span class="stringliteral">&quot;TG&quot;</span>) {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                        std::get&lt;FFTTruncatedGreenSolver_t&lt;T, Dim&gt;&gt;(fs_m-&gt;getSolver()).setRhs(*rho_m);</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (fs_m-&gt;getStype() == <span class="stringliteral">&quot;OPEN&quot;</span>) {</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                        std::get&lt;OpenSolver_t&lt;T, Dim&gt;&gt;(fs_m-&gt;getSolver()).setRhs(*rho_m);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                    }</div>

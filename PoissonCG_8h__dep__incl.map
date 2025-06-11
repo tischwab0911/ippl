@@ -1,23 +1,19 @@
 <map id="PoissonCG.h" name="PoissonCG.h">
-<area shape="rect" id="node1" title=" " alt="" coords="1149,5,1248,31"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1009,5,1108,31"/>
 <area shape="rect" id="node2" href="$ChargedParticles_8hpp.html" title=" " alt="" coords="523,79,669,104"/>
-<area shape="rect" id="node7" href="$FieldSolverBase_8h.html" title=" " alt="" coords="1135,79,1262,104"/>
-<area shape="rect" id="node21" href="$datatypes_8h.html" title=" " alt="" coords="1573,299,1661,324"/>
+<area shape="rect" id="node7" href="$FieldSolverBase_8h.html" title=" " alt="" coords="995,79,1122,104"/>
+<area shape="rect" id="node17" href="$datatypes_8h.html" title=" " alt="" coords="1231,299,1319,324"/>
 <area shape="rect" id="node3" href="$LandauDampingMixedExec_8cpp.html" title=" " alt="" coords="5,152,208,177"/>
 <area shape="rect" id="node4" href="$LandauDampingMixedPrecision_8cpp.html" title=" " alt="" coords="233,152,461,177"/>
 <area shape="rect" id="node5" href="$LandauDampingParameterList_8cpp.html" title=" " alt="" coords="485,152,707,177"/>
 <area shape="rect" id="node6" href="$UniformPlasmaTest_8cpp.html" title=" " alt="" coords="732,152,895,177"/>
-<area shape="rect" id="node8" href="$FieldSolver_8hpp.html" title=" " alt="" coords="1143,152,1254,177"/>
-<area shape="rect" id="node16" href="$P3M3DManager_8h.html" title=" " alt="" coords="919,152,1044,177"/>
-<area shape="rect" id="node20" href="$PicManager_8h.html" title=" " alt="" coords="1435,152,1536,177"/>
-<area shape="rect" id="node9" href="$AlpineManager_8h.html" title=" " alt="" coords="1187,225,1306,251"/>
-<area shape="rect" id="node10" href="$BumponTailInstabilityManager_8h.html" title=" " alt="" coords="1241,299,1447,324"/>
-<area shape="rect" id="node12" href="$LandauDampingManager_8h.html" title=" " alt="" coords="861,299,1037,324"/>
-<area shape="rect" id="node14" href="$PenningTrapManager_8h.html" title=" " alt="" coords="1061,299,1216,324"/>
-<area shape="rect" id="node11" href="$BumponTailInstability_8cpp.html" title=" " alt="" coords="1613,372,1784,397"/>
-<area shape="rect" id="node13" href="$LandauDamping_8cpp.html" title=" " alt="" coords="1306,372,1446,397"/>
-<area shape="rect" id="node15" href="$PenningTrap_8cpp.html" title=" " alt="" coords="1470,372,1589,397"/>
-<area shape="rect" id="node17" href="$DistP3MHeating_8hpp.html" title=" " alt="" coords="736,225,877,251"/>
-<area shape="rect" id="node18" href="$P3MBenchManager_8hpp.html" title=" " alt="" coords="901,225,1061,251"/>
-<area shape="rect" id="node19" href="$P3MHeatingManager_8hpp.html" title=" " alt="" coords="544,225,712,251"/>
+<area shape="rect" id="node8" href="$FieldSolver_8hpp.html" title=" " alt="" coords="919,152,1030,177"/>
+<area shape="rect" id="node16" href="$PicManager_8h.html" title=" " alt="" coords="1092,152,1193,177"/>
+<area shape="rect" id="node9" href="$AlpineManager_8h.html" title=" " alt="" coords="877,225,995,251"/>
+<area shape="rect" id="node10" href="$BumponTailInstabilityManager_8h.html" title=" " alt="" coords="519,299,726,324"/>
+<area shape="rect" id="node12" href="$LandauDampingManager_8h.html" title=" " alt="" coords="751,299,927,324"/>
+<area shape="rect" id="node14" href="$PenningTrapManager_8h.html" title=" " alt="" coords="951,299,1105,324"/>
+<area shape="rect" id="node11" href="$BumponTailInstability_8cpp.html" title=" " alt="" coords="928,372,1099,397"/>
+<area shape="rect" id="node13" href="$LandauDamping_8cpp.html" title=" " alt="" coords="1123,372,1263,397"/>
+<area shape="rect" id="node15" href="$PenningTrap_8cpp.html" title=" " alt="" coords="1287,372,1406,397"/>
 </map>

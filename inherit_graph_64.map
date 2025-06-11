@@ -1,13 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classippl_1_1BaseManager.html" title="A base class for managing simulations using IPPL." alt="" coords="5,195,133,221"/>
-<area shape="rect" id="node2" href="$classippl_1_1P3M3DManager.html" title=" " alt="" coords="189,43,351,98"/>
-<area shape="rect" id="node5" href="$classippl_1_1PicManager.html" title=" " alt="" coords="181,122,359,206"/>
-<area shape="rect" id="node10" href="$classippl_1_1P3M3DManager.html" title="A template class for managing Particle&#45;Particle Particle&#45;Mesh (P3M/PPPM) simulations." alt="" coords="199,231,341,271"/>
-<area shape="rect" id="node11" href="$classippl_1_1PicManager.html" title="A template class for managing Particle&#45;in&#45;Cell (PIC) simulations." alt="" coords="200,295,340,335"/>
-<area shape="rect" id="node3" href="$classP3M3DBenchManager.html" title="A class that benchmarks the P3M Method." alt="" coords="411,5,571,45"/>
-<area shape="rect" id="node4" href="$classP3M3DHeatingManager.html" title="A class that runs P3M simulation for Disorder induced Heating processes." alt="" coords="411,69,571,109"/>
-<area shape="rect" id="node6" href="$classAlpineManager.html" title=" " alt="" coords="407,151,575,177"/>
-<area shape="rect" id="node7" href="$classBumponTailInstabilityManager.html" title=" " alt="" coords="623,80,819,120"/>
-<area shape="rect" id="node8" href="$classLandauDampingManager.html" title=" " alt="" coords="637,144,804,184"/>
-<area shape="rect" id="node9" href="$classPenningTrapManager.html" title=" " alt="" coords="648,208,793,248"/>
+<area shape="rect" id="node1" href="$classippl_1_1BaseManager.html" title="A base class for managing simulations using IPPL." alt="" coords="5,121,133,146"/>
+<area shape="rect" id="node2" href="$classippl_1_1PicManager.html" title=" " alt="" coords="181,47,359,131"/>
+<area shape="rect" id="node7" href="$classippl_1_1PicManager.html" title="A template class for managing Particle&#45;in&#45;Cell (PIC) simulations." alt="" coords="200,156,340,196"/>
+<area shape="rect" id="node3" href="$classAlpineManager.html" title=" " alt="" coords="407,77,575,102"/>
+<area shape="rect" id="node4" href="$classBumponTailInstabilityManager.html" title=" " alt="" coords="623,5,819,45"/>
+<area shape="rect" id="node5" href="$classLandauDampingManager.html" title=" " alt="" coords="637,69,804,109"/>
+<area shape="rect" id="node6" href="$classPenningTrapManager.html" title=" " alt="" coords="648,133,793,173"/>
 </map>

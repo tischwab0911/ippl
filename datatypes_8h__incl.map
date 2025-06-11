@@ -1,9 +1,9 @@
 <map id="datatypes.h" name="datatypes.h">
 <area shape="rect" id="node1" title=" " alt="" coords="1447,5,1535,31"/>
-<area shape="rect" id="node2" href="$FFTOpenPoissonSolver_8h.html" title=" " alt="" coords="1267,79,1486,119"/>
+<area shape="rect" id="node2" href="$FFTOpenPoissonSolver_8h.html" title=" " alt="" coords="1266,79,1485,119"/>
 <area shape="rect" id="node44" href="$FFTPeriodicPoissonSolver_8h.html" title=" " alt="" coords="316,79,504,119"/>
-<area shape="rect" id="node46" href="$P3MSolver_8h.html" title=" " alt="" coords="1553,86,1744,111"/>
-<area shape="rect" id="node48" href="$PoissonCG_8h.html" title=" " alt="" coords="2256,86,2449,111"/>
+<area shape="rect" id="node46" href="$FFTTruncatedGreenPeriodicPoissonSolver_8h.html" title=" " alt="" coords="1551,79,1749,119"/>
+<area shape="rect" id="node48" href="$PoissonCG_8h.html" title=" " alt="" coords="2261,86,2455,111"/>
 <area shape="rect" id="node3" title=" " alt="" coords="370,174,605,199"/>
 <area shape="rect" id="node4" title=" " alt="" coords="781,174,1013,199"/>
 <area shape="rect" id="node5" href="$Vector_8h.html" title=" " alt="" coords="553,621,662,647"/>
@@ -15,7 +15,7 @@
 <area shape="rect" id="node30" href="$FieldLayout_8h.html" title=" " alt="" coords="871,475,1042,500"/>
 <area shape="rect" id="node34" href="$UniformCartesian_8h.html" title=" " alt="" coords="2167,328,2349,353"/>
 <area shape="rect" id="node37" href="$FFT_8h.html" title=" " alt="" coords="1432,174,1516,199"/>
-<area shape="rect" id="node42" href="$Poisson_8h.html" title=" " alt="" coords="1631,174,1709,199"/>
+<area shape="rect" id="node42" href="$Poisson_8h.html" title=" " alt="" coords="1632,174,1711,199"/>
 <area shape="rect" id="node43" href="$FFTOpenPoissonSolver_8hpp.html" title=" " alt="" coords="1037,167,1255,207"/>
 <area shape="rect" id="node6" title=" " alt="" coords="819,695,915,720"/>
 <area shape="rect" id="node7" href="$IpplExpressions_8h.html" title=" " alt="" coords="1303,695,1493,720"/>
@@ -46,7 +46,7 @@
 <area shape="rect" id="node40" title=" " alt="" coords="1481,255,1603,280"/>
 <area shape="rect" id="node41" href="$ParameterList_8h.html" title=" " alt="" coords="1468,328,1619,353"/>
 <area shape="rect" id="node45" href="$FFTPeriodicPoissonSolver_8hpp.html" title=" " alt="" coords="5,167,193,207"/>
-<area shape="rect" id="node47" href="$P3MSolver_8hpp.html" title=" " alt="" coords="2475,174,2681,199"/>
-<area shape="rect" id="node49" href="$LaplaceHelpers_8h.html" title=" " alt="" coords="2705,174,2827,199"/>
-<area shape="rect" id="node50" href="$PCG_8h.html" title=" " alt="" coords="2851,174,2995,199"/>
+<area shape="rect" id="node47" href="$FFTTruncatedGreenPeriodicPoissonSolver_8hpp.html" title=" " alt="" coords="2476,167,2688,207"/>
+<area shape="rect" id="node49" href="$LaplaceHelpers_8h.html" title=" " alt="" coords="2713,174,2835,199"/>
+<area shape="rect" id="node50" href="$PCG_8h.html" title=" " alt="" coords="2859,174,3003,199"/>
 </map>
