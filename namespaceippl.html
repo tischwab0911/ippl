@@ -92,6 +92,8 @@ $(function() {
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceippl_1_1detail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceippl_1_1detail.html">detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceippl_1_1fixDefaultTemplateParam"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceippl_1_1fixDefaultTemplateParam.html">fixDefaultTemplateParam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceippl_1_1mpi"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceippl_1_1mpi.html">mpi</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceippl_1_1random"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceippl_1_1random.html">random</a></td></tr>
@@ -178,8 +180,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialLayout.html">ParticleSpatialLayout</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialOverlapLayout.html">ParticleSpatialOverlapLayout</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1PCG.html">PCG</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1PeriodicFace.html">PeriodicFace</a></td></tr>
@@ -237,6 +237,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:aa169d40473a9ca3a6f09ce12948aa0a8"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, typename <a class="el" href="classippl_1_1Mesh.html">Mesh</a>  = UniformCartesian&lt;T, Dim&gt;, typename... PositionProperties&gt; </td></tr>
+<tr class="memitem:aa169d40473a9ca3a6f09ce12948aa0a8"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceippl.html#aa169d40473a9ca3a6f09ce12948aa0a8">ParticleSpatialOverlapLayout</a> = <a class="el" href="classippl_1_1fixDefaultTemplateParam_1_1ParticleSpatialOverlapLayout.html">fixDefaultTemplateParam::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, PositionProperties... &gt;</td></tr>
+<tr class="separator:aa169d40473a9ca3a6f09ce12948aa0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae64200ec8aa429174dacffab43c79679"><td class="memTemplParams" colspan="2">template&lt;std::size_t Idx, typename... Ts&gt; </td></tr>
 <tr class="memitem:ae64200ec8aa429174dacffab43c79679"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceippl.html#ae64200ec8aa429174dacffab43c79679">TupleType</a> = typename <a class="el" href="structippl_1_1TupleTypeImpl.html">TupleTypeImpl</a>&lt; Idx, Ts... &gt;::type</td></tr>
 <tr class="separator:ae64200ec8aa429174dacffab43c79679"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -461,6 +464,22 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Implementations for <a class="el" href="classippl_1_1FFT.html">FFT</a> constructor/destructor and transforms </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="aa169d40473a9ca3a6f09ce12948aa0a8" name="aa169d40473a9ca3a6f09ce12948aa0a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa169d40473a9ca3a6f09ce12948aa0a8">&#9670;&#160;</a></span>ParticleSpatialOverlapLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, typename <a class="el" href="classippl_1_1Mesh.html">Mesh</a>  = UniformCartesian&lt;T, Dim&gt;, typename... PositionProperties&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceippl.html#aa169d40473a9ca3a6f09ce12948aa0a8">ippl::ParticleSpatialOverlapLayout</a> = typedef <a class="el" href="classippl_1_1fixDefaultTemplateParam_1_1ParticleSpatialOverlapLayout.html">fixDefaultTemplateParam::ParticleSpatialOverlapLayout</a>&lt;<a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, PositionProperties...&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae64200ec8aa429174dacffab43c79679" name="ae64200ec8aa429174dacffab43c79679"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae64200ec8aa429174dacffab43c79679">&#9670;&#160;</a></span>TupleType</h2>
 
