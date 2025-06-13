@@ -16,7 +16,7 @@ var searchData=
   ['particlelayout_3c_20t_2c_20dim_2c_20positionproperties_2e_2e_2e_20_3e_13',['ParticleLayout&lt; T, Dim, PositionProperties... &gt;',['../classippl_1_1detail_1_1ParticleLayout.html',1,'ippl::detail']]],
   ['particlespatiallayout_14',['ParticleSpatialLayout',['../classippl_1_1ParticleSpatialLayout.html',1,'ippl']]],
   ['particlespatiallayout_3c_20t_2c_20dim_2c_20mesh_2c_20positionproperties_2e_2e_2e_20_3e_15',['ParticleSpatialLayout&lt; T, Dim, Mesh, PositionProperties... &gt;',['../classippl_1_1ParticleSpatialLayout.html',1,'ippl']]],
-  ['particlespatialoverlaplayout_16',['ParticleSpatialOverlapLayout',['../classippl_1_1fixDefaultTemplateParam_1_1ParticleSpatialOverlapLayout.html',1,'ippl::fixDefaultTemplateParam']]],
+  ['particlespatialoverlaplayout_16',['ParticleSpatialOverlapLayout',['../classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html',1,'ippl::fixDefaultTemplateArgument']]],
   ['partitioner_17',['Partitioner',['../classippl_1_1detail_1_1Partitioner.html',1,'ippl::detail']]],
   ['pcg_18',['PCG',['../classippl_1_1PCG.html',1,'ippl']]],
   ['pdf_19',['PDF',['../structCustomDistributionFunctions_1_1PDF.html',1,'CustomDistributionFunctions::PDF'],['../structippl_1_1random_1_1NormalDistributionFunctions_1_1PDF.html',1,'ippl::random::NormalDistributionFunctions&lt; T &gt;::PDF']]],

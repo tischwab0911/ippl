@@ -3,7 +3,7 @@ var searchData=
   ['ndindex_0',['NDIndex',['../classippl_1_1NDIndex.html',1,'ippl']]],
   ['ndregion_1',['NDRegion',['../classippl_1_1NDRegion.html',1,'ippl']]],
   ['ndregion_3c_20t_2c_20dim_20_3e_2',['NDRegion&lt; T, Dim &gt;',['../classippl_1_1NDRegion.html',1,'ippl']]],
-  ['neighbordata_3',['NeighborData',['../classippl_1_1fixDefaultTemplateParam_1_1ParticleSpatialOverlapLayout_1_1NeighborData.html',1,'ippl::fixDefaultTemplateParam::ParticleSpatialOverlapLayout']]],
+  ['neighbordata_3',['NeighborData',['../classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout_1_1NeighborData.html',1,'ippl::fixDefaultTemplateArgument::ParticleSpatialOverlapLayout']]],
   ['newton1d_4',['Newton1D',['../structNewton1D.html',1,'']]],
   ['newtonraphson_5',['NewtonRaphson',['../structippl_1_1random_1_1detail_1_1NewtonRaphson.html',1,'ippl::random::detail']]],
   ['nobcface_6',['NoBcFace',['../classippl_1_1NoBcFace.html',1,'ippl']]],

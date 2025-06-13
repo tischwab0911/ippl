@@ -7,6 +7,7 @@ var searchData=
   ['theta_5fm_4',['theta_m',['../structippl_1_1polynomial__chebyshev__preconditioner.html#ab887ea98f3e8a49e56287d815be5b035',1,'ippl::polynomial_chebyshev_preconditioner']]],
   ['time_5fm_5',['time_m',['../classChargedParticles.html#a8822d66a88920bc1a2d01db4a53376cd',1,'ChargedParticles::time_m()'],['../classAlpineManager.html#a337a4f053a1edd90458e2610f78d8cfb',1,'AlpineManager::time_m()']]],
   ['tol_6',['tol',['../structNewton1D.html#a74a7f81fed39f4935d2c4fec2c9577c4',1,'Newton1D']]],
-  ['totalp_5fm_7',['totalP_m',['../classAlpineManager.html#ae30749f6c0fc99167e35ae2c58038891',1,'AlpineManager']]],
-  ['type_5fm_8',['type_m',['../structippl_1_1preconditioner.html#a5539cc2d97e30473afcbc9e55e175503',1,'ippl::preconditioner']]]
+  ['totalcells_5fm_7',['totalCells_m',['../classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a1b369c854ef120ab16658bb941d8b4c2',1,'ippl::fixDefaultTemplateArgument::ParticleSpatialOverlapLayout']]],
+  ['totalp_5fm_8',['totalP_m',['../classAlpineManager.html#ae30749f6c0fc99167e35ae2c58038891',1,'AlpineManager']]],
+  ['type_5fm_9',['type_m',['../structippl_1_1preconditioner.html#a5539cc2d97e30473afcbc9e55e175503',1,'ippl::preconditioner']]]
 ];
