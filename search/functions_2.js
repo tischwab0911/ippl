@@ -24,12 +24,13 @@ var searchData=
   ['count_21',['count',['../classippl_1_1mpi_1_1Status.html#a2ab9c3c543650cc6b1a1ba9ee6e11f79',1,'ippl::mpi::Status']]],
   ['countcubes_22',['countCubes',['../namespaceippl_1_1detail.html#ab2c8186ef61d35ead301d4fe0e8ef13e',1,'ippl::detail']]],
   ['counthypercubes_23',['countHypercubes',['../namespaceippl_1_1detail.html#acd87b01c0e20153f75d336d542a2dfd0',1,'ippl::detail']]],
-  ['create_24',['create',['../classippl_1_1detail_1_1ParticleAttribBase.html#a4f1a5faf43003db8179f5df24bb776b7',1,'ippl::detail::ParticleAttribBase::create()'],['../classippl_1_1ParticleBase.html#a08f73fde7b16dec9ef5fb0c081c7c7bc',1,'ippl::ParticleBase::create()'],['../classippl_1_1ParticleAttrib.html#a245c7868a65cc159d2107c89be7d9728',1,'ippl::ParticleAttrib::create()'],['../classippl_1_1mpi_1_1rma_1_1Window.html#a9e7cbadc8cb432c31b2255b1a6e7c012',1,'ippl::mpi::rma::Window::create()']]],
-  ['createperiodicghostparticles_25',['createPeriodicGhostParticles',['../classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a3029b965f40cca6ba43f5589ed93a65a',1,'ippl::fixDefaultTemplateArgument::ParticleSpatialOverlapLayout']]],
-  ['createrangepolicy_26',['createRangePolicy',['../namespaceippl.html#a396152d1cdbeeaf2ab6e3dc93c903bc3',1,'ippl']]],
-  ['createwithid_27',['createWithID',['../classippl_1_1ParticleBase.html#ab87d85479c6ab4529eda17cf633f5e7e',1,'ippl::ParticleBase']]],
-  ['cross_28',['cross',['../namespaceippl.html#a466a02f6bf5393743337580f7c0c8caa',1,'ippl']]],
-  ['curl_29',['curl',['../namespaceippl.html#a915624287dee5b9e36d736b23a3725e8',1,'ippl']]],
-  ['current_5ftag_30',['current_tag',['../classTagMaker.html#a580563931e043209d7704f653bd5c06d',1,'TagMaker']]],
-  ['cutdomain_31',['cutDomain',['../classippl_1_1OrthogonalRecursiveBisection.html#a12212ca7252174973f2cde2d9ab8dbba',1,'ippl::OrthogonalRecursiveBisection']]]
+  ['create_24',['create',['../classippl_1_1ParticleBase.html#a08f73fde7b16dec9ef5fb0c081c7c7bc',1,'ippl::ParticleBase::create()'],['../classippl_1_1mpi_1_1rma_1_1Window.html#a9e7cbadc8cb432c31b2255b1a6e7c012',1,'ippl::mpi::rma::Window::create()'],['../classippl_1_1ParticleAttrib.html#a245c7868a65cc159d2107c89be7d9728',1,'ippl::ParticleAttrib::create()'],['../classippl_1_1detail_1_1ParticleAttribBase.html#a4f1a5faf43003db8179f5df24bb776b7',1,'ippl::detail::ParticleAttribBase::create()']]],
+  ['createcontainer_25',['createContainer',['../structippl_1_1detail_1_1ContainerForAllSpaces.html#abc98edea4d8966dc5c9193d3982d376f',1,'ippl::detail::ContainerForAllSpaces']]],
+  ['createperiodicghostparticles_26',['createPeriodicGhostParticles',['../classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a3029b965f40cca6ba43f5589ed93a65a',1,'ippl::fixDefaultTemplateArgument::ParticleSpatialOverlapLayout']]],
+  ['createrangepolicy_27',['createRangePolicy',['../namespaceippl.html#a396152d1cdbeeaf2ab6e3dc93c903bc3',1,'ippl']]],
+  ['createwithid_28',['createWithID',['../classippl_1_1ParticleBase.html#ab87d85479c6ab4529eda17cf633f5e7e',1,'ippl::ParticleBase']]],
+  ['cross_29',['cross',['../namespaceippl.html#a466a02f6bf5393743337580f7c0c8caa',1,'ippl']]],
+  ['curl_30',['curl',['../namespaceippl.html#a915624287dee5b9e36d736b23a3725e8',1,'ippl']]],
+  ['current_5ftag_31',['current_tag',['../classTagMaker.html#a580563931e043209d7704f653bd5c06d',1,'TagMaker']]],
+  ['cutdomain_32',['cutDomain',['../classippl_1_1OrthogonalRecursiveBisection.html#a12212ca7252174973f2cde2d9ab8dbba',1,'ippl::OrthogonalRecursiveBisection']]]
 ];
