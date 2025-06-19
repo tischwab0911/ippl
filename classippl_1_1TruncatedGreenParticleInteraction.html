@@ -164,7 +164,18 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6706e7cd0a53fd9285079647d045b962 inherit pro_attribs_classippl_1_1ParticleInteractionBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleInteractionBase.html#a6706e7cd0a53fd9285079647d045b962">params_m</a></td></tr>
 <tr class="separator:a6706e7cd0a53fd9285079647d045b962 inherit pro_attribs_classippl_1_1ParticleInteractionBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a>, typename VectorAttribute, typename ScalarAttribute&gt;<br />
+class ippl::TruncatedGreenParticleInteraction&lt; ParticleContainer, VectorAttribute, ScalarAttribute &gt;</div><p ><a class="el" href="classippl_1_1TruncatedGreenParticleInteraction.html">TruncatedGreenParticleInteraction</a> class definition. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname"><a class="el" href="classParticleContainer.html">ParticleContainer</a></td><td>particle container type </td></tr>
+    <tr><td class="paramname">VectorAttribute</td><td>type to store vector valued attributes </td></tr>
+    <tr><td class="paramname">ScalarAttribute</td><td>type to store scalar valued attributes evaluates truncated short range interaction F = - q * forceConstant grad [(1 - erf(alpha *
+r)) / r]. </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aad50d3d971f0aaa2617b20d5fc0daa63" name="aad50d3d971f0aaa2617b20d5fc0daa63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad50d3d971f0aaa2617b20d5fc0daa63">&#9670;&#160;</a></span>Base</h2>
 
@@ -283,6 +294,16 @@ template&lt;typename <a class="el" href="classParticleContainer.html">ParticleCo
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>Particle container </td></tr>
+    <tr><td class="paramname">F</td><td>Force attribute, where the evaluated force will be added to </td></tr>
+    <tr><td class="paramname">R</td><td>Position attribute </td></tr>
+    <tr><td class="paramname">QM</td><td>Charge or Mass like attribute determining the force magnitued </td></tr>
+    <tr><td class="paramname">params</td><td>Parameters, containing at least 'alpha', 'force_constant' and 'rcut'. alpha controls the truncation strength. force_constant to be multiplied with the force. rcut determines the maximal distance between two particles to contribute to the forces. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -335,6 +356,8 @@ template&lt;typename <a class="el" href="classParticleContainer.html">ParticleCo
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Evaluates the short range interactions F = - q * forceConstant grad [(1 - erf(alpha *
+r)) / r]. </p>
 
 <p>Implements <a class="el" href="classippl_1_1ParticleInteractionBase.html#a71b306282849846d6b275cf085e85a00">ippl::ParticleInteractionBase&lt; ParticleContainer &gt;</a>.</p>
 

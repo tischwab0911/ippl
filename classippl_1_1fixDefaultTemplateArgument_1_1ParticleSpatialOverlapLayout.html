@@ -189,53 +189,69 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6db605ec8d0b5982dc4ba1822c40b391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a658aaf688af3f7524f0241e8fef99544"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
 <tr class="memitem:a658aaf688af3f7524f0241e8fef99544"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a658aaf688af3f7524f0241e8fef99544">update</a> (<a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc)</td></tr>
+<tr class="memdesc:a658aaf688af3f7524f0241e8fef99544"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates particles by exchanging them across ranks according to their positions. then constructs the particle neighbor list structure  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a658aaf688af3f7524f0241e8fef99544">More...</a><br /></td></tr>
 <tr class="separator:a658aaf688af3f7524f0241e8fef99544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bdb16dae68fd9f17ac53241dae4c8f8"><td class="memTemplParams" colspan="2">template&lt;typename ExecutionSpace , typename Functor &gt; </td></tr>
 <tr class="memitem:a5bdb16dae68fd9f17ac53241dae4c8f8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a5bdb16dae68fd9f17ac53241dae4c8f8">forEachPair</a> (Functor &amp;&amp;f) const</td></tr>
 <tr class="separator:a5bdb16dae68fd9f17ac53241dae4c8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a424e20f45a296b85d22f61ea7988384c"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
-<tr class="memitem:a424e20f45a296b85d22f61ea7988384c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a424e20f45a296b85d22f61ea7988384c">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;offsets, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid) const</td></tr>
-<tr class="separator:a424e20f45a296b85d22f61ea7988384c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adba1ee43e7ca874e7d21284407a607e5"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
-<tr class="memitem:adba1ee43e7ca874e7d21284407a607e5"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="namespaceippl_1_1detail.html#ac53bbae790d77825bc093c5b22a63d77">detail::size_type</a>, <a class="el" href="namespaceippl_1_1detail.html#ac53bbae790d77825bc093c5b22a63d77">detail::size_type</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#adba1ee43e7ca874e7d21284407a607e5">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;offsets, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;nSends_dview, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;sends_dview) const</td></tr>
-<tr class="separator:adba1ee43e7ca874e7d21284407a607e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9eb1faec09b03f9d8ff14f00317a994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aa9eb1faec09b03f9d8ff14f00317a994">numberOfSends</a> (int rank, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks)</td></tr>
-<tr class="separator:aa9eb1faec09b03f9d8ff14f00317a994"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6657188e758756c74a0bc1a794d64211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a6657188e758756c74a0bc1a794d64211">getFlatNeighbors</a> (const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ac5693fa0aba7e341553b9aee72c694ee">neighbor_list</a> &amp;neighbors) const</td></tr>
-<tr class="separator:a6657188e758756c74a0bc1a794d64211"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15e63b2e77a86431bd38bfda3b22df85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a15e63b2e77a86431bd38bfda3b22df85">getNonNeighborRanks</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;neighbors_view) const</td></tr>
-<tr class="separator:a15e63b2e77a86431bd38bfda3b22df85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae780479dae05be86ff8ce9e1e5cbd02b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ae780479dae05be86ff8ce9e1e5cbd02b">fillHash</a> (int rank, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;offsets, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> &amp;hash)</td></tr>
-<tr class="separator:ae780479dae05be86ff8ce9e1e5cbd02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51e757e98e5ca7be2a3b1dbdd28855f5"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
-<tr class="memitem:a51e757e98e5ca7be2a3b1dbdd28855f5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a51e757e98e5ca7be2a3b1dbdd28855f5">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a87830cbf544b3a6716c1bf6c23e445bd">locate_type_nd</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid) const</td></tr>
-<tr class="separator:a51e757e98e5ca7be2a3b1dbdd28855f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cfcdf276947adb937340a9c4c628044"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9cfcdf276947adb937340a9c4c628044">numberOfSends</a> (int rank, const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a87830cbf544b3a6716c1bf6c23e445bd">locate_type_nd</a> &amp;ranks)</td></tr>
-<tr class="separator:a9cfcdf276947adb937340a9c4c628044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8176ea74f27a52627839f9d70106c1a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a8176ea74f27a52627839f9d70106c1a9">fillHash</a> (int rank, const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a87830cbf544b3a6716c1bf6c23e445bd">locate_type_nd</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> &amp;hash)</td></tr>
-<tr class="separator:a8176ea74f27a52627839f9d70106c1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fc5aa1ac7030b9e8179e061db91afb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout_1_1ParticleNeighborData.html">ParticleNeighborData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a1fc5aa1ac7030b9e8179e061db91afb9">getParticleNeighborData</a> () const</td></tr>
 <tr class="separator:a1fc5aa1ac7030b9e8179e061db91afb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491bde711dca79a9b1cba66f5ccc9258"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
+<tr class="memitem:a491bde711dca79a9b1cba66f5ccc9258"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a491bde711dca79a9b1cba66f5ccc9258">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;rankOffsets, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid) const</td></tr>
+<tr class="memdesc:a491bde711dca79a9b1cba66f5ccc9258"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function determines to which rank particles need to be sent after the iteration step. It looks in all regions to determine where it belongs.  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a491bde711dca79a9b1cba66f5ccc9258">More...</a><br /></td></tr>
+<tr class="separator:a491bde711dca79a9b1cba66f5ccc9258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9eb1faec09b03f9d8ff14f00317a994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aa9eb1faec09b03f9d8ff14f00317a994">numberOfSends</a> (int rank, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks)</td></tr>
+<tr class="memdesc:aa9eb1faec09b03f9d8ff14f00317a994"><td class="mdescLeft">&#160;</td><td class="mdescRight">utility function to compute how many particles to sent to a given rank  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aa9eb1faec09b03f9d8ff14f00317a994">More...</a><br /></td></tr>
+<tr class="separator:aa9eb1faec09b03f9d8ff14f00317a994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae780479dae05be86ff8ce9e1e5cbd02b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ae780479dae05be86ff8ce9e1e5cbd02b">fillHash</a> (int rank, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;offsets, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> &amp;hash)</td></tr>
+<tr class="memdesc:ae780479dae05be86ff8ce9e1e5cbd02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">utility function to collect all indices of particles to send to given rank  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ae780479dae05be86ff8ce9e1e5cbd02b">More...</a><br /></td></tr>
+<tr class="separator:ae780479dae05be86ff8ce9e1e5cbd02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98d0dedf4b78bd4ff008fea57fddd186"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
+<tr class="memitem:a98d0dedf4b78bd4ff008fea57fddd186"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="namespaceippl_1_1detail.html#ac53bbae790d77825bc093c5b22a63d77">detail::size_type</a>, <a class="el" href="namespaceippl_1_1detail.html#ac53bbae790d77825bc093c5b22a63d77">detail::size_type</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a98d0dedf4b78bd4ff008fea57fddd186">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;rankOffsets, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;nSends_dview, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;sends_dview) const</td></tr>
+<tr class="memdesc:a98d0dedf4b78bd4ff008fea57fddd186"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function determines to which rank particles need to be sent after the iteration step. It starts by first scanning direct rank neighbors, and only does a global scan if particles are far away from the current rank. It then calculates how many particles need to be sent to each rank and how many ranks are sent to in total.  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a98d0dedf4b78bd4ff008fea57fddd186">More...</a><br /></td></tr>
+<tr class="separator:a98d0dedf4b78bd4ff008fea57fddd186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6657188e758756c74a0bc1a794d64211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a6657188e758756c74a0bc1a794d64211">getFlatNeighbors</a> (const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ac5693fa0aba7e341553b9aee72c694ee">neighbor_list</a> &amp;neighbors) const</td></tr>
+<tr class="memdesc:a6657188e758756c74a0bc1a794d64211"><td class="mdescLeft">&#160;</td><td class="mdescRight">utility function to get a flat view of all neighbor processes  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a6657188e758756c74a0bc1a794d64211">More...</a><br /></td></tr>
+<tr class="separator:a6657188e758756c74a0bc1a794d64211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e63b2e77a86431bd38bfda3b22df85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a15e63b2e77a86431bd38bfda3b22df85">getNonNeighborRanks</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;neighbors_view) const</td></tr>
+<tr class="memdesc:a15e63b2e77a86431bd38bfda3b22df85"><td class="mdescLeft">&#160;</td><td class="mdescRight">utility function to get a view of all non-neighboring ranks  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a15e63b2e77a86431bd38bfda3b22df85">More...</a><br /></td></tr>
+<tr class="separator:a15e63b2e77a86431bd38bfda3b22df85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51e757e98e5ca7be2a3b1dbdd28855f5"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
+<tr class="memitem:a51e757e98e5ca7be2a3b1dbdd28855f5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a51e757e98e5ca7be2a3b1dbdd28855f5">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a87830cbf544b3a6716c1bf6c23e445bd">locate_type_nd</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid) const</td></tr>
+<tr class="memdesc:a51e757e98e5ca7be2a3b1dbdd28855f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function determines to which rank particles need to be sent after the iteration step. It looks in all regions to determine where it belongs.  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a51e757e98e5ca7be2a3b1dbdd28855f5">More...</a><br /></td></tr>
+<tr class="separator:a51e757e98e5ca7be2a3b1dbdd28855f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cfcdf276947adb937340a9c4c628044"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9cfcdf276947adb937340a9c4c628044">numberOfSends</a> (int rank, const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a87830cbf544b3a6716c1bf6c23e445bd">locate_type_nd</a> &amp;ranks)</td></tr>
+<tr class="memdesc:a9cfcdf276947adb937340a9c4c628044"><td class="mdescLeft">&#160;</td><td class="mdescRight">utility function to compute how many particles to sent to a given rank  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9cfcdf276947adb937340a9c4c628044">More...</a><br /></td></tr>
+<tr class="separator:a9cfcdf276947adb937340a9c4c628044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8176ea74f27a52627839f9d70106c1a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a8176ea74f27a52627839f9d70106c1a9">fillHash</a> (int rank, const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a87830cbf544b3a6716c1bf6c23e445bd">locate_type_nd</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> &amp;hash)</td></tr>
+<tr class="memdesc:a8176ea74f27a52627839f9d70106c1a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">utility function to collect all indices of particles to send to given rank  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a8176ea74f27a52627839f9d70106c1a9">More...</a><br /></td></tr>
+<tr class="separator:a8176ea74f27a52627839f9d70106c1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd3b59e93d20fff18f79b1c04556e05c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#abd3b59e93d20fff18f79b1c04556e05c">initializeCells</a> ()</td></tr>
+<tr class="memdesc:abd3b59e93d20fff18f79b1c04556e05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes all data necessary for the cells  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#abd3b59e93d20fff18f79b1c04556e05c">More...</a><br /></td></tr>
+<tr class="separator:abd3b59e93d20fff18f79b1c04556e05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2506a2a5db815d219b5d2cc1561735cd"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
 <tr class="memitem:a2506a2a5db815d219b5d2cc1561735cd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2506a2a5db815d219b5d2cc1561735cd">particleExchangeOld</a> (<a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc)</td></tr>
+<tr class="memdesc:a2506a2a5db815d219b5d2cc1561735cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">exchanges particles by scanning all ranks. works no matter the overlap  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2506a2a5db815d219b5d2cc1561735cd">More...</a><br /></td></tr>
 <tr class="separator:a2506a2a5db815d219b5d2cc1561735cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7b53b724d8a64183cba9631204e4d00"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
 <tr class="memitem:ae7b53b724d8a64183cba9631204e4d00"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ae7b53b724d8a64183cba9631204e4d00">particleExchangeNew</a> (<a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc)</td></tr>
+<tr class="memdesc:ae7b53b724d8a64183cba9631204e4d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">exchange particles by scanning neighbor ranks first, only scan other ranks if needed. works if overlap is smaller than half the smallest region width  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ae7b53b724d8a64183cba9631204e4d00">More...</a><br /></td></tr>
 <tr class="separator:ae7b53b724d8a64183cba9631204e4d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa91749a4544b83543e18e82a36aba97a"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
 <tr class="memitem:aa91749a4544b83543e18e82a36aba97a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aa91749a4544b83543e18e82a36aba97a">particleExchangeNd</a> (<a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc)</td></tr>
+<tr class="memdesc:aa91749a4544b83543e18e82a36aba97a"><td class="mdescLeft">&#160;</td><td class="mdescRight">exchanges particles by scanning all ranks. works no matter the overlap works if cutoff is smaller than half the smallest region width  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aa91749a4544b83543e18e82a36aba97a">More...</a><br /></td></tr>
 <tr class="separator:aa91749a4544b83543e18e82a36aba97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c2a6117b447f7a84e66b471c2336c62"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
 <tr class="memitem:a9c2a6117b447f7a84e66b471c2336c62"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9c2a6117b447f7a84e66b471c2336c62">buildCells</a> (<a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc)</td></tr>
+<tr class="memdesc:a9c2a6117b447f7a84e66b471c2336c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds the cell structure, sorts the particles according to the cells and makes sure only local particles are counted towards pc.getLocalNum()  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9c2a6117b447f7a84e66b471c2336c62">More...</a><br /></td></tr>
 <tr class="separator:a9c2a6117b447f7a84e66b471c2336c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3029b965f40cca6ba43f5589ed93a65a"><td class="memTemplParams" colspan="2">template&lt;class <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
 <tr class="memitem:a3029b965f40cca6ba43f5589ed93a65a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a3029b965f40cca6ba43f5589ed93a65a">createPeriodicGhostParticles</a> (<a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc)</td></tr>
+<tr class="memdesc:a3029b965f40cca6ba43f5589ed93a65a"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies particles close to the boundary and offsets them to their closest periodic image  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a3029b965f40cca6ba43f5589ed93a65a">More...</a><br /></td></tr>
 <tr class="separator:a3029b965f40cca6ba43f5589ed93a65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd3b59e93d20fff18f79b1c04556e05c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#abd3b59e93d20fff18f79b1c04556e05c">initializeCells</a> ()</td></tr>
-<tr class="separator:abd3b59e93d20fff18f79b1c04556e05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49237af855ff1a38ab94bce737de080d"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
-<tr class="memitem:a49237af855ff1a38ab94bce737de080d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceippl_1_1detail.html#ac53bbae790d77825bc093c5b22a63d77">detail::size_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a49237af855ff1a38ab94bce737de080d">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;rank_offsets, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid) const</td></tr>
-<tr class="separator:a49237af855ff1a38ab94bce737de080d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a705cd7f82b48f6e60fc6ba9653de880a"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
+<tr class="memitem:a705cd7f82b48f6e60fc6ba9653de880a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceippl_1_1detail.html#ac53bbae790d77825bc093c5b22a63d77">detail::size_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a705cd7f82b48f6e60fc6ba9653de880a">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;rankOffsets, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid) const</td></tr>
+<tr class="separator:a705cd7f82b48f6e60fc6ba9653de880a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade481780ce8b0f42ea3234ba4efc0d33"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </td></tr>
 <tr class="memitem:ade481780ce8b0f42ea3234ba4efc0d33"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceippl_1_1detail.html#ac53bbae790d77825bc093c5b22a63d77">detail::size_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ade481780ce8b0f42ea3234ba4efc0d33">locateParticles</a> (const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;pc, <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a87830cbf544b3a6716c1bf6c23e445bd">locate_type_nd</a> &amp;ranks, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;invalid) const</td></tr>
 <tr class="separator:ade481780ce8b0f42ea3234ba4efc0d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,10 +297,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a9bbc0a1bf800d5ef6381015edf3e8aa7"><td class="memItemLeft" align="right" valign="top">static KOKKOS_FUNCTION <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a1399b3c141d3322028c19c5150206a3f">particle_neighbor_list_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9bbc0a1bf800d5ef6381015edf3e8aa7">getParticleNeighbors</a> (<a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a965d0881b53b49550002fbc8784b8f3c">index_t</a> particleIndex, const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout_1_1ParticleNeighborData.html">ParticleNeighborData</a> &amp;neighborData)</td></tr>
-<tr class="separator:a9bbc0a1bf800d5ef6381015edf3e8aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02f3d173d15c0903a83179522571b50e"><td class="memItemLeft" align="right" valign="top">static KOKKOS_FUNCTION <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a1399b3c141d3322028c19c5150206a3f">particle_neighbor_list_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a02f3d173d15c0903a83179522571b50e">getParticleNeighbors</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;pos, const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout_1_1ParticleNeighborData.html">ParticleNeighborData</a> &amp;neighborData)</td></tr>
-<tr class="separator:a02f3d173d15c0903a83179522571b50e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a50fdc6c6bb43e4a54e0ae75b486952"><td class="memItemLeft" align="right" valign="top">static KOKKOS_FUNCTION <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a1399b3c141d3322028c19c5150206a3f">particle_neighbor_list_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a4a50fdc6c6bb43e4a54e0ae75b486952">getParticleNeighbors</a> (<a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a965d0881b53b49550002fbc8784b8f3c">index_t</a> particleIndex, const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout_1_1ParticleNeighborData.html">ParticleNeighborData</a> &amp;particleNeighborData)</td></tr>
+<tr class="memdesc:a4a50fdc6c6bb43e4a54e0ae75b486952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to get particle neighbors depending on index (possible inside <a class="el" href="namespaceKokkos.html">Kokkos</a> parallel region) make sure to call update first.  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a4a50fdc6c6bb43e4a54e0ae75b486952">More...</a><br /></td></tr>
+<tr class="separator:a4a50fdc6c6bb43e4a54e0ae75b486952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0093f8562d0d96597d37c0ada5db71a"><td class="memItemLeft" align="right" valign="top">static KOKKOS_FUNCTION <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a1399b3c141d3322028c19c5150206a3f">particle_neighbor_list_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aa0093f8562d0d96597d37c0ada5db71a">getParticleNeighbors</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;pos, const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout_1_1ParticleNeighborData.html">ParticleNeighborData</a> &amp;particleNeighborData)</td></tr>
+<tr class="memdesc:aa0093f8562d0d96597d37c0ada5db71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to get particle neighbors depending on position (possible inside <a class="el" href="namespaceKokkos.html">Kokkos</a> parallel region) make sure to call update first.  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aa0093f8562d0d96597d37c0ada5db71a">More...</a><br /></td></tr>
+<tr class="separator:aa0093f8562d0d96597d37c0ada5db71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
@@ -308,18 +326,24 @@ Protected Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:a8aeac24e121ef4956e8abe5d5d3824c6"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a8aeac24e121ef4956e8abe5d5d3824c6">isCloseToBoundary</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;pos, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a7a3e0428b2ea35fce5cf9b0135103aa7">region_type</a> &amp;region, <a class="el" href="datatypes_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; bool, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; periodic, <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> overlap)</td></tr>
+<tr class="memdesc:a8aeac24e121ef4956e8abe5d5d3824c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines whether a position is within overlap to the boundary of a region  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a8aeac24e121ef4956e8abe5d5d3824c6">More...</a><br /></td></tr>
 <tr class="separator:a8aeac24e121ef4956e8abe5d5d3824c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adccc320dde28a7b9ea44d8e5faed72a0"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a232ae7e6e2bd68fb9ab36ace49e9695a">FlatCellIndex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#adccc320dde28a7b9ea44d8e5faed72a0">toFlatCellIndex</a> (const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ad1e539d4e664bc99b076dfe5ed2aa74f">CellIndex_t</a> &amp;cellIndex, const <a class="el" href="datatypes_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;cellStrides, <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> cellPermutationForward)</td></tr>
+<tr class="memdesc:adccc320dde28a7b9ea44d8e5faed72a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a nd-cell-index to flat cell index  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#adccc320dde28a7b9ea44d8e5faed72a0">More...</a><br /></td></tr>
 <tr class="separator:adccc320dde28a7b9ea44d8e5faed72a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c9eac08dc330a3773ae095b65db2eac"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ad1e539d4e664bc99b076dfe5ed2aa74f">CellIndex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a6c9eac08dc330a3773ae095b65db2eac">toCellIndex</a> (<a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a232ae7e6e2bd68fb9ab36ace49e9695a">FlatCellIndex_t</a> nonPermutedIndex, const <a class="el" href="datatypes_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;numCells)</td></tr>
 <tr class="separator:a6c9eac08dc330a3773ae095b65db2eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab847a8f7cf4c0b473e8f4b50f4cb4748"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ab847a8f7cf4c0b473e8f4b50f4cb4748">isLocalCellIndex</a> (const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ad1e539d4e664bc99b076dfe5ed2aa74f">CellIndex_t</a> &amp;index, const <a class="el" href="datatypes_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;numCells)</td></tr>
+<tr class="memdesc:ab847a8f7cf4c0b473e8f4b50f4cb4748"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines whether cell index is local cell index  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ab847a8f7cf4c0b473e8f4b50f4cb4748">More...</a><br /></td></tr>
 <tr class="separator:ab847a8f7cf4c0b473e8f4b50f4cb4748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af26addf3f1440b02f5fa09f3d1fd1c1c"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#af26addf3f1440b02f5fa09f3d1fd1c1c">positionInRegion</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;pos, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a7a3e0428b2ea35fce5cf9b0135103aa7">region_type</a> &amp;region, <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> overlap)</td></tr>
+<tr class="memdesc:af26addf3f1440b02f5fa09f3d1fd1c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines whether a position is in a region including its overlap  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#af26addf3f1440b02f5fa09f3d1fd1c1c">More...</a><br /></td></tr>
 <tr class="separator:af26addf3f1440b02f5fa09f3d1fd1c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ec4fd6177f9141dfb533f51e75a4949"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ad1e539d4e664bc99b076dfe5ed2aa74f">CellIndex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9ec4fd6177f9141dfb533f51e75a4949">getCellIndex</a> (const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;pos, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a7a3e0428b2ea35fce5cf9b0135103aa7">region_type</a> &amp;region, const <a class="el" href="datatypes_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;cellWidth)</td></tr>
+<tr class="memdesc:a9ec4fd6177f9141dfb533f51e75a4949"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the nd-cell-index of a position  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9ec4fd6177f9141dfb533f51e75a4949">More...</a><br /></td></tr>
 <tr class="separator:a9ec4fd6177f9141dfb533f51e75a4949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a780901a07c6f889b247dea93e9b3ea1f"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ab3abb6b4f0e033e27fb70a31a5d41bea">cell_particle_neighbor_list_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a780901a07c6f889b247dea93e9b3ea1f">getCellNeighbors</a> (const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#ad1e539d4e664bc99b076dfe5ed2aa74f">CellIndex_t</a> &amp;cellIndex, const <a class="el" href="datatypes_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt; &amp;cellStrides, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a> &amp;cellPermutationForward)</td></tr>
+<tr class="memdesc:a780901a07c6f889b247dea93e9b3ea1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get all indices of cell neighbors of a given nd-cell-index  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a780901a07c6f889b247dea93e9b3ea1f">More...</a><br /></td></tr>
 <tr class="separator:a780901a07c6f889b247dea93e9b3ea1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classippl_1_1ParticleSpatialLayout"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classippl_1_1ParticleSpatialLayout')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classippl_1_1ParticleSpatialLayout.html">ippl::ParticleSpatialLayout&lt; T, Dim, Mesh, PositionProperties... &gt;</a></td></tr>
 <tr class="memitem:a5d116e56658efe00f49a50c514229d6d inherit pro_static_methods_classippl_1_1ParticleSpatialLayout"><td class="memItemLeft" align="right" valign="top">KOKKOS_INLINE_FUNCTION static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5d116e56658efe00f49a50c514229d6d">positionInRegion</a> (const std::index_sequence&lt; Idx... &gt; &amp;, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#af50426a8abc8622f3b0d2dd25990caf2">vector_type</a> &amp;pos, const <a class="el" href="classippl_1_1ParticleSpatialLayout.html#a7a3e0428b2ea35fce5cf9b0135103aa7">region_type</a> &amp;region)</td></tr>
@@ -328,12 +352,16 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a29ad25af8d64b04f9e5a73b1b2b3052d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a29ad25af8d64b04f9e5a73b1b2b3052d">rcutoff_m</a></td></tr>
+<tr class="memdesc:a29ad25af8d64b04f9e5a73b1b2b3052d"><td class="mdescLeft">&#160;</td><td class="mdescRight">! overlap in each dimension  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a29ad25af8d64b04f9e5a73b1b2b3052d">More...</a><br /></td></tr>
 <tr class="separator:a29ad25af8d64b04f9e5a73b1b2b3052d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae9e0324740db3f167e6c0f87b21031f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="datatypes_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aae9e0324740db3f167e6c0f87b21031f">numCells_m</a></td></tr>
+<tr class="memdesc:aae9e0324740db3f167e6c0f87b21031f"><td class="mdescLeft">&#160;</td><td class="mdescRight">! number of cells in each dimension  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aae9e0324740db3f167e6c0f87b21031f">More...</a><br /></td></tr>
 <tr class="separator:aae9e0324740db3f167e6c0f87b21031f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38a2c3213728e8665a8f04bb73405191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="datatypes_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a38a2c3213728e8665a8f04bb73405191">cellStrides_m</a></td></tr>
+<tr class="memdesc:a38a2c3213728e8665a8f04bb73405191"><td class="mdescLeft">&#160;</td><td class="mdescRight">! strides to compute cell indices  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a38a2c3213728e8665a8f04bb73405191">More...</a><br /></td></tr>
 <tr class="separator:a38a2c3213728e8665a8f04bb73405191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d20c2254761b93ed1af8dc91d3a9281"><td class="memItemLeft" align="right" valign="top"><a class="el" href="datatypes_8h.html#a716e97cb94129a4800d15dc3d2fa4063">Vector_t</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9d20c2254761b93ed1af8dc91d3a9281">cellWidth_m</a></td></tr>
+<tr class="memdesc:a9d20c2254761b93ed1af8dc91d3a9281"><td class="mdescLeft">&#160;</td><td class="mdescRight">! width of cells in each dimension  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9d20c2254761b93ed1af8dc91d3a9281">More...</a><br /></td></tr>
 <tr class="separator:a9d20c2254761b93ed1af8dc91d3a9281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b369c854ef120ab16658bb941d8b4c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a1b369c854ef120ab16658bb941d8b4c2">totalCells_m</a></td></tr>
 <tr class="separator:a1b369c854ef120ab16658bb941d8b4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -348,10 +376,13 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a9fa800d3e278f78d518d76afd782674b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a9fa800d3e278f78d518d76afd782674b">cellPermutationBackward_m</a></td></tr>
 <tr class="separator:a9fa800d3e278f78d518d76afd782674b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6731a46505b8587cead060d2f87edfc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a6731a46505b8587cead060d2f87edfc4">cellStartingIdx_m</a></td></tr>
+<tr class="memdesc:a6731a46505b8587cead060d2f87edfc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">! cell i contains particles <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a6731a46505b8587cead060d2f87edfc4" title="! cell i contains particles cellStartingIdx_m(i), ..., cellStartingIdx_m(i + 1) - 1">cellStartingIdx_m(i)</a>, ..., cellStartingIdx_m(i + 1) - 1  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a6731a46505b8587cead060d2f87edfc4">More...</a><br /></td></tr>
 <tr class="separator:a6731a46505b8587cead060d2f87edfc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02966a65c14de7520c5035343bca408f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a02966a65c14de7520c5035343bca408f">cellIndex_m</a></td></tr>
+<tr class="memdesc:a02966a65c14de7520c5035343bca408f"><td class="mdescLeft">&#160;</td><td class="mdescRight">! view storing the cell index of each particle (TODO not needed if getParticleNeighbors depending on index is not required)  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a02966a65c14de7520c5035343bca408f">More...</a><br /></td></tr>
 <tr class="separator:a02966a65c14de7520c5035343bca408f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65984298c74e789655d620c12236b7a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#abb5f0eb581ecb03492e482a69c6a03f9">hash_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a65984298c74e789655d620c12236b7a2">cellParticleCount_m</a></td></tr>
+<tr class="memdesc:a65984298c74e789655d620c12236b7a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">! view of number of particles in each cell  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a65984298c74e789655d620c12236b7a2">More...</a><br /></td></tr>
 <tr class="separator:a65984298c74e789655d620c12236b7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classippl_1_1ParticleSpatialLayout"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classippl_1_1ParticleSpatialLayout')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classippl_1_1ParticleSpatialLayout.html">ippl::ParticleSpatialLayout&lt; T, Dim, Mesh, PositionProperties... &gt;</a></td></tr>
 <tr class="memitem:a1379cb4a04abf7a354e406c258c03cb2 inherit pro_attribs_classippl_1_1ParticleSpatialLayout"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#afb7767c944e1049cd2bda41b55b7de70">RegionLayout_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#a1379cb4a04abf7a354e406c258c03cb2">rlayout_m</a></td></tr>
@@ -368,6 +399,7 @@ Protected Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:aae1f64da0991c26614c6bc5aa1664e68"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a2e5311297629ed2b4f80dd4619573e54">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aae1f64da0991c26614c6bc5aa1664e68">numGhostCellsPerDim_m</a> = 1</td></tr>
+<tr class="memdesc:aae1f64da0991c26614c6bc5aa1664e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">! number of ghost cells  <a href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#aae1f64da0991c26614c6bc5aa1664e68">More...</a><br /></td></tr>
 <tr class="separator:aae1f64da0991c26614c6bc5aa1664e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -594,6 +626,14 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fl</td><td><a class="el" href="classippl_1_1Field.html">Field</a> layout </td></tr>
+    <tr><td class="paramname">mesh</td><td><a class="el" href="classippl_1_1Mesh.html">Mesh</a> </td></tr>
+    <tr><td class="paramname">rcutoff</td><td>Overlap of the regions in each dimension </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -672,6 +712,14 @@ template&lt;class <a class="el" href="classParticleContainer.html">ParticleConta
       </table>
 </div><div class="memdoc">
 
+<p>builds the cell structure, sorts the particles according to the cells and makes sure only local particles are counted towards pc.getLocalNum() </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>particle container of which to sort the particles </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a3029b965f40cca6ba43f5589ed93a65a" name="a3029b965f40cca6ba43f5589ed93a65a"></a>
@@ -693,6 +741,14 @@ template&lt;class <a class="el" href="classParticleContainer.html">ParticleConta
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>copies particles close to the boundary and offsets them to their closest periodic image </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>particle container of which to construct periodic ghost particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -736,6 +792,17 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
       </table>
 </div><div class="memdoc">
 
+<p>utility function to collect all indices of particles to send to given rank </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rank</td><td>rank to send to </td></tr>
+    <tr><td class="paramname">ranks</td><td>The view containing which rank each particle belongs to </td></tr>
+    <tr><td class="paramname">offsets</td><td>The offsets to determine where the ranks of a particle start in ranks </td></tr>
+    <tr><td class="paramname">hash</td><td>the view containing all particle indices to send </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a8176ea74f27a52627839f9d70106c1a9" name="a8176ea74f27a52627839f9d70106c1a9"></a>
@@ -772,6 +839,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
       </table>
 </div><div class="memdoc">
 
+<p>utility function to collect all indices of particles to send to given rank </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rank</td><td>rank to send to </td></tr>
+    <tr><td class="paramname">ranks</td><td>The view containing which rank each particle belongs to </td></tr>
+    <tr><td class="paramname">hash</td><td>the view containing all particle indices to send </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a5bdb16dae68fd9f17ac53241dae4c8f8" name="a5bdb16dae68fd9f17ac53241dae4c8f8"></a>
@@ -793,6 +870,19 @@ template&lt;typename ExecutionSpace , typename Functor &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >@breif call functor for each combination i, j. make sure to call update first </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">ExecutionSpace</td><td>Space in which to generate all indices </td></tr>
+    <tr><td class="paramname">Functor</td><td>type of loop body </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>loop body functor to call for all pair of indices i, j where i are all internal particle indices and j include ghost particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -838,6 +928,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>get the nd-cell-index of a position </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>position to get the cell index for </td></tr>
+    <tr><td class="paramname">region</td><td>region of the cells </td></tr>
+    <tr><td class="paramname">cellWidth</td><td>in each dimension </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a780901a07c6f889b247dea93e9b3ea1f" name="a780901a07c6f889b247dea93e9b3ea1f"></a>
@@ -882,6 +982,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>get all indices of cell neighbors of a given nd-cell-index </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cellIndex</td><td>to get the neighbors from </td></tr>
+    <tr><td class="paramname">cellStrides</td><td>in each dimension </td></tr>
+    <tr><td class="paramname">cellPermutationForward</td><td>the permutation to apply to all neighbors </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a6657188e758756c74a0bc1a794d64211" name="a6657188e758756c74a0bc1a794d64211"></a>
@@ -901,6 +1011,15 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>utility function to get a flat view of all neighbor processes </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">neighbors</td><td>FieldLayouts neighbor_list </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>view of neighbor ranks </dd></dl>
 
 </div>
 </div>
@@ -922,6 +1041,15 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
       </table>
 </div><div class="memdoc">
 
+<p>utility function to get a view of all non-neighboring ranks </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">neighbors_view</td><td>view of all neighboring ranks </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>view of all non-neighboring ranks </dd></dl>
+
 </div>
 </div>
 <a id="a1fc5aa1ac7030b9e8179e061db91afb9" name="a1fc5aa1ac7030b9e8179e061db91afb9"></a>
@@ -937,11 +1065,12 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the proxy of the particle neighbor list data needed to get particle neighbors </dd></dl>
 
 </div>
 </div>
-<a id="a02f3d173d15c0903a83179522571b50e" name="a02f3d173d15c0903a83179522571b50e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02f3d173d15c0903a83179522571b50e">&#9670;&#160;</a></span>getParticleNeighbors() <span class="overload">[1/2]</span></h2>
+<a id="aa0093f8562d0d96597d37c0ada5db71a" name="aa0093f8562d0d96597d37c0ada5db71a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0093f8562d0d96597d37c0ada5db71a">&#9670;&#160;</a></span>getParticleNeighbors() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -961,7 +1090,7 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout_1_1ParticleNeighborData.html">ParticleNeighborData</a> &amp;&#160;</td>
-          <td class="paramname"><em>neighborData</em>&#160;</td>
+          <td class="paramname"><em>particleNeighborData</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -976,10 +1105,20 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>Function to get particle neighbors depending on position (possible inside <a class="el" href="namespaceKokkos.html">Kokkos</a> parallel region) make sure to call update first. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>position of particle to get neighbors for </td></tr>
+    <tr><td class="paramname">particleNeighborData</td><td>proxy of (own) data required for the calculation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>view of all indices of neighbor particles of particle with given particleIndex </dd></dl>
+
 </div>
 </div>
-<a id="a9bbc0a1bf800d5ef6381015edf3e8aa7" name="a9bbc0a1bf800d5ef6381015edf3e8aa7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bbc0a1bf800d5ef6381015edf3e8aa7">&#9670;&#160;</a></span>getParticleNeighbors() <span class="overload">[2/2]</span></h2>
+<a id="a4a50fdc6c6bb43e4a54e0ae75b486952" name="a4a50fdc6c6bb43e4a54e0ae75b486952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a50fdc6c6bb43e4a54e0ae75b486952">&#9670;&#160;</a></span>getParticleNeighbors() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -999,7 +1138,7 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout_1_1ParticleNeighborData.html">ParticleNeighborData</a> &amp;&#160;</td>
-          <td class="paramname"><em>neighborData</em>&#160;</td>
+          <td class="paramname"><em>particleNeighborData</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1013,6 +1152,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Function to get particle neighbors depending on index (possible inside <a class="el" href="namespaceKokkos.html">Kokkos</a> parallel region) make sure to call update first. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particleIndex</td><td>index of particle to get neighbors for </td></tr>
+    <tr><td class="paramname">particleNeighborData</td><td>proxy of (own) data required for the calculation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>view of all indices of neighbor particles of particle with given particleIndex </dd></dl>
 
 </div>
 </div>
@@ -1029,6 +1178,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>initializes all data necessary for the cells </p>
 
 </div>
 </div>
@@ -1080,6 +1231,17 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>determines whether a position is within overlap to the boundary of a region </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>position to query </td></tr>
+    <tr><td class="paramname">region</td><td>region of the position </td></tr>
+    <tr><td class="paramname">periodic</td><td>vector determining which dimensions to consider (as they are periodic) </td></tr>
+    <tr><td class="paramname">overlap</td><td>distance to consider as close </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ab847a8f7cf4c0b473e8f4b50f4cb4748" name="ab847a8f7cf4c0b473e8f4b50f4cb4748"></a>
@@ -1118,10 +1280,19 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>determines whether cell index is local cell index </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>to test </td></tr>
+    <tr><td class="paramname">numCells</td><td>in each dimension </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="a424e20f45a296b85d22f61ea7988384c" name="a424e20f45a296b85d22f61ea7988384c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a424e20f45a296b85d22f61ea7988384c">&#9670;&#160;</a></span>locateParticles() <span class="overload">[1/5]</span></h2>
+<a id="a491bde711dca79a9b1cba66f5ccc9258" name="a491bde711dca79a9b1cba66f5ccc9258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a491bde711dca79a9b1cba66f5ccc9258">&#9670;&#160;</a></span>locateParticles() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1146,7 +1317,63 @@ template&lt;typename <a class="el" href="classParticleContainer.html">ParticleCo
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>offsets</em>, </td>
+          <td class="paramname"><em>rankOffsets</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>invalid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function determines to which rank particles need to be sent after the iteration step. It looks in all regions to determine where it belongs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>Particle Container </td></tr>
+    <tr><td class="paramname">ranks</td><td>A vector where each value refers to the new rank of the particle which rank values correspond to which particles is determined by rankOffsets </td></tr>
+    <tr><td class="paramname">rankOffsets</td><td>A vector of offsets where rankOffset(i) determines where the ranks of particle i in ranks start. </td></tr>
+    <tr><td class="paramname">invalid</td><td>A vector marking the particles that need to be sent away, and thus locally deleted </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the number of particles sent away </dd></dl>
+
+</div>
+</div>
+<a id="a705cd7f82b48f6e60fc6ba9653de880a" name="a705cd7f82b48f6e60fc6ba9653de880a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a705cd7f82b48f6e60fc6ba9653de880a">&#9670;&#160;</a></span>locateParticles() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... PositionProperties&gt; </div>
+<div class="memtemplate">
+template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceippl_1_1detail.html#ac53bbae790d77825bc093c5b22a63d77">detail::size_type</a> <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html">ippl::fixDefaultTemplateArgument::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, PositionProperties &gt;::locateParticles </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>pc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>ranks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>rankOffsets</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1164,8 +1391,8 @@ template&lt;typename <a class="el" href="classParticleContainer.html">ParticleCo
 
 </div>
 </div>
-<a id="adba1ee43e7ca874e7d21284407a607e5" name="adba1ee43e7ca874e7d21284407a607e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adba1ee43e7ca874e7d21284407a607e5">&#9670;&#160;</a></span>locateParticles() <span class="overload">[2/5]</span></h2>
+<a id="a98d0dedf4b78bd4ff008fea57fddd186" name="a98d0dedf4b78bd4ff008fea57fddd186"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98d0dedf4b78bd4ff008fea57fddd186">&#9670;&#160;</a></span>locateParticles() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1190,7 +1417,7 @@ template&lt;typename <a class="el" href="classParticleContainer.html">ParticleCo
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>offsets</em>, </td>
+          <td class="paramname"><em>rankOffsets</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1217,6 +1444,20 @@ template&lt;typename <a class="el" href="classParticleContainer.html">ParticleCo
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This function determines to which rank particles need to be sent after the iteration step. It starts by first scanning direct rank neighbors, and only does a global scan if particles are far away from the current rank. It then calculates how many particles need to be sent to each rank and how many ranks are sent to in total. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>Particle Container </td></tr>
+    <tr><td class="paramname">ranks</td><td>A vector where each value refers to the new rank of the particle which rank values correspond to which particles is determined by rankOffsets </td></tr>
+    <tr><td class="paramname">rankOffsets</td><td>A vector of offsets where rankOffset(i) determines where the ranks of particle i in ranks start. </td></tr>
+    <tr><td class="paramname">invalid</td><td>A vector marking the particles that need to be sent away, and thus locally deleted </td></tr>
+    <tr><td class="paramname">nSends_dview</td><td>Device view the length of number of ranks, where each value determines the number of particles sent to that rank from the current rank </td></tr>
+    <tr><td class="paramname">sends_dview</td><td>Device view for the number of ranks that are sent to from current rank</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>tuple with the number of particles sent away and the number of ranks sent to </dd></dl>
 <p >outsideIds: Container of particle IDs that travelled outside of the neighborhood. counts: count assignments per particle</p>
 <p >outsideCount: Tracks the number of particles that travelled outside of the neighborhood.</p>
 <p >invalidCount: Tracks the number of particles that need to be sent to other ranks.</p>
@@ -1226,50 +1467,6 @@ template&lt;typename <a class="el" href="classParticleContainer.html">ParticleCo
 <p >pID: (local) ID of the particle that is currently being searched.</p>
 <p >inRegion: Checks whether particle pID is inside region j.</p>
 <p >pID: (local) ID of the particle that is currently being searched.</p>
-
-</div>
-</div>
-<a id="a49237af855ff1a38ab94bce737de080d" name="a49237af855ff1a38ab94bce737de080d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49237af855ff1a38ab94bce737de080d">&#9670;&#160;</a></span>locateParticles() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class <a class="el" href="classippl_1_1Mesh.html">Mesh</a> , typename... PositionProperties&gt; </div>
-<div class="memtemplate">
-template&lt;typename <a class="el" href="classParticleContainer.html">ParticleContainer</a> &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceippl_1_1detail.html#ac53bbae790d77825bc093c5b22a63d77">detail::size_type</a> <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html">ippl::fixDefaultTemplateArgument::ParticleSpatialOverlapLayout</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, <a class="el" href="classippl_1_1Mesh.html">Mesh</a>, PositionProperties &gt;::locateParticles </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classParticleContainer.html">ParticleContainer</a> &amp;&#160;</td>
-          <td class="paramname"><em>pc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>ranks</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#aac022c197cd0f6ca8887d5b1cb072385">locate_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>rank_offsets</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classippl_1_1ParticleSpatialLayout.html#a5108e7a0ec58d61e64086ab632c21069">bool_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>invalid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1308,6 +1505,17 @@ template&lt;typename <a class="el" href="classParticleContainer.html">ParticleCo
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This function determines to which rank particles need to be sent after the iteration step. It looks in all regions to determine where it belongs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>Particle Container </td></tr>
+    <tr><td class="paramname">ranks</td><td>A 2D view of ranks, each row contains all ranks a particle belongs to, with -1 filled at the end </td></tr>
+    <tr><td class="paramname">invalid</td><td>A vector marking the particles that need to be sent away, and thus locally deleted </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the number of particles sent away </dd></dl>
 
 </div>
 </div>
@@ -1377,6 +1585,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
       </table>
 </div><div class="memdoc">
 
+<p>utility function to compute how many particles to sent to a given rank </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rank</td><td>rank to send to </td></tr>
+    <tr><td class="paramname">ranks</td><td>The view containing which rank each particle belongs to </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of particles sent to rank </dd></dl>
+
 </div>
 </div>
 <a id="a9cfcdf276947adb937340a9c4c628044" name="a9cfcdf276947adb937340a9c4c628044"></a>
@@ -1407,6 +1625,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
       </table>
 </div><div class="memdoc">
 
+<p>utility function to compute how many particles to sent to a given rank </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rank</td><td>rank to send to </td></tr>
+    <tr><td class="paramname">ranks</td><td>The 2D view containing which rank each particle belongs to </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of particles sent to rank </dd></dl>
+
 </div>
 </div>
 <a id="aa91749a4544b83543e18e82a36aba97a" name="aa91749a4544b83543e18e82a36aba97a"></a>
@@ -1428,6 +1656,14 @@ template&lt;class <a class="el" href="classParticleContainer.html">ParticleConta
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>exchanges particles by scanning all ranks. works no matter the overlap works if cutoff is smaller than half the smallest region width </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>particle container of which to exchange particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1451,6 +1687,14 @@ template&lt;class <a class="el" href="classParticleContainer.html">ParticleConta
       </table>
 </div><div class="memdoc">
 
+<p>exchange particles by scanning neighbor ranks first, only scan other ranks if needed. works if overlap is smaller than half the smallest region width </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>particle container of which to exchange particles </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a2506a2a5db815d219b5d2cc1561735cd" name="a2506a2a5db815d219b5d2cc1561735cd"></a>
@@ -1472,6 +1716,14 @@ template&lt;class <a class="el" href="classParticleContainer.html">ParticleConta
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>exchanges particles by scanning all ranks. works no matter the overlap </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>particle container of which to exchange particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1517,6 +1769,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>determines whether a position is in a region including its overlap </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>position to query </td></tr>
+    <tr><td class="paramname">region</td><td>region to test </td></tr>
+    <tr><td class="paramname">overlap</td><td>overlap of the region in every dimension </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a6c9eac08dc330a3773ae095b65db2eac" name="a6c9eac08dc330a3773ae095b65db2eac"></a>
@@ -1554,6 +1816,13 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </tr>
 </table>
 </div><div class="memdoc">
+<p >@brieg compute the nd-cell-index from a flattened (non-permuted) index </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nonPermutedIndex</td><td>the flat index to transform </td></tr>
+    <tr><td class="paramname">numCells</td><td>in each dimension </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1599,6 +1868,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>convert a nd-cell-index to flat cell index </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cellIndex</td><td>to convert </td></tr>
+    <tr><td class="paramname">cellStrides</td><td>cell strides to flatten the cell index with </td></tr>
+    <tr><td class="paramname">cellPermutationForward</td><td>the permutation to apply to the flattened index </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a658aaf688af3f7524f0241e8fef99544" name="a658aaf688af3f7524f0241e8fef99544"></a>
@@ -1620,6 +1899,14 @@ template&lt;class <a class="el" href="classParticleContainer.html">ParticleConta
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>updates particles by exchanging them across ranks according to their positions. then constructs the particle neighbor list structure </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pc</td><td>particle container to update </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1676,6 +1963,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>! view storing the cell index of each particle (TODO not needed if getParticleNeighbors depending on index is not required) </p>
+
 </div>
 </div>
 <a id="a65984298c74e789655d620c12236b7a2" name="a65984298c74e789655d620c12236b7a2"></a>
@@ -1699,6 +1988,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>! view of number of particles in each cell </p>
 
 </div>
 </div>
@@ -1747,6 +2038,7 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </tr>
 </table>
 </div><div class="memdoc">
+<p >To ensure the interior particles are at indices 0, ..., numLocalParticles_m - 1 the cells need to be permuted such that local cells are at the beginning and ghost cells at the end. cellPermutationForward_m at cell index computed from actual position and cellStrides gives permuted index cellPermutationBackward_m is the inverse of cellPermutationForward_m </p>
 
 </div>
 </div>
@@ -1772,6 +2064,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>! cell i contains particles <a class="el" href="classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a6731a46505b8587cead060d2f87edfc4" title="! cell i contains particles cellStartingIdx_m(i), ..., cellStartingIdx_m(i + 1) - 1">cellStartingIdx_m(i)</a>, ..., cellStartingIdx_m(i + 1) - 1 </p>
+
 </div>
 </div>
 <a id="a38a2c3213728e8665a8f04bb73405191" name="a38a2c3213728e8665a8f04bb73405191"></a>
@@ -1795,6 +2089,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>! strides to compute cell indices </p>
 
 </div>
 </div>
@@ -1820,6 +2116,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>! width of cells in each dimension </p>
+
 </div>
 </div>
 <a id="aae9e0324740db3f167e6c0f87b21031f" name="aae9e0324740db3f167e6c0f87b21031f"></a>
@@ -1843,6 +2141,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>! number of cells in each dimension </p>
 
 </div>
 </div>
@@ -1891,6 +2191,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>! number of ghost cells </p>
 
 </div>
 </div>
@@ -1964,6 +2266,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </table>
 </div><div class="memdoc">
 
+<p>! overlap in each dimension </p>
+
 </div>
 </div>
 <a id="a1b369c854ef120ab16658bb941d8b4c2" name="a1b369c854ef120ab16658bb941d8b4c2"></a>
@@ -1987,6 +2291,7 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </tr>
 </table>
 </div><div class="memdoc">
+<p >totalCells_m is the number of total cells numLocalCells_m is the number of interior cells numGhostCells_m is the number of ghost cells numLocalParticles_m is number of local particles (particles in local cells) </p>
 
 </div>
 </div>
