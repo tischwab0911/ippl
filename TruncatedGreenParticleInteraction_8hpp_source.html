@@ -112,9 +112,9 @@ $(function() {
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <a class="code hl_function" href="classIpplTimings.html#a59ffa7a04c160376d3a6593bff568fb4">IpplTimings::getTimer</a>(<span class="stringliteral">&quot;TruncatedGreenParticleInteraction::solve()&quot;</span>);</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_function" href="classIpplTimings.html#af9d914cab7e60b310cb44c75c8bff228">IpplTimings::startTimer</a>(solveTimer);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="comment">// get particle data</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keyword">auto</span>&amp; F        = *F_m;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; R  = *R_m;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; QM = *QM_m;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keyword">auto</span>&amp; F        = F_m;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; R  = R_m;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; QM = QM_m;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="comment">// get simulation specific data</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keyword">const</span> <span class="keyword">auto</span> rcut2 = std::pow&lt;Scalar_t&gt;(this-&gt;params_m.template get&lt;Scalar_t&gt;(<span class="stringliteral">&quot;rcut&quot;</span>), 2);</div>
