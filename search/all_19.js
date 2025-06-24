@@ -45,7 +45,7 @@ var searchData=
   ['_7eparticleinteractionbase_42',['~ParticleInteractionBase',['../classippl_1_1ParticleInteractionBase.html#ad45161152e3a0bea3c796acdb0969bb1',1,'ippl::ParticleInteractionBase']]],
   ['_7eparticlelayout_43',['~ParticleLayout',['../classippl_1_1detail_1_1ParticleLayout.html#a8d6bdfac7aa67d7e018db9a5f0a0b2a2',1,'ippl::detail::ParticleLayout']]],
   ['_7eparticlespatiallayout_44',['~ParticleSpatialLayout',['../classippl_1_1ParticleSpatialLayout.html#ae778d00b2eeb0c1e7ef121e504069ad6',1,'ippl::ParticleSpatialLayout']]],
-  ['_7eparticlespatialoverlaplayout_45',['~ParticleSpatialOverlapLayout',['../classippl_1_1fixDefaultTemplateArgument_1_1ParticleSpatialOverlapLayout.html#a854c7cb21d205dc3dd103d9ecd002a9e',1,'ippl::fixDefaultTemplateArgument::ParticleSpatialOverlapLayout']]],
+  ['_7eparticlespatialoverlaplayout_45',['~ParticleSpatialOverlapLayout',['../classippl_1_1ParticleSpatialOverlapLayout.html#a623052c8313b838ead5fede3658595a9',1,'ippl::ParticleSpatialOverlapLayout']]],
   ['_7epartitioner_46',['~Partitioner',['../classippl_1_1detail_1_1Partitioner.html#af26cbb9a3ca6e7999fc53bb7a948454f',1,'ippl::detail::Partitioner']]],
   ['_7epenningtrapmanager_47',['~PenningTrapManager',['../classPenningTrapManager.html#ab55190bb816503506bde537fcec0ac8e',1,'PenningTrapManager']]],
   ['_7eperiodicbc_48',['~PeriodicBC',['../structippl_1_1detail_1_1PeriodicBC.html#aa761fd5921f8592452696ba38168fc19',1,'ippl::detail::PeriodicBC']]],
