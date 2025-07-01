@@ -54,6 +54,6 @@ var searchData=
   ['numlocalcells_5fm_51',['numLocalCells_m',['../classippl_1_1ParticleSpatialOverlapLayout.html#ad89594600d1a1c4f8e617d5365715ba6',1,'ippl::ParticleSpatialOverlapLayout']]],
   ['numlocalparticles_5fm_52',['numLocalParticles_m',['../classippl_1_1ParticleSpatialOverlapLayout.html#a7a149b9214577a085263747ad99267d5',1,'ippl::ParticleSpatialOverlapLayout']]],
   ['numnodes1d_53',['numNodes1D',['../classippl_1_1Quadrature.html#a667f52ecf501b53c2229754dc240752f',1,'ippl::Quadrature']]],
-  ['numvertices_54',['numVertices',['../classippl_1_1Element.html#a2f176e2447f6a48a83398250d9288e5e',1,'ippl::Element']]],
-  ['numvertices_55',['NumVertices',['../classippl_1_1QuadrilateralElement.html#abf85717d5589529380e6aaab015314b1',1,'ippl::QuadrilateralElement::NumVertices()'],['../classippl_1_1HexahedralElement.html#ad4bf71da4c41d445fec3fc77f8b263fc',1,'ippl::HexahedralElement::NumVertices()'],['../classippl_1_1EdgeElement.html#a709865403a4f5c323549b5b4afb8aa6b',1,'ippl::EdgeElement::NumVertices()']]]
+  ['numvertices_54',['NumVertices',['../classippl_1_1QuadrilateralElement.html#abf85717d5589529380e6aaab015314b1',1,'ippl::QuadrilateralElement::NumVertices()'],['../classippl_1_1HexahedralElement.html#ad4bf71da4c41d445fec3fc77f8b263fc',1,'ippl::HexahedralElement::NumVertices()'],['../classippl_1_1EdgeElement.html#a709865403a4f5c323549b5b4afb8aa6b',1,'ippl::EdgeElement::NumVertices()']]],
+  ['numvertices_55',['numVertices',['../classippl_1_1Element.html#a2f176e2447f6a48a83398250d9288e5e',1,'ippl::Element']]]
 ];
