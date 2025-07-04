@@ -10,7 +10,7 @@
 <area shape="rect" id="node21" title=" " alt="" coords="3828,79,3868,104"/>
 <area shape="rect" id="node22" title=" " alt="" coords="3230,695,3285,720"/>
 <area shape="rect" id="node23" title=" " alt="" coords="3423,614,3481,639"/>
-<area shape="rect" id="node24" href="$datatypes_8h.html" title=" " alt="" coords="2607,372,2750,397"/>
+<area shape="rect" id="node24" href="$datatypes_8h.html" title=" " alt="" coords="2605,372,2747,397"/>
 <area shape="rect" id="node26" href="$IpplTimings_8h.html" title=" " alt="" coords="3235,533,3371,559"/>
 <area shape="rect" id="node38" href="$LandauDampingManager_8h.html" title=" " alt="" coords="1847,79,2023,104"/>
 <area shape="rect" id="node46" href="$PicManager_8h.html" title=" " alt="" coords="1260,225,1415,251"/>
@@ -29,8 +29,8 @@
 <area shape="rect" id="node25" href="$FFTOpenPoissonSolver_8h.html" title=" " alt="" coords="3060,445,3279,485"/>
 <area shape="rect" id="node34" href="$FFTPeriodicPoissonSolver_8h.html" title=" " alt="" coords="2797,445,2985,485"/>
 <area shape="rect" id="node35" href="$FFTTruncatedGreenPeriodicPoissonSolver_8h.html" title=" " alt="" coords="2145,445,2343,485"/>
-<area shape="rect" id="node36" href="$PoissonCG_8h.html" title=" " alt="" coords="2367,453,2561,478"/>
-<area shape="rect" id="node37" href="$NullSolver_8h.html" title=" " alt="" coords="2585,453,2772,478"/>
+<area shape="rect" id="node36" href="$NullSolver_8h.html" title=" " alt="" coords="2368,453,2555,478"/>
+<area shape="rect" id="node37" href="$PoissonCG_8h.html" title=" " alt="" coords="2579,453,2773,478"/>
 <area shape="rect" id="node27" title=" " alt="" coords="2683,695,2760,720"/>
 <area shape="rect" id="node28" title=" " alt="" coords="2852,614,2905,639"/>
 <area shape="rect" id="node29" title=" " alt="" coords="2930,614,2977,639"/>

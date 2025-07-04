@@ -88,7 +88,7 @@ var searchData=
   ['solver_5frecv_85',['SOLVER_RECV',['../namespaceippl_1_1mpi_1_1tag.html#a15d567b75f6be9891166d172c200185aa6eb67bf33352d33d9b8d199a15ce4b47',1,'ippl::mpi::tag']]],
   ['solver_5fsend_86',['SOLVER_SEND',['../namespaceippl_1_1mpi_1_1tag.html#a15d567b75f6be9891166d172c200185aa2f2886600ba0b8f30cd54638b1e73540',1,'ippl::mpi::tag']]],
   ['solver_5fsend_87',['solver_send',['../FFTOpenPoissonSolver_8hpp.html#a75b0fd8fd6ab18a0cef3958c3b4a3f78',1,'FFTOpenPoissonSolver.hpp']]],
-  ['solver_5ft_88',['Solver_t',['../ChargedParticles_8hpp.html#af2bd31af873d7d1726f5acebfd9f97b4',1,'Solver_t():&#160;ChargedParticles.hpp'],['../datatypes_8h.html#a23a6c1c364b246bcb5038922c8cee3f0',1,'Solver_t():&#160;datatypes.h']]],
+  ['solver_5ft_88',['Solver_t',['../ChargedParticles_8hpp.html#af2bd31af873d7d1726f5acebfd9f97b4',1,'Solver_t():&#160;ChargedParticles.hpp'],['../datatypes_8h.html#aa2185e8107d8cd1581df854fe3eda2d0',1,'Solver_t():&#160;datatypes.h']]],
   ['solveralgorithm_89',['SolverAlgorithm',['../classippl_1_1SolverAlgorithm.html',1,'ippl']]],
   ['solveralgorithm_2eh_90',['SolverAlgorithm.h',['../SolverAlgorithm_8h.html',1,'']]],
   ['solveralgorithm_3c_20fieldlhs_2c_20fieldlhs_20_3e_91',['SolverAlgorithm&lt; FieldLHS, FieldLHS &gt;',['../classippl_1_1SolverAlgorithm.html',1,'ippl']]],
