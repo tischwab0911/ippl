@@ -86,9 +86,9 @@ $(function() {
 <div class="contents">
 <a href="TruncatedGreenParticleInteraction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">// Class TruncatedGreenParticleInteraction</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">//   This class implements the short range interaction part of the green function splitting:</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">//   forceConstant * (1 - erf(alpha * r)) / r. The long range part is handled by</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">//   FFTTruncatedGreenPeriodicSolver.</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">//   This class implements the short range interaction part of the green function splitting obtained</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">//   by taking the gradient of [forceConstant * (1 - erf(alpha * r)) / r]. The long range part is</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">//   handled by FFTTruncatedGreenPeriodicSolver.</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">//</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">//   It assumes that ParticleContainer implements a function forAllPairs() to iterate over all</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">//   relevant particle pairs.</span></div>
