@@ -85,6 +85,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classippl_1_1ParticleAttrib-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ippl::ParticleAttrib&lt; T, Properties &gt; Class Template Reference</div></div>
 </div><!--header-->
@@ -96,7 +97,7 @@ Inheritance diagram for ippl::ParticleAttrib&lt; T, Properties &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classippl_1_1ParticleAttrib__inherit__graph.png" border="0" usemap="#aippl_1_1ParticleAttrib_3_01T_00_01Properties_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="aippl_1_1ParticleAttrib_3_01T_00_01Properties_01_4_inherit__map" id="aippl_1_1ParticleAttrib_3_01T_00_01Properties_01_4_inherit__map">
-<area shape="rect" title=" " alt="" coords="172,167,299,397"/>
+<area shape="rect" title=" " alt="" coords="172,167,299,427"/>
 <area shape="rect" title=" " alt="" coords="5,35,228,89"/>
 <area shape="rect" href="structippl_1_1detail_1_1Expression.html" title=" " alt="" coords="253,5,455,119"/>
 </map>
@@ -106,9 +107,10 @@ Collaboration diagram for ippl::ParticleAttrib&lt; T, Properties &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classippl_1_1ParticleAttrib__coll__graph.png" border="0" usemap="#aippl_1_1ParticleAttrib_3_01T_00_01Properties_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="aippl_1_1ParticleAttrib_3_01T_00_01Properties_01_4_coll__map" id="aippl_1_1ParticleAttrib_3_01T_00_01Properties_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="172,167,299,397"/>
+<area shape="rect" title=" " alt="" coords="291,196,417,427"/>
 <area shape="rect" title=" " alt="" coords="5,35,228,89"/>
 <area shape="rect" href="structippl_1_1detail_1_1Expression.html" title=" " alt="" coords="253,5,455,119"/>
+<area shape="rect" href="structippl_1_1detail_1_1ViewType.html" title=" " alt="" coords="479,35,626,89"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -122,8 +124,8 @@ Public Types</h2></td></tr>
 <tr class="separator:addee7ea4ae1549aa32acd86d0bc2b61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e408e96cb4deeb181cef5dd70252f02"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#a7e408e96cb4deeb181cef5dd70252f02">view_type</a> = typename <a class="el" href="structippl_1_1detail_1_1ViewType.html">detail::ViewType</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, 1, Properties... &gt;<a class="el" href="AlpineManager_8h.html#abac6b71b6ea68a6c8bb864e8ebd5fe62">::view_type</a></td></tr>
 <tr class="separator:a7e408e96cb4deeb181cef5dd70252f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9d220cc7111ae79d5f6f65939e93c81"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#ae9d220cc7111ae79d5f6f65939e93c81">HostMirror</a> = typename view_type::host_mirror_type</td></tr>
-<tr class="separator:ae9d220cc7111ae79d5f6f65939e93c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3965ae201ffaf0f579a79be960139ad"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#ad3965ae201ffaf0f579a79be960139ad">host_mirror_type</a> = typename view_type::host_mirror_type</td></tr>
+<tr class="separator:ad3965ae201ffaf0f579a79be960139ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13abc54397e7274cef79fca9976ffb82"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#a13abc54397e7274cef79fca9976ffb82">memory_space</a> = typename view_type::memory_space</td></tr>
 <tr class="separator:a13abc54397e7274cef79fca9976ffb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa03f89b006d3dbd7cca94eb4c42fafa5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#aa03f89b006d3dbd7cca94eb4c42fafa5">execution_space</a> = typename view_type::execution_space</td></tr>
@@ -163,8 +165,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa8d74db0ebda410c439fc35b92ae2ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98c6cd288563f2fb494dcf2afbc72f82"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classippl_1_1ParticleAttrib.html#a7e408e96cb4deeb181cef5dd70252f02">view_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#a98c6cd288563f2fb494dcf2afbc72f82">getView</a> () const</td></tr>
 <tr class="separator:a98c6cd288563f2fb494dcf2afbc72f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06c2d6026a275c09160a6a269a876429"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleAttrib.html#ae9d220cc7111ae79d5f6f65939e93c81">HostMirror</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#a06c2d6026a275c09160a6a269a876429">getHostMirror</a> ()</td></tr>
-<tr class="separator:a06c2d6026a275c09160a6a269a876429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab82355584aedaaa02b6013bdfefe8396"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleAttrib.html#ad3965ae201ffaf0f579a79be960139ad">host_mirror_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#ab82355584aedaaa02b6013bdfefe8396">getHostMirror</a> () const</td></tr>
+<tr class="separator:ab82355584aedaaa02b6013bdfefe8396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e4b91589bd6d174f7f0472e3e8116c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#a2e4b91589bd6d174f7f0472e3e8116c4">set_name</a> (const std::string &amp;name_) override</td></tr>
+<tr class="separator:a2e4b91589bd6d174f7f0472e3e8116c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae48fa38dad7187c07115e59476fb08bb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#ae48fa38dad7187c07115e59476fb08bb">get_name</a> () const override</td></tr>
+<tr class="separator:ae48fa38dad7187c07115e59476fb08bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb932273adda27993ef792e78c45fe28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleAttrib.html">ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties... &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#aeb932273adda27993ef792e78c45fe28">operator=</a> (<a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> x)</td></tr>
 <tr class="separator:aeb932273adda27993ef792e78c45fe28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4f287dce957d7f64f3c93d9e3fd6aa3"><td class="memTemplParams" colspan="2">template&lt;typename E , size_t N&gt; </td></tr>
@@ -186,12 +192,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a344019e1a886e1148fc2834f714f0abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae19dbfb97ab2286790388d31e8bfdfd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#ae19dbfb97ab2286790388d31e8bfdfd6">prod</a> ()</td></tr>
 <tr class="separator:ae19dbfb97ab2286790388d31e8bfdfd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeec70774adc80870d3f240c529423fd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#aeec70774adc80870d3f240c529423fd6">applyPermutation</a> (const <a class="el" href="classippl_1_1ParticleAttrib.html#addee7ea4ae1549aa32acd86d0bc2b61e">hash_type</a> &amp;permutation)</td></tr>
-<tr class="memdesc:aeec70774adc80870d3f240c529423fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the attribute according to a permutation.  <a href="classippl_1_1ParticleAttrib.html#aeec70774adc80870d3f240c529423fd6">More...</a><br /></td></tr>
-<tr class="separator:aeec70774adc80870d3f240c529423fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdb471e503b50e7259ff4ee54bc078c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#abdb471e503b50e7259ff4ee54bc078c2">internalCopy</a> (const <a class="el" href="classippl_1_1ParticleAttrib.html#addee7ea4ae1549aa32acd86d0bc2b61e">hash_type</a> &amp;indices)</td></tr>
-<tr class="memdesc:abdb471e503b50e7259ff4ee54bc078c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy and create values of given indices.  <a href="classippl_1_1ParticleAttrib.html#abdb471e503b50e7259ff4ee54bc078c2">More...</a><br /></td></tr>
-<tr class="separator:abdb471e503b50e7259ff4ee54bc078c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf71c160901943212aeeceb41d9e8fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#aeaf71c160901943212aeeceb41d9e8fb">applyPermutation</a> (const <a class="el" href="classippl_1_1ParticleAttrib.html#addee7ea4ae1549aa32acd86d0bc2b61e">hash_type</a> &amp;permutation) override</td></tr>
+<tr class="memdesc:aeaf71c160901943212aeeceb41d9e8fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the attribute according to a permutation.  <a href="classippl_1_1ParticleAttrib.html#aeaf71c160901943212aeeceb41d9e8fb">More...</a><br /></td></tr>
+<tr class="separator:aeaf71c160901943212aeeceb41d9e8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a584e0a79d49fb365f756cd893f3c8e99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#a584e0a79d49fb365f756cd893f3c8e99">internalCopy</a> (const <a class="el" href="classippl_1_1ParticleAttrib.html#addee7ea4ae1549aa32acd86d0bc2b61e">hash_type</a> &amp;indices) override</td></tr>
+<tr class="memdesc:a584e0a79d49fb365f756cd893f3c8e99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy and create values of given indices.  <a href="classippl_1_1ParticleAttrib.html#a584e0a79d49fb365f756cd893f3c8e99">More...</a><br /></td></tr>
+<tr class="separator:a584e0a79d49fb365f756cd893f3c8e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7fcae16912897c88dec544afea3563c"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="classippl_1_1Field.html">Field</a> , class PT , typename policy_type &gt; </td></tr>
 <tr class="memitem:ae7fcae16912897c88dec544afea3563c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#ae7fcae16912897c88dec544afea3563c">scatter</a> (<a class="el" href="classippl_1_1Field.html">Field</a> &amp;f, const <a class="el" href="classippl_1_1ParticleAttrib.html">ParticleAttrib</a>&lt; <a class="el" href="classippl_1_1Vector.html">Vector</a>&lt; PT, <a class="el" href="structippl_1_1detail_1_1Expression.html#af8ae99c70daf0572b403dcd1bf832d72">Field::dim</a> &gt;, Properties... &gt; &amp;pp, policy_type iteration_policy, <a class="el" href="classippl_1_1ParticleAttrib.html#addee7ea4ae1549aa32acd86d0bc2b61e">hash_type</a> hash_array) const</td></tr>
 <tr class="separator:ae7fcae16912897c88dec544afea3563c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,6 +212,13 @@ Static Public Attributes</h2></td></tr>
 <tr class="inherit_header pub_static_attribs_structippl_1_1detail_1_1Expression"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_structippl_1_1detail_1_1Expression')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="structippl_1_1detail_1_1Expression.html">ippl::detail::Expression&lt; ParticleAttrib&lt; T, Properties... &gt;, sizeof(detail::ViewType&lt; T, 1, Properties... &gt;::view_type)&gt;</a></td></tr>
 <tr class="memitem:af8ae99c70daf0572b403dcd1bf832d72 inherit pub_static_attribs_structippl_1_1detail_1_1Expression"><td class="memItemLeft" align="right" valign="top">static constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structippl_1_1detail_1_1Expression.html#af8ae99c70daf0572b403dcd1bf832d72">dim</a></td></tr>
 <tr class="separator:af8ae99c70daf0572b403dcd1bf832d72 inherit pub_static_attribs_structippl_1_1detail_1_1Expression"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a233303123f33b9fbcb0ee95c28977615"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleAttrib.html#a7e408e96cb4deeb181cef5dd70252f02">view_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#a233303123f33b9fbcb0ee95c28977615">dview_m</a></td></tr>
+<tr class="separator:a233303123f33b9fbcb0ee95c28977615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb0fbbf91f91d51d74c0165311afae9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1ParticleAttrib.html#a7e408e96cb4deeb181cef5dd70252f02">view_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1ParticleAttrib.html#aeb0fbbf91f91d51d74c0165311afae9d">buf_m</a></td></tr>
+<tr class="separator:aeb0fbbf91f91d51d74c0165311afae9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aeb098466040f451217868f3f3fb4a802" name="aeb098466040f451217868f3f3fb4a802"></a>
@@ -256,8 +269,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 
 </div>
 </div>
-<a id="ae9d220cc7111ae79d5f6f65939e93c81" name="ae9d220cc7111ae79d5f6f65939e93c81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9d220cc7111ae79d5f6f65939e93c81">&#9670;&#160;</a></span>HostMirror</h2>
+<a id="ad3965ae201ffaf0f579a79be960139ad" name="ad3965ae201ffaf0f579a79be960139ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3965ae201ffaf0f579a79be960139ad">&#9670;&#160;</a></span>host_mirror_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,7 +278,7 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , class... Properties&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::HostMirror =  typename view_type::host_mirror_type</td>
+          <td class="memname">using <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::host_mirror_type =  typename view_type::host_mirror_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -365,13 +378,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aeec70774adc80870d3f240c529423fd6" name="aeec70774adc80870d3f240c529423fd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeec70774adc80870d3f240c529423fd6">&#9670;&#160;</a></span>applyPermutation()</h2>
+<a id="aeaf71c160901943212aeeceb41d9e8fb" name="aeaf71c160901943212aeeceb41d9e8fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf71c160901943212aeeceb41d9e8fb">&#9670;&#160;</a></span>applyPermutation()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , class... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::applyPermutation </td>
@@ -381,6 +397,11 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Sort the attribute according to a permutation. </p>
@@ -570,8 +591,8 @@ template&lt;typename <a class="el" href="classippl_1_1Field.html">Field</a> , ty
 
 </div>
 </div>
-<a id="a06c2d6026a275c09160a6a269a876429" name="a06c2d6026a275c09160a6a269a876429"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06c2d6026a275c09160a6a269a876429">&#9670;&#160;</a></span>getHostMirror()</h2>
+<a id="ae48fa38dad7187c07115e59476fb08bb" name="ae48fa38dad7187c07115e59476fb08bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae48fa38dad7187c07115e59476fb08bb">&#9670;&#160;</a></span>get_name()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -582,10 +603,37 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classippl_1_1ParticleAttrib.html#ae9d220cc7111ae79d5f6f65939e93c81">HostMirror</a> <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::getHostMirror </td>
+          <td class="memname">std::string <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::get_name </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab82355584aedaaa02b6013bdfefe8396" name="ab82355584aedaaa02b6013bdfefe8396"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab82355584aedaaa02b6013bdfefe8396">&#9670;&#160;</a></span>getHostMirror()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , class... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classippl_1_1ParticleAttrib.html#ad3965ae201ffaf0f579a79be960139ad">host_mirror_type</a> <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::getHostMirror </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -651,13 +699,16 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 
 </div>
 </div>
-<a id="abdb471e503b50e7259ff4ee54bc078c2" name="abdb471e503b50e7259ff4ee54bc078c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdb471e503b50e7259ff4ee54bc078c2">&#9670;&#160;</a></span>internalCopy()</h2>
+<a id="a584e0a79d49fb365f756cd893f3c8e99" name="a584e0a79d49fb365f756cd893f3c8e99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584e0a79d49fb365f756cd893f3c8e99">&#9670;&#160;</a></span>internalCopy()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , class... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::internalCopy </td>
@@ -667,6 +718,11 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Copy and create values of given indices. </p>
@@ -1112,6 +1168,34 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 
 </div>
 </div>
+<a id="a2e4b91589bd6d174f7f0472e3e8116c4" name="a2e4b91589bd6d174f7f0472e3e8116c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e4b91589bd6d174f7f0472e3e8116c4">&#9670;&#160;</a></span>set_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , class... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::set_name </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afce8a0acab34acf0e8fe9b22464a531a" name="afce8a0acab34acf0e8fe9b22464a531a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afce8a0acab34acf0e8fe9b22464a531a">&#9670;&#160;</a></span>size()</h2>
 
@@ -1187,6 +1271,30 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aeb0fbbf91f91d51d74c0165311afae9d" name="aeb0fbbf91f91d51d74c0165311afae9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb0fbbf91f91d51d74c0165311afae9d">&#9670;&#160;</a></span>buf_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , class... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classippl_1_1ParticleAttrib.html#a7e408e96cb4deeb181cef5dd70252f02">view_type</a> <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::buf_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a357a26401a5b19a40096d009000468e3" name="a357a26401a5b19a40096d009000468e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a357a26401a5b19a40096d009000468e3">&#9670;&#160;</a></span>dim</h2>
 
@@ -1205,6 +1313,30 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a233303123f33b9fbcb0ee95c28977615" name="a233303123f33b9fbcb0ee95c28977615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233303123f33b9fbcb0ee95c28977615">&#9670;&#160;</a></span>dview_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , class... Properties&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classippl_1_1ParticleAttrib.html#a7e408e96cb4deeb181cef5dd70252f02">view_type</a> <a class="el" href="classippl_1_1ParticleAttrib.html">ippl::ParticleAttrib</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, Properties &gt;::dview_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

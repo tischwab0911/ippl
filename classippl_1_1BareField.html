@@ -85,6 +85,8 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classippl_1_1BareField-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ippl::BareField&lt; T, Dim, ViewArgs &gt; Class Template Reference</div></div>
 </div><!--header-->
@@ -96,14 +98,14 @@ Inheritance diagram for ippl::BareField&lt; T, Dim, ViewArgs &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classippl_1_1BareField__inherit__graph.png" border="0" usemap="#aippl_1_1BareField_3_01T_00_01Dim_00_01ViewArgs_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="aippl_1_1BareField_3_01T_00_01Dim_00_01ViewArgs_01_4_inherit__map" id="aippl_1_1BareField_3_01T_00_01Dim_00_01ViewArgs_01_4_inherit__map">
-<area shape="rect" title=" " alt="" coords="545,167,675,397"/>
-<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="5,460,156,676"/>
-<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="180,460,331,676"/>
-<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="355,460,505,676"/>
-<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="529,453,691,683"/>
-<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="715,445,865,691"/>
-<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="889,445,1051,691"/>
-<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="1075,445,1238,691"/>
+<area shape="rect" title=" " alt="" coords="545,167,675,485"/>
+<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="5,548,156,793"/>
+<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="180,548,331,793"/>
+<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="355,548,505,793"/>
+<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="529,541,691,801"/>
+<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="715,533,865,808"/>
+<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="889,533,1051,808"/>
+<area shape="rect" href="classippl_1_1Field.html" title=" " alt="" coords="1075,533,1238,808"/>
 <area shape="rect" href="structippl_1_1detail_1_1Expression.html" title=" " alt="" coords="499,5,721,119"/>
 </map>
 </div>
@@ -112,8 +114,16 @@ Collaboration diagram for ippl::BareField&lt; T, Dim, ViewArgs &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classippl_1_1BareField__coll__graph.png" border="0" usemap="#aippl_1_1BareField_3_01T_00_01Dim_00_01ViewArgs_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="aippl_1_1BareField_3_01T_00_01Dim_00_01ViewArgs_01_4_coll__map" id="aippl_1_1BareField_3_01T_00_01Dim_00_01ViewArgs_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="51,167,182,397"/>
-<area shape="rect" href="structippl_1_1detail_1_1Expression.html" title=" " alt="" coords="5,5,228,119"/>
+<area shape="rect" title=" " alt="" coords="335,1105,466,1380"/>
+<area shape="rect" href="structippl_1_1detail_1_1Expression.html" title=" " alt="" coords="5,790,228,903"/>
+<area shape="rect" href="structippl_1_1detail_1_1ViewType.html" title=" " alt="" coords="253,819,407,874"/>
+<area shape="rect" href="classippl_1_1detail_1_1HaloCells.html" title=" " alt="" coords="432,753,620,940"/>
+<area shape="rect" href="structippl_1_1detail_1_1FieldBufferData.html" title=" " alt="" coords="451,372,601,456"/>
+<area shape="rect" href="structippl_1_1detail_1_1ViewType.html" title=" " alt="" coords="453,64,599,119"/>
+<area shape="rect" href="classippl_1_1FieldLayout.html" title=" " alt="" coords="645,651,815,1043"/>
+<area shape="rect" href="classippl_1_1mpi_1_1Communicator.html" title=" " alt="" coords="631,240,815,588"/>
+<area shape="rect" href="classTagMaker.html" title=" " alt="" coords="657,5,790,177"/>
+<area shape="rect" href="structippl_1_1detail_1_1ViewType.html" title=" " alt="" coords="839,387,986,441"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -131,8 +141,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a375d4a81b5c37c2881aa4bb23cf81aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3b8e4d26e218d9ec999a29871d61700"><td class="memItemLeft" align="right" valign="top">typedef view_type::execution_space&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#ae3b8e4d26e218d9ec999a29871d61700">execution_space</a></td></tr>
 <tr class="separator:ae3b8e4d26e218d9ec999a29871d61700"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac43310bf24dc9669a8d6c2b14bf9beab"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#ac43310bf24dc9669a8d6c2b14bf9beab">HostMirror</a> = typename view_type::host_mirror_type</td></tr>
-<tr class="separator:ac43310bf24dc9669a8d6c2b14bf9beab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4399e5ea39e4d6a9134cd971529a3b40"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#a4399e5ea39e4d6a9134cd971529a3b40">host_mirror_type</a> = typename view_type::host_mirror_type</td></tr>
+<tr class="separator:a4399e5ea39e4d6a9134cd971529a3b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6149a588c208a59f95ab3d0f62d6fd31"><td class="memTemplParams" colspan="2">template&lt;class... PolicyArgs&gt; </td></tr>
 <tr class="memitem:a6149a588c208a59f95ab3d0f62d6fd31"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#a6149a588c208a59f95ab3d0f62d6fd31">policy_type</a> = typename <a class="el" href="structippl_1_1RangePolicy.html">RangePolicy</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, PolicyArgs... &gt;::policy_type</td></tr>
 <tr class="separator:a6149a588c208a59f95ab3d0f62d6fd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,8 +206,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a67f5704cc0b7769783b53b6ba803c5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6101545a453da658762e572a05d7ae9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classippl_1_1BareField.html#a43ad25370a2216346b1e60c7fa17f27f">view_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#ad6101545a453da658762e572a05d7ae9">getView</a> () const</td></tr>
 <tr class="separator:ad6101545a453da658762e572a05d7ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a533fb91e273e32234a50930905f2d268"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1BareField.html#ac43310bf24dc9669a8d6c2b14bf9beab">HostMirror</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#a533fb91e273e32234a50930905f2d268">getHostMirror</a> () const</td></tr>
-<tr class="separator:a533fb91e273e32234a50930905f2d268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4419aecdd8166348e3e7d607574bc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1BareField.html#a4399e5ea39e4d6a9134cd971529a3b40">host_mirror_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#a7f4419aecdd8166348e3e7d607574bc2">getHostMirror</a> () const</td></tr>
+<tr class="separator:a7f4419aecdd8166348e3e7d607574bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8726cbb283dd8a1e6bbbac81880dcfa5"><td class="memTemplParams" colspan="2">template&lt;class... PolicyArgs&gt; </td></tr>
 <tr class="memitem:a8726cbb283dd8a1e6bbbac81880dcfa5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1BareField.html#a6149a588c208a59f95ab3d0f62d6fd31">policy_type</a>&lt; <a class="el" href="classippl_1_1BareField.html#ae3b8e4d26e218d9ec999a29871d61700">execution_space</a>, PolicyArgs... &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#a8726cbb283dd8a1e6bbbac81880dcfa5">getFieldRangePolicy</a> (const int nghost=0) const</td></tr>
 <tr class="separator:a8726cbb283dd8a1e6bbbac81880dcfa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,6 +237,28 @@ Static Public Attributes</h2></td></tr>
 <tr class="inherit_header pub_static_attribs_structippl_1_1detail_1_1Expression"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_structippl_1_1detail_1_1Expression')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="structippl_1_1detail_1_1Expression.html">ippl::detail::Expression&lt; BareField&lt; T, Dim, ViewArgs... &gt;, sizeof(detail::ViewType&lt; T, Dim, ViewArgs... &gt;::view_type)&gt;</a></td></tr>
 <tr class="memitem:af8ae99c70daf0572b403dcd1bf832d72 inherit pub_static_attribs_structippl_1_1detail_1_1Expression"><td class="memItemLeft" align="right" valign="top">static constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structippl_1_1detail_1_1Expression.html#af8ae99c70daf0572b403dcd1bf832d72">dim</a></td></tr>
 <tr class="separator:af8ae99c70daf0572b403dcd1bf832d72 inherit pub_static_attribs_structippl_1_1detail_1_1Expression"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:adc1e243d8d844594755b153a9a9f4eab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#adc1e243d8d844594755b153a9a9f4eab">setup</a> ()</td></tr>
+<tr class="separator:adc1e243d8d844594755b153a9a9f4eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:adcf85ae2e6a13099ee9623e9d153cf45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#adcf85ae2e6a13099ee9623e9d153cf45">nghost_m</a></td></tr>
+<tr class="memdesc:adcf85ae2e6a13099ee9623e9d153cf45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of ghost layers on each field boundary.  <a href="classippl_1_1BareField.html#adcf85ae2e6a13099ee9623e9d153cf45">More...</a><br /></td></tr>
+<tr class="separator:adcf85ae2e6a13099ee9623e9d153cf45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accbba8c04de55d69850e6a6be565a7a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1BareField.html#a43ad25370a2216346b1e60c7fa17f27f">view_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#accbba8c04de55d69850e6a6be565a7a4">dview_m</a></td></tr>
+<tr class="memdesc:accbba8c04de55d69850e6a6be565a7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actual field data.  <a href="classippl_1_1BareField.html#accbba8c04de55d69850e6a6be565a7a4">More...</a><br /></td></tr>
+<tr class="separator:accbba8c04de55d69850e6a6be565a7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbb91112e8e32a1823ab6fdbacae32d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1BareField.html#affbea870adc8536eb9a1764d02961328">Domain_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#acbb91112e8e32a1823ab6fdbacae32d3">owned_m</a></td></tr>
+<tr class="memdesc:acbb91112e8e32a1823ab6fdbacae32d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Domain of the data.  <a href="classippl_1_1BareField.html#acbb91112e8e32a1823ab6fdbacae32d3">More...</a><br /></td></tr>
+<tr class="separator:acbb91112e8e32a1823ab6fdbacae32d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a883d8c17eabc34fc66f0568fe8b9eef5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1BareField.html#ad32beeb0b7b57363f8da9903a8c67d4d">halo_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#a883d8c17eabc34fc66f0568fe8b9eef5">halo_m</a></td></tr>
+<tr class="separator:a883d8c17eabc34fc66f0568fe8b9eef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d0de2917691c854dd90db9e9f1d448"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classippl_1_1BareField.html#a65473a60d3fcd5cffd90ad4bb9c6bc23">Layout_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1BareField.html#a33d0de2917691c854dd90db9e9f1d448">layout_m</a> = nullptr</td></tr>
+<tr class="memdesc:a33d0de2917691c854dd90db9e9f1d448"><td class="mdescLeft">&#160;</td><td class="mdescRight">How the arrays are laid out.  <a href="classippl_1_1BareField.html#a33d0de2917691c854dd90db9e9f1d448">More...</a><br /></td></tr>
+<tr class="separator:a33d0de2917691c854dd90db9e9f1d448"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, unsigned Dim, class... ViewArgs&gt;<br />
@@ -289,8 +321,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 
 </div>
 </div>
-<a id="ac43310bf24dc9669a8d6c2b14bf9beab" name="ac43310bf24dc9669a8d6c2b14bf9beab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac43310bf24dc9669a8d6c2b14bf9beab">&#9670;&#160;</a></span>HostMirror</h2>
+<a id="a4399e5ea39e4d6a9134cd971529a3b40" name="a4399e5ea39e4d6a9134cd971529a3b40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4399e5ea39e4d6a9134cd971529a3b40">&#9670;&#160;</a></span>host_mirror_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -298,7 +330,7 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class... ViewArgs&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::HostMirror =  typename view_type::host_mirror_type</td>
+          <td class="memname">using <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::host_mirror_type =  typename view_type::host_mirror_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -721,8 +753,8 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 
 </div>
 </div>
-<a id="a533fb91e273e32234a50930905f2d268" name="a533fb91e273e32234a50930905f2d268"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a533fb91e273e32234a50930905f2d268">&#9670;&#160;</a></span>getHostMirror()</h2>
+<a id="a7f4419aecdd8166348e3e7d607574bc2" name="a7f4419aecdd8166348e3e7d607574bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f4419aecdd8166348e3e7d607574bc2">&#9670;&#160;</a></span>getHostMirror()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -733,7 +765,7 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classippl_1_1BareField.html#ac43310bf24dc9669a8d6c2b14bf9beab">HostMirror</a> <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::getHostMirror </td>
+          <td class="memname"><a class="el" href="classippl_1_1BareField.html#a4399e5ea39e4d6a9134cd971529a3b40">host_mirror_type</a> <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::getHostMirror </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1157,6 +1189,31 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="adc1e243d8d844594755b153a9a9f4eab" name="adc1e243d8d844594755b153a9a9f4eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc1e243d8d844594755b153a9a9f4eab">&#9670;&#160;</a></span>setup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class... ViewArgs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::setup</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Allocate field. </p>
+
+</div>
+</div>
 <a id="acb23ef95bdd27590b6bc8a353fe7cf6d" name="acb23ef95bdd27590b6bc8a353fe7cf6d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb23ef95bdd27590b6bc8a353fe7cf6d">&#9670;&#160;</a></span>size()</h2>
 
@@ -1316,6 +1373,134 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="accbba8c04de55d69850e6a6be565a7a4" name="accbba8c04de55d69850e6a6be565a7a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accbba8c04de55d69850e6a6be565a7a4">&#9670;&#160;</a></span>dview_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class... ViewArgs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classippl_1_1BareField.html#a43ad25370a2216346b1e60c7fa17f27f">view_type</a> <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::dview_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Actual field data. </p>
+
+</div>
+</div>
+<a id="a883d8c17eabc34fc66f0568fe8b9eef5" name="a883d8c17eabc34fc66f0568fe8b9eef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a883d8c17eabc34fc66f0568fe8b9eef5">&#9670;&#160;</a></span>halo_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class... ViewArgs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classippl_1_1BareField.html#ad32beeb0b7b57363f8da9903a8c67d4d">halo_type</a> <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::halo_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33d0de2917691c854dd90db9e9f1d448" name="a33d0de2917691c854dd90db9e9f1d448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d0de2917691c854dd90db9e9f1d448">&#9670;&#160;</a></span>layout_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class... ViewArgs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classippl_1_1BareField.html#a65473a60d3fcd5cffd90ad4bb9c6bc23">Layout_t</a>* <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::layout_m = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>How the arrays are laid out. </p>
+
+</div>
+</div>
+<a id="adcf85ae2e6a13099ee9623e9d153cf45" name="adcf85ae2e6a13099ee9623e9d153cf45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf85ae2e6a13099ee9623e9d153cf45">&#9670;&#160;</a></span>nghost_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class... ViewArgs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::nghost_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of ghost layers on each field boundary. </p>
+
+</div>
+</div>
+<a id="acbb91112e8e32a1823ab6fdbacae32d3" name="acbb91112e8e32a1823ab6fdbacae32d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbb91112e8e32a1823ab6fdbacae32d3">&#9670;&#160;</a></span>owned_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> , unsigned Dim, class... ViewArgs&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classippl_1_1BareField.html#affbea870adc8536eb9a1764d02961328">Domain_t</a> <a class="el" href="classippl_1_1BareField.html">ippl::BareField</a>&lt; <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a>, <a class="el" href="BumponTailInstability_8cpp.html#afef54e0ebfe65da0a396b342dcbe30f5">Dim</a>, ViewArgs &gt;::owned_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Domain of the data. </p>
 
 </div>
 </div>

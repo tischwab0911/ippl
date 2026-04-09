@@ -84,6 +84,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classippl_1_1mpi_1_1rma_1_1Window-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ippl::mpi::rma::Window&lt; Target &gt; Class Template Reference</div></div>
 </div><!--header-->
@@ -95,7 +96,7 @@ Collaboration diagram for ippl::mpi::rma::Window&lt; Target &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classippl_1_1mpi_1_1rma_1_1Window__coll__graph.png" border="0" usemap="#aippl_1_1mpi_1_1rma_1_1Window_3_01Target_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="aippl_1_1mpi_1_1rma_1_1Window_3_01Target_01_4_coll__map" id="aippl_1_1mpi_1_1rma_1_1Window_3_01Target_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,159,236"/>
+<area shape="rect" title=" " alt="" coords="5,5,159,295"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -117,31 +118,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7c8311cdb6883c903d73795d50be180e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a7c8311cdb6883c903d73795d50be180e">operator const MPI_Win *</a> () const noexcept</td></tr>
 <tr class="separator:a7c8311cdb6883c903d73795d50be180e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e7cbadc8cb432c31b2255b1a6e7c012"><td class="memTemplParams" colspan="2">template&lt;std::contiguous_iterator Iter&gt; </td></tr>
-<tr class="memitem:a9e7cbadc8cb432c31b2255b1a6e7c012"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a9e7cbadc8cb432c31b2255b1a6e7c012">create</a> (const <a class="el" href="classippl_1_1mpi_1_1Communicator.html">Communicator</a> &amp;comm, Iter first, Iter last)</td></tr>
+<tr class="memitem:a9e7cbadc8cb432c31b2255b1a6e7c012"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a9e7cbadc8cb432c31b2255b1a6e7c012">create</a> (const <a class="el" href="classippl_1_1mpi_1_1Communicator.html">Communicator</a> &amp;comm, Iter <a class="el" href="AbsorbingBC_8h.html#a58ce4b72dde36d8333e494948da516ba">first</a>, Iter last)</td></tr>
 <tr class="separator:a9e7cbadc8cb432c31b2255b1a6e7c012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb62888261f26bbcbbc4d53f68be4aa"><td class="memTemplParams" colspan="2">template&lt;std::contiguous_iterator Iter&gt; </td></tr>
-<tr class="memitem:adcb62888261f26bbcbbc4d53f68be4aa"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#adcb62888261f26bbcbbc4d53f68be4aa">attach</a> (const <a class="el" href="classippl_1_1mpi_1_1Communicator.html">Communicator</a> &amp;comm, Iter first, Iter last)</td></tr>
+<tr class="memitem:adcb62888261f26bbcbbc4d53f68be4aa"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#adcb62888261f26bbcbbc4d53f68be4aa">attach</a> (const <a class="el" href="classippl_1_1mpi_1_1Communicator.html">Communicator</a> &amp;comm, Iter <a class="el" href="AbsorbingBC_8h.html#a58ce4b72dde36d8333e494948da516ba">first</a>, Iter last)</td></tr>
 <tr class="separator:adcb62888261f26bbcbbc4d53f68be4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04b785ecb2267883ef0e3459a1585cd5"><td class="memTemplParams" colspan="2">template&lt;std::contiguous_iterator Iter&gt; </td></tr>
-<tr class="memitem:a04b785ecb2267883ef0e3459a1585cd5"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a04b785ecb2267883ef0e3459a1585cd5">detach</a> (Iter first)</td></tr>
+<tr class="memitem:a04b785ecb2267883ef0e3459a1585cd5"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a04b785ecb2267883ef0e3459a1585cd5">detach</a> (Iter <a class="el" href="AbsorbingBC_8h.html#a58ce4b72dde36d8333e494948da516ba">first</a>)</td></tr>
 <tr class="separator:a04b785ecb2267883ef0e3459a1585cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9730c6fd1e6e432b8899b2f4d901513"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#ad9730c6fd1e6e432b8899b2f4d901513">fence</a> (int asrt=0)</td></tr>
 <tr class="separator:ad9730c6fd1e6e432b8899b2f4d901513"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef1a80921caa6fdad44135bd727e9755"><td class="memTemplParams" colspan="2">template&lt;std::contiguous_iterator Iter&gt; </td></tr>
-<tr class="memitem:aef1a80921caa6fdad44135bd727e9755"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#aef1a80921caa6fdad44135bd727e9755">put</a> (Iter first, Iter last, int dest, unsigned int pos, <a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *request=nullptr)</td></tr>
+<tr class="memitem:aef1a80921caa6fdad44135bd727e9755"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#aef1a80921caa6fdad44135bd727e9755">put</a> (Iter <a class="el" href="AbsorbingBC_8h.html#a58ce4b72dde36d8333e494948da516ba">first</a>, Iter last, int dest, unsigned int pos, <a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *request=nullptr)</td></tr>
 <tr class="separator:aef1a80921caa6fdad44135bd727e9755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af076ca1488be24115b6aee5eb9a2e007"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &gt; </td></tr>
-<tr class="memitem:af076ca1488be24115b6aee5eb9a2e007"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#af076ca1488be24115b6aee5eb9a2e007">put</a> (const <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &amp;value, int dest, unsigned int pos, <a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *request=nullptr)</td></tr>
-<tr class="separator:af076ca1488be24115b6aee5eb9a2e007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa679fa217d982f5d5e45b435a25100e3"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &gt; </td></tr>
 <tr class="memitem:aa679fa217d982f5d5e45b435a25100e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#aa679fa217d982f5d5e45b435a25100e3">put</a> (const <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> *value, int dest, unsigned int pos, <a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *request=nullptr)</td></tr>
 <tr class="separator:aa679fa217d982f5d5e45b435a25100e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c8b6939fe91c2fdcd2d51f039293c08"><td class="memTemplParams" colspan="2">template&lt;std::contiguous_iterator Iter&gt; </td></tr>
-<tr class="memitem:a3c8b6939fe91c2fdcd2d51f039293c08"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a3c8b6939fe91c2fdcd2d51f039293c08">get</a> (Iter first, Iter last, int source, unsigned int pos, <a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *request=nullptr)</td></tr>
+<tr class="memitem:a3c8b6939fe91c2fdcd2d51f039293c08"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a3c8b6939fe91c2fdcd2d51f039293c08">get</a> (Iter <a class="el" href="AbsorbingBC_8h.html#a58ce4b72dde36d8333e494948da516ba">first</a>, Iter last, int source, unsigned int pos, <a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *request=nullptr)</td></tr>
 <tr class="separator:a3c8b6939fe91c2fdcd2d51f039293c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a597bf02dc810f67a6f0d06938e41b3ff"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &gt; </td></tr>
-<tr class="memitem:a597bf02dc810f67a6f0d06938e41b3ff"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a597bf02dc810f67a6f0d06938e41b3ff">get</a> (<a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &amp;value, int source, unsigned int pos, <a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *request=nullptr)</td></tr>
-<tr class="separator:a597bf02dc810f67a6f0d06938e41b3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79a921d68eb76d523dbf5c1370e49da2"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &gt; </td></tr>
 <tr class="memitem:a79a921d68eb76d523dbf5c1370e49da2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a79a921d68eb76d523dbf5c1370e49da2">get</a> (<a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> *value, int source, unsigned int pos, <a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *request=nullptr)</td></tr>
 <tr class="separator:a79a921d68eb76d523dbf5c1370e49da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,6 +152,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae4cad8809f0814e71b22a0c8306f17ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66d4bb01c3a858f00f30c9ca5bf8d8be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a66d4bb01c3a858f00f30c9ca5bf8d8be">unlockall</a> ()</td></tr>
 <tr class="separator:a66d4bb01c3a858f00f30c9ca5bf8d8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3c08a56adb5d0269a13fcd15dae32f88"><td class="memItemLeft" align="right" valign="top">MPI_Win&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#a3c08a56adb5d0269a13fcd15dae32f88">win_m</a></td></tr>
+<tr class="separator:a3c08a56adb5d0269a13fcd15dae32f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12a15599c2e1bf6685c7765d689cb2e"><td class="memItemLeft" align="right" valign="top">MPI_Aint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#ad12a15599c2e1bf6685c7765d689cb2e">count_m</a></td></tr>
+<tr class="separator:ad12a15599c2e1bf6685c7765d689cb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa155325c760a00fd77c245d7174aa1e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#aa155325c760a00fd77c245d7174aa1e6">attached_m</a></td></tr>
+<tr class="separator:aa155325c760a00fd77c245d7174aa1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae871e3f86c99aa94b28e5890993e7698"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html#ae871e3f86c99aa94b28e5890993e7698">allocated_m</a></td></tr>
+<tr class="separator:ae871e3f86c99aa94b28e5890993e7698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ad51963c9de49f39912dd08d5368d60ba" name="ad51963c9de49f39912dd08d5368d60ba"></a>
@@ -379,7 +385,7 @@ template&lt;<a class="el" href="namespaceippl_1_1mpi_1_1rma.html#a7c8ec1f9a2e1f8
 </div>
 </div>
 <a id="a3c8b6939fe91c2fdcd2d51f039293c08" name="a3c8b6939fe91c2fdcd2d51f039293c08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c8b6939fe91c2fdcd2d51f039293c08">&#9670;&#160;</a></span>get() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c8b6939fe91c2fdcd2d51f039293c08">&#9670;&#160;</a></span>get() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -428,52 +434,8 @@ template&lt;std::contiguous_iterator Iter&gt; </div>
 
 </div>
 </div>
-<a id="a597bf02dc810f67a6f0d06938e41b3ff" name="a597bf02dc810f67a6f0d06938e41b3ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a597bf02dc810f67a6f0d06938e41b3ff">&#9670;&#160;</a></span>get() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="namespaceippl_1_1mpi_1_1rma.html#a7c8ec1f9a2e1f800062e44f458edf5aa">TargetComm</a> Target&gt; </div>
-<div class="memtemplate">
-template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html">ippl::mpi::rma::Window</a>&lt; Target &gt;::get </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &amp;&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *&#160;</td>
-          <td class="paramname"><em>request</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a79a921d68eb76d523dbf5c1370e49da2" name="a79a921d68eb76d523dbf5c1370e49da2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79a921d68eb76d523dbf5c1370e49da2">&#9670;&#160;</a></span>get() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a79a921d68eb76d523dbf5c1370e49da2">&#9670;&#160;</a></span>get() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -626,52 +588,8 @@ template&lt;<a class="el" href="namespaceippl_1_1mpi_1_1rma.html#a7c8ec1f9a2e1f8
 
 </div>
 </div>
-<a id="af076ca1488be24115b6aee5eb9a2e007" name="af076ca1488be24115b6aee5eb9a2e007"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af076ca1488be24115b6aee5eb9a2e007">&#9670;&#160;</a></span>put() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;<a class="el" href="namespaceippl_1_1mpi_1_1rma.html#a7c8ec1f9a2e1f800062e44f458edf5aa">TargetComm</a> Target&gt; </div>
-<div class="memtemplate">
-template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html">ippl::mpi::rma::Window</a>&lt; Target &gt;::put </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="BumponTailInstability_8cpp.html#a6b2d038ea9c8d2651eecffe0e28b7ebb">T</a> &amp;&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dest</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classippl_1_1mpi_1_1Request.html">Request</a> *&#160;</td>
-          <td class="paramname"><em>request</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa679fa217d982f5d5e45b435a25100e3" name="aa679fa217d982f5d5e45b435a25100e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa679fa217d982f5d5e45b435a25100e3">&#9670;&#160;</a></span>put() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa679fa217d982f5d5e45b435a25100e3">&#9670;&#160;</a></span>put() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -715,7 +633,7 @@ template&lt;typename <a class="el" href="BumponTailInstability_8cpp.html#a6b2d03
 </div>
 </div>
 <a id="aef1a80921caa6fdad44135bd727e9755" name="aef1a80921caa6fdad44135bd727e9755"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef1a80921caa6fdad44135bd727e9755">&#9670;&#160;</a></span>put() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aef1a80921caa6fdad44135bd727e9755">&#9670;&#160;</a></span>put() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -796,6 +714,103 @@ template&lt;<a class="el" href="namespaceippl_1_1mpi_1_1rma.html#a7c8ec1f9a2e1f8
           <td class="memname">void <a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html">ippl::mpi::rma::Window</a>&lt; Target &gt;::unlockall</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae871e3f86c99aa94b28e5890993e7698" name="ae871e3f86c99aa94b28e5890993e7698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae871e3f86c99aa94b28e5890993e7698">&#9670;&#160;</a></span>allocated_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespaceippl_1_1mpi_1_1rma.html#a7c8ec1f9a2e1f800062e44f458edf5aa">TargetComm</a> Target&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html">ippl::mpi::rma::Window</a>&lt; Target &gt;::allocated_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa155325c760a00fd77c245d7174aa1e6" name="aa155325c760a00fd77c245d7174aa1e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa155325c760a00fd77c245d7174aa1e6">&#9670;&#160;</a></span>attached_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespaceippl_1_1mpi_1_1rma.html#a7c8ec1f9a2e1f800062e44f458edf5aa">TargetComm</a> Target&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html">ippl::mpi::rma::Window</a>&lt; Target &gt;::attached_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad12a15599c2e1bf6685c7765d689cb2e" name="ad12a15599c2e1bf6685c7765d689cb2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad12a15599c2e1bf6685c7765d689cb2e">&#9670;&#160;</a></span>count_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespaceippl_1_1mpi_1_1rma.html#a7c8ec1f9a2e1f800062e44f458edf5aa">TargetComm</a> Target&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MPI_Aint <a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html">ippl::mpi::rma::Window</a>&lt; Target &gt;::count_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c08a56adb5d0269a13fcd15dae32f88" name="a3c08a56adb5d0269a13fcd15dae32f88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c08a56adb5d0269a13fcd15dae32f88">&#9670;&#160;</a></span>win_m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="namespaceippl_1_1mpi_1_1rma.html#a7c8ec1f9a2e1f800062e44f458edf5aa">TargetComm</a> Target&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MPI_Win <a class="el" href="classippl_1_1mpi_1_1rma_1_1Window.html">ippl::mpi::rma::Window</a>&lt; Target &gt;::win_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
